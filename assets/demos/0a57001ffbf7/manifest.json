@@ -1,0 +1,6688 @@
+{
+  "schema_version": 1,
+  "runId": "name-banner-copy-v1-demos-r2",
+  "compileId": "name-banner-copy-v1-cache",
+  "inputs": {
+    "copy/tutorial-template.md": "78096daf83455e0e793a010767932be57c37b13c3ed86aecb568225bdd781a8d",
+    "implementation/roster.json": "d001be9224a3da1642f3a5137a6ba34665d3c24cdd8dd603b4d09c99ae8f13ca",
+    "implementation/template/main.template.ts": "de0041a067a7983d57c985463f34eefecc210395070bf7f327808da356cd4bfc",
+    "implementation/supplied-world/game-engine.template.ts": "3d6319e0b03b873a25846ba3a7aaf1b37461c125556b1d7068297e43948818bc",
+    "implementation/learner-states/catalog.json": "988920bb53eb99f64d90cc60b64beec50ab3e4c96df5d887fa163fb57b9dcd1d",
+    "tools/build-variant.mjs": "24f921cd20de59a53d52d0f6ac1501e05123959742e15d1eea86ad592a634663"
+  },
+  "recordingInputs": {
+    "tools/capture-demos.mjs": "1ed0c54987cece0a4b7745129a48e00ed180e915c1de05bf2e75775b8afb3ecc",
+    "tools/run-binary.mjs": "0ac7f73153c4a261791e0052202473798a5d96a019592a21363a229dce95ff52",
+    "tools/frame-timeline.mjs": "c015fc32ae58991543f3b2b393a7dc49cfb8c351a07bbe655423f0ebbc5f2ef9",
+    "tools/care-routes.mjs": "20f614cae7e32f6c4cba26740ec55bae6c82b4ef4373754970a7de22e877dd5f"
+  },
+  "sourceIdentity": "8f653e6d864f251cc11c74a2b8e3abfe47e0f61a80da6653b2a5a4c53fa3484c",
+  "canonicalCopySha256": "78096daf83455e0e793a010767932be57c37b13c3ed86aecb568225bdd781a8d",
+  "demos": [
+    {
+      "id": "first-arrival",
+      "learnerState": "first-arrival",
+      "through": 1,
+      "sourceIdentity": "8f653e6d864f251cc11c74a2b8e3abfe47e0f61a80da6653b2a5a4c53fa3484c",
+      "binarySha256": "4c3326779894aea0c379be3b67f5c471b6b82551b5e40b3e300e586edfcdec4b",
+      "learnerSourceSha256": "ab95cc35feb9a8b6561c21ce06592881aa37b132e3aad03cadc7a5ad329d260c",
+      "mediaPath": "assets/demos/01-first-arrival.gif",
+      "mediaSha256": "c8d7eb9828c60c73bbfdf918864f67ad93adef419fcbfa9037f9db0f56625248",
+      "capture": {
+        "startMs": 2900,
+        "endMs": 4500,
+        "intervalMs": 50,
+        "frameCount": 32,
+        "heldFrames": 7,
+        "observedSampleTimesMs": [
+          2939,
+          3001,
+          3064,
+          3128,
+          3188,
+          3251,
+          3313,
+          3376,
+          3438,
+          3501,
+          3563,
+          3626,
+          3689,
+          3751,
+          3815,
+          3878,
+          3942,
+          4006,
+          4068,
+          4132,
+          4194,
+          4257,
+          4319,
+          4382,
+          4446
+        ],
+        "playbackDurationMs": 1600,
+        "timing": "Real elapsed time; delayed samples hold the preceding observed frame",
+        "width": 320,
+        "height": 240
+      },
+      "schedule": {
+        "events": [],
+        "exitAt": 4600
+      },
+      "evidencePath": "generated/evidence/name-banner-copy-v1-demos-r2-first-arrival/first-arrival",
+      "passed": true
+    },
+    {
+      "id": "first-name",
+      "learnerState": "first-name",
+      "through": 2,
+      "sourceIdentity": "8f653e6d864f251cc11c74a2b8e3abfe47e0f61a80da6653b2a5a4c53fa3484c",
+      "binarySha256": "a661e565465b953a4a76a419ad1d62a8dff17c09aa08367e96bc99394dcf79e1",
+      "learnerSourceSha256": "6488f0cfc2c15e8b1b526e733a39c5ed561e82485a2ef8f051b67e8d2f580de2",
+      "mediaPath": "assets/demos/02-first-name.gif",
+      "mediaSha256": "879954f4490f501ab6192507ebff555f1b201a702fa010b63c52e06fa69a9735",
+      "capture": {
+        "startMs": 2900,
+        "endMs": 4500,
+        "intervalMs": 50,
+        "frameCount": 32,
+        "heldFrames": 6,
+        "observedSampleTimesMs": [
+          2913,
+          2976,
+          3039,
+          3103,
+          3165,
+          3227,
+          3289,
+          3351,
+          3414,
+          3476,
+          3539,
+          3602,
+          3664,
+          3727,
+          3790,
+          3853,
+          3917,
+          3981,
+          4043,
+          4107,
+          4170,
+          4233,
+          4295,
+          4358,
+          4421,
+          4486
+        ],
+        "playbackDurationMs": 1600,
+        "timing": "Real elapsed time; delayed samples hold the preceding observed frame",
+        "width": 320,
+        "height": 240
+      },
+      "schedule": {
+        "events": [],
+        "exitAt": 4600
+      },
+      "evidencePath": "generated/evidence/name-banner-copy-v1-demos-r2-first-name/first-name",
+      "passed": true
+    },
+    {
+      "id": "first-love",
+      "learnerState": "first-love",
+      "through": 3,
+      "sourceIdentity": "8f653e6d864f251cc11c74a2b8e3abfe47e0f61a80da6653b2a5a4c53fa3484c",
+      "binarySha256": "b2386f24aa56d1e6bc21c9cb9d6c2638fc65be3b3fd192b0224ae5c7b266605a",
+      "learnerSourceSha256": "2648ad36cd2361ddf3f0cd4ef2ab6b4b6265da53a1438e219afd327d039aa5fb",
+      "mediaPath": "assets/demos/03-first-love.gif",
+      "mediaSha256": "828c90f830595deaf8b8da67e2cffde715fde2abfa7322126714175a7ad39f85",
+      "capture": {
+        "startMs": 2900,
+        "endMs": 9480,
+        "intervalMs": 50,
+        "frameCount": 132,
+        "heldFrames": 27,
+        "observedSampleTimesMs": [
+          2935,
+          2998,
+          3060,
+          3124,
+          3184,
+          3247,
+          3310,
+          3374,
+          3434,
+          3497,
+          3560,
+          3622,
+          3685,
+          3747,
+          3811,
+          3875,
+          3939,
+          4002,
+          4065,
+          4128,
+          4191,
+          4253,
+          4316,
+          4379,
+          4443,
+          4506,
+          4570,
+          4634,
+          4697,
+          4760,
+          4823,
+          4887,
+          4950,
+          5012,
+          5076,
+          5139,
+          5203,
+          5266,
+          5326,
+          5388,
+          5452,
+          5515,
+          5577,
+          5640,
+          5704,
+          5766,
+          5827,
+          5887,
+          5951,
+          6013,
+          6076,
+          6139,
+          6202,
+          6267,
+          6329,
+          6391,
+          6453,
+          6516,
+          6579,
+          6643,
+          6705,
+          6768,
+          6831,
+          6894,
+          6956,
+          7017,
+          7079,
+          7141,
+          7205,
+          7267,
+          7329,
+          7392,
+          7442,
+          7503,
+          7565,
+          7628,
+          7692,
+          7756,
+          7819,
+          7881,
+          7944,
+          8007,
+          8068,
+          8129,
+          8192,
+          8255,
+          8317,
+          8381,
+          8443,
+          8504,
+          8568,
+          8631,
+          8693,
+          8756,
+          8819,
+          8883,
+          8946,
+          9009,
+          9072,
+          9135,
+          9198,
+          9260,
+          9324,
+          9386,
+          9448
+        ],
+        "playbackDurationMs": 6600,
+        "timing": "Real elapsed time; delayed samples hold the preceding observed frame",
+        "width": 320,
+        "height": 240
+      },
+      "schedule": {
+        "events": [
+          {
+            "at": 3000,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 4370,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 4470,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 4915,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 5615,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 5675,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 6975,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 7035,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 7435,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 7880,
+            "type": "up",
+            "id": 4
+          }
+        ],
+        "exitAt": 9580
+      },
+      "evidencePath": "generated/evidence/name-banner-copy-v1-demos-r2-first-love/first-love",
+      "passed": true
+    },
+    {
+      "id": "plate",
+      "learnerState": "plate",
+      "through": 4,
+      "sourceIdentity": "8f653e6d864f251cc11c74a2b8e3abfe47e0f61a80da6653b2a5a4c53fa3484c",
+      "binarySha256": "dea48e5b2ea44697d96c1ce65a4f908e1625cdb926020e1080b91004673d7e60",
+      "learnerSourceSha256": "c861c5fb53500c02feb0d6d37b27ffefa64cf8ccdd363a8f92f8f64185abda16",
+      "mediaPath": "assets/demos/04-plate.gif",
+      "mediaSha256": "097e151395ac443bf7686c496367a374ca25dea53722d1685b5841bca220e3a3",
+      "capture": {
+        "startMs": 2900,
+        "endMs": 9875,
+        "intervalMs": 50,
+        "frameCount": 140,
+        "heldFrames": 29,
+        "observedSampleTimesMs": [
+          2931,
+          2995,
+          3058,
+          3122,
+          3181,
+          3244,
+          3307,
+          3370,
+          3432,
+          3495,
+          3557,
+          3619,
+          3683,
+          3745,
+          3809,
+          3872,
+          3936,
+          3999,
+          4062,
+          4126,
+          4188,
+          4251,
+          4313,
+          4376,
+          4440,
+          4504,
+          4567,
+          4632,
+          4694,
+          4758,
+          4821,
+          4885,
+          4947,
+          5010,
+          5073,
+          5137,
+          5201,
+          5262,
+          5323,
+          5386,
+          5450,
+          5512,
+          5574,
+          5638,
+          5702,
+          5763,
+          5825,
+          5885,
+          5948,
+          6010,
+          6073,
+          6137,
+          6200,
+          6264,
+          6327,
+          6388,
+          6451,
+          6513,
+          6576,
+          6640,
+          6703,
+          6766,
+          6828,
+          6892,
+          6953,
+          7015,
+          7076,
+          7139,
+          7202,
+          7264,
+          7327,
+          7390,
+          7452,
+          7515,
+          7578,
+          7642,
+          7705,
+          7769,
+          7833,
+          7895,
+          7957,
+          8019,
+          8082,
+          8143,
+          8206,
+          8268,
+          8331,
+          8395,
+          8456,
+          8518,
+          8582,
+          8644,
+          8707,
+          8769,
+          8833,
+          8897,
+          8960,
+          9022,
+          9085,
+          9148,
+          9210,
+          9274,
+          9336,
+          9399,
+          9462,
+          9526,
+          9589,
+          9652,
+          9715,
+          9778,
+          9841
+        ],
+        "playbackDurationMs": 7000,
+        "timing": "Real elapsed time; delayed samples hold the preceding observed frame",
+        "width": 320,
+        "height": 240
+      },
+      "schedule": {
+        "events": [
+          {
+            "at": 3000,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 4380,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 4480,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 4895,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 5395,
+            "type": "down",
+            "id": 5
+          },
+          {
+            "at": 5495,
+            "type": "up",
+            "id": 5
+          },
+          {
+            "at": 5845,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 5980,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 6260,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 6530,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 6890,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 6960,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 7060,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 7160,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 7400,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 7605,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 7925,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 7995,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 8095,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 8095,
+            "type": "up",
+            "id": 2
+          }
+        ],
+        "exitAt": 9975
+      },
+      "evidencePath": "generated/evidence/name-banner-copy-v1-demos-r2-plate/plate",
+      "passed": true
+    },
+    {
+      "id": "serve",
+      "learnerState": "serve",
+      "through": 5,
+      "sourceIdentity": "8f653e6d864f251cc11c74a2b8e3abfe47e0f61a80da6653b2a5a4c53fa3484c",
+      "binarySha256": "5d9be73f7ff1ae70bf3d3928ae57b0931ff9d9884b89d45716eb508e880e1816",
+      "learnerSourceSha256": "ebe41347ca2c6a63e063925ead7e03658be0f5c8867214f45656b62aa3d77f55",
+      "mediaPath": "assets/demos/05-serve.gif",
+      "mediaSha256": "b7cde843b71177c027efb7e4e988bdc9886742a69a76eed2e168687395773eed",
+      "capture": {
+        "startMs": 2900,
+        "endMs": 13910,
+        "intervalMs": 50,
+        "frameCount": 221,
+        "heldFrames": 45,
+        "observedSampleTimesMs": [
+          2933,
+          2995,
+          3057,
+          3120,
+          3182,
+          3243,
+          3306,
+          3368,
+          3431,
+          3495,
+          3557,
+          3618,
+          3682,
+          3745,
+          3807,
+          3869,
+          3933,
+          3997,
+          4060,
+          4123,
+          4185,
+          4248,
+          4311,
+          4374,
+          4437,
+          4499,
+          4562,
+          4626,
+          4690,
+          4752,
+          4815,
+          4879,
+          4941,
+          5004,
+          5067,
+          5130,
+          5193,
+          5257,
+          5321,
+          5384,
+          5446,
+          5508,
+          5571,
+          5634,
+          5697,
+          5760,
+          5823,
+          5886,
+          5950,
+          6012,
+          6074,
+          6137,
+          6199,
+          6262,
+          6326,
+          6390,
+          6451,
+          6514,
+          6577,
+          6640,
+          6703,
+          6767,
+          6830,
+          6892,
+          6954,
+          7016,
+          7080,
+          7141,
+          7205,
+          7267,
+          7329,
+          7391,
+          7453,
+          7517,
+          7580,
+          7643,
+          7707,
+          7769,
+          7832,
+          7895,
+          7957,
+          8020,
+          8082,
+          8145,
+          8209,
+          8271,
+          8334,
+          8397,
+          8460,
+          8522,
+          8586,
+          8649,
+          8712,
+          8775,
+          8837,
+          8899,
+          8961,
+          9024,
+          9087,
+          9149,
+          9199,
+          9261,
+          9324,
+          9386,
+          9448,
+          9511,
+          9575,
+          9637,
+          9698,
+          9761,
+          9823,
+          9885,
+          9947,
+          10012,
+          10075,
+          10137,
+          10199,
+          10262,
+          10324,
+          10387,
+          10450,
+          10512,
+          10574,
+          10637,
+          10699,
+          10763,
+          10827,
+          10890,
+          10953,
+          11017,
+          11081,
+          11144,
+          11205,
+          11268,
+          11330,
+          11392,
+          11455,
+          11517,
+          11578,
+          11641,
+          11704,
+          11766,
+          11829,
+          11892,
+          11954,
+          12016,
+          12080,
+          12142,
+          12204,
+          12266,
+          12328,
+          12390,
+          12452,
+          12515,
+          12578,
+          12640,
+          12702,
+          12765,
+          12828,
+          12892,
+          12955,
+          13018,
+          13079,
+          13139,
+          13201,
+          13264,
+          13326,
+          13388,
+          13450,
+          13513,
+          13575,
+          13635,
+          13696,
+          13757,
+          13820,
+          13883
+        ],
+        "playbackDurationMs": 11050,
+        "timing": "Real elapsed time; delayed samples hold the preceding observed frame",
+        "width": 320,
+        "height": 240
+      },
+      "schedule": {
+        "events": [
+          {
+            "at": 3000,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 4380,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 4480,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 4895,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 5395,
+            "type": "down",
+            "id": 5
+          },
+          {
+            "at": 5495,
+            "type": "up",
+            "id": 5
+          },
+          {
+            "at": 5845,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 5980,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 6260,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 6530,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 6890,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 6960,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 7060,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 7160,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 7400,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 7605,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 7925,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 7995,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 8095,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 8095,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 8375,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 8565,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 8665,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 9210,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 9910,
+            "type": "down",
+            "id": 6
+          },
+          {
+            "at": 10010,
+            "type": "up",
+            "id": 6
+          },
+          {
+            "at": 11710,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 12310,
+            "type": "up",
+            "id": 4
+          }
+        ],
+        "exitAt": 14010
+      },
+      "evidencePath": "generated/evidence/name-banner-copy-v1-demos-r2-serve/serve",
+      "passed": true
+    },
+    {
+      "id": "bucket",
+      "learnerState": "bucket",
+      "through": 6,
+      "sourceIdentity": "8f653e6d864f251cc11c74a2b8e3abfe47e0f61a80da6653b2a5a4c53fa3484c",
+      "binarySha256": "1f1147d9abaa7890663b73db6411b1bd018aad5e9bc04046d4bb570577cb04d9",
+      "learnerSourceSha256": "906c6af38dfdbe12b31c3b444ec254c6d83c2289e2048a37e6f652258e9b327c",
+      "mediaPath": "assets/demos/06-bucket.gif",
+      "mediaSha256": "146e1ece87b0d7227782a41ac162e30eb8372726d614cb9a2dbf457bf65826af",
+      "capture": {
+        "startMs": 2900,
+        "endMs": 9685,
+        "intervalMs": 50,
+        "frameCount": 136,
+        "heldFrames": 28,
+        "observedSampleTimesMs": [
+          2940,
+          3002,
+          3065,
+          3127,
+          3188,
+          3250,
+          3314,
+          3375,
+          3438,
+          3502,
+          3563,
+          3625,
+          3689,
+          3751,
+          3814,
+          3876,
+          3940,
+          4004,
+          4067,
+          4130,
+          4192,
+          4256,
+          4317,
+          4381,
+          4444,
+          4506,
+          4570,
+          4633,
+          4696,
+          4759,
+          4822,
+          4886,
+          4948,
+          5011,
+          5074,
+          5136,
+          5200,
+          5265,
+          5328,
+          5391,
+          5452,
+          5515,
+          5578,
+          5641,
+          5704,
+          5767,
+          5830,
+          5894,
+          5956,
+          6018,
+          6081,
+          6145,
+          6207,
+          6269,
+          6333,
+          6397,
+          6457,
+          6521,
+          6585,
+          6647,
+          6711,
+          6760,
+          6823,
+          6884,
+          6944,
+          7008,
+          7071,
+          7133,
+          7196,
+          7258,
+          7320,
+          7382,
+          7445,
+          7508,
+          7572,
+          7634,
+          7698,
+          7760,
+          7823,
+          7886,
+          7948,
+          8011,
+          8073,
+          8137,
+          8201,
+          8262,
+          8325,
+          8388,
+          8451,
+          8514,
+          8577,
+          8641,
+          8703,
+          8766,
+          8828,
+          8891,
+          8952,
+          9015,
+          9078,
+          9141,
+          9204,
+          9267,
+          9330,
+          9392,
+          9455,
+          9519,
+          9582,
+          9643
+        ],
+        "playbackDurationMs": 6800,
+        "timing": "Real elapsed time; delayed samples hold the preceding observed frame",
+        "width": 320,
+        "height": 240
+      },
+      "schedule": {
+        "events": [
+          {
+            "at": 3000,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 3090,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 3190,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 3605,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 4105,
+            "type": "down",
+            "id": 5
+          },
+          {
+            "at": 4205,
+            "type": "up",
+            "id": 5
+          },
+          {
+            "at": 4655,
+            "type": "down",
+            "id": 5
+          },
+          {
+            "at": 4755,
+            "type": "up",
+            "id": 5
+          },
+          {
+            "at": 5205,
+            "type": "down",
+            "id": 5
+          },
+          {
+            "at": 5305,
+            "type": "up",
+            "id": 5
+          },
+          {
+            "at": 5655,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 5790,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 6070,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 6340,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 6700,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 6770,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 6870,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 6970,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 7210,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 7415,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 7735,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 7805,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 7905,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 7905,
+            "type": "up",
+            "id": 2
+          }
+        ],
+        "exitAt": 9785
+      },
+      "evidencePath": "generated/evidence/name-banner-copy-v1-demos-r2-bucket/bucket",
+      "passed": true
+    },
+    {
+      "id": "first-water",
+      "learnerState": "first-water",
+      "through": 7,
+      "sourceIdentity": "8f653e6d864f251cc11c74a2b8e3abfe47e0f61a80da6653b2a5a4c53fa3484c",
+      "binarySha256": "bb0cd5689af05273961e6d2756ca194643c9ae9ec72b80b91c7c66673aafb375",
+      "learnerSourceSha256": "ffd5f601632a6212533ddfc07775fe49664b4d2714aaf99662a03be574ce3605",
+      "mediaPath": "assets/demos/07-first-water.gif",
+      "mediaSha256": "59a10929b4bc87b02a9eac009ed85cab354f699a73136603405a4b6dd9489f5c",
+      "capture": {
+        "startMs": 2900,
+        "endMs": 18515,
+        "intervalMs": 50,
+        "frameCount": 313,
+        "heldFrames": 63,
+        "observedSampleTimesMs": [
+          2929,
+          2992,
+          3055,
+          3118,
+          3181,
+          3244,
+          3307,
+          3370,
+          3433,
+          3495,
+          3559,
+          3621,
+          3684,
+          3747,
+          3809,
+          3872,
+          3933,
+          3996,
+          4060,
+          4122,
+          4185,
+          4249,
+          4312,
+          4373,
+          4437,
+          4500,
+          4563,
+          4624,
+          4686,
+          4748,
+          4811,
+          4872,
+          4936,
+          5000,
+          5063,
+          5125,
+          5187,
+          5250,
+          5312,
+          5375,
+          5438,
+          5499,
+          5563,
+          5624,
+          5688,
+          5752,
+          5815,
+          5878,
+          5942,
+          6006,
+          6069,
+          6131,
+          6193,
+          6256,
+          6318,
+          6380,
+          6443,
+          6504,
+          6566,
+          6629,
+          6692,
+          6754,
+          6817,
+          6880,
+          6942,
+          7005,
+          7067,
+          7128,
+          7192,
+          7254,
+          7316,
+          7378,
+          7440,
+          7503,
+          7565,
+          7628,
+          7691,
+          7753,
+          7817,
+          7881,
+          7944,
+          8006,
+          8066,
+          8126,
+          8188,
+          8251,
+          8313,
+          8376,
+          8439,
+          8501,
+          8561,
+          8621,
+          8683,
+          8745,
+          8808,
+          8871,
+          8934,
+          8995,
+          9059,
+          9123,
+          9185,
+          9249,
+          9313,
+          9375,
+          9437,
+          9500,
+          9564,
+          9626,
+          9689,
+          9753,
+          9814,
+          9877,
+          9939,
+          10002,
+          10065,
+          10128,
+          10191,
+          10254,
+          10315,
+          10378,
+          10428,
+          10490,
+          10553,
+          10616,
+          10676,
+          10739,
+          10801,
+          10864,
+          10925,
+          10987,
+          11049,
+          11111,
+          11175,
+          11238,
+          11300,
+          11364,
+          11428,
+          11491,
+          11554,
+          11616,
+          11677,
+          11741,
+          11804,
+          11868,
+          11931,
+          11993,
+          12056,
+          12120,
+          12181,
+          12244,
+          12308,
+          12358,
+          12420,
+          12482,
+          12544,
+          12608,
+          12671,
+          12735,
+          12799,
+          12862,
+          12926,
+          12988,
+          13051,
+          13113,
+          13177,
+          13239,
+          13302,
+          13366,
+          13427,
+          13490,
+          13554,
+          13616,
+          13680,
+          13743,
+          13805,
+          13865,
+          13928,
+          13991,
+          14054,
+          14117,
+          14180,
+          14243,
+          14306,
+          14369,
+          14432,
+          14495,
+          14559,
+          14622,
+          14684,
+          14748,
+          14812,
+          14875,
+          14938,
+          14999,
+          15063,
+          15125,
+          15188,
+          15252,
+          15314,
+          15376,
+          15439,
+          15501,
+          15564,
+          15627,
+          15689,
+          15753,
+          15815,
+          15877,
+          15939,
+          16002,
+          16065,
+          16127,
+          16190,
+          16254,
+          16318,
+          16382,
+          16445,
+          16508,
+          16571,
+          16633,
+          16697,
+          16760,
+          16823,
+          16885,
+          16948,
+          17010,
+          17071,
+          17133,
+          17197,
+          17259,
+          17320,
+          17383,
+          17444,
+          17507,
+          17569,
+          17633,
+          17694,
+          17757,
+          17819,
+          17881,
+          17944,
+          18006,
+          18069,
+          18133,
+          18197,
+          18260,
+          18322,
+          18383,
+          18445,
+          18508
+        ],
+        "playbackDurationMs": 15650,
+        "timing": "Real elapsed time; delayed samples hold the preceding observed frame",
+        "width": 320,
+        "height": 240
+      },
+      "schedule": {
+        "events": [
+          {
+            "at": 3000,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 3090,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 3190,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 3605,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 4105,
+            "type": "down",
+            "id": 5
+          },
+          {
+            "at": 4205,
+            "type": "up",
+            "id": 5
+          },
+          {
+            "at": 4655,
+            "type": "down",
+            "id": 5
+          },
+          {
+            "at": 4755,
+            "type": "up",
+            "id": 5
+          },
+          {
+            "at": 5205,
+            "type": "down",
+            "id": 5
+          },
+          {
+            "at": 5305,
+            "type": "up",
+            "id": 5
+          },
+          {
+            "at": 5655,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 5790,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 6070,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 6340,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 6700,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 6770,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 6870,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 6970,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 7210,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 7415,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 7735,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 7805,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 7905,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 7905,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 8185,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 9185,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 9285,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 9330,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 9430,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 10045,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 10145,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 10245,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 10345,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 10615,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 10715,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 10815,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 11415,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 11915,
+            "type": "up",
+            "id": 4
+          }
+        ],
+        "exitAt": 18615
+      },
+      "evidencePath": "generated/evidence/name-banner-copy-v1-demos-r2-first-water/first-water",
+      "passed": true
+    },
+    {
+      "id": "energy",
+      "learnerState": "energy",
+      "through": 8,
+      "sourceIdentity": "8f653e6d864f251cc11c74a2b8e3abfe47e0f61a80da6653b2a5a4c53fa3484c",
+      "binarySha256": "1d0d1991cd7bc721ec0f22b065290edae6d1450199f9eb7bfe4a61150b092ce8",
+      "learnerSourceSha256": "0c959baa5e87bd724cc68e9171162c4631b0f3930c5599fb27065a5f56d949b1",
+      "mediaPath": "assets/demos/08-energy.gif",
+      "mediaSha256": "73ab5c4cc77bc820b165d02c89fc9fbdc3cf837695a4629ab06462ff88f8010a",
+      "capture": {
+        "startMs": 2900,
+        "endMs": 7240,
+        "intervalMs": 50,
+        "frameCount": 87,
+        "heldFrames": 17,
+        "observedSampleTimesMs": [
+          2902,
+          2965,
+          3014,
+          3075,
+          3138,
+          3202,
+          3263,
+          3327,
+          3388,
+          3452,
+          3513,
+          3576,
+          3639,
+          3702,
+          3765,
+          3829,
+          3891,
+          3953,
+          4002,
+          4064,
+          4127,
+          4189,
+          4251,
+          4312,
+          4375,
+          4437,
+          4500,
+          4564,
+          4626,
+          4690,
+          4752,
+          4814,
+          4876,
+          4940,
+          5001,
+          5064,
+          5127,
+          5189,
+          5252,
+          5315,
+          5379,
+          5441,
+          5505,
+          5569,
+          5634,
+          5696,
+          5758,
+          5820,
+          5883,
+          5945,
+          6007,
+          6069,
+          6130,
+          6193,
+          6256,
+          6319,
+          6381,
+          6444,
+          6506,
+          6569,
+          6632,
+          6694,
+          6756,
+          6818,
+          6881,
+          6942,
+          7004,
+          7067,
+          7130,
+          7192
+        ],
+        "playbackDurationMs": 4350,
+        "timing": "Real elapsed time; delayed samples hold the preceding observed frame",
+        "width": 320,
+        "height": 240
+      },
+      "schedule": {
+        "events": [
+          {
+            "at": 3000,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 3660,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 3760,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 3805,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 3905,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 4250,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 4850,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 4875,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 5225,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 5640,
+            "type": "up",
+            "id": 2
+          }
+        ],
+        "exitAt": 7340
+      },
+      "evidencePath": "generated/evidence/name-banner-copy-v1-demos-r2-energy/energy",
+      "passed": true
+    },
+    {
+      "id": "energy-timer",
+      "learnerState": "energy-timer",
+      "through": 9,
+      "sourceIdentity": "8f653e6d864f251cc11c74a2b8e3abfe47e0f61a80da6653b2a5a4c53fa3484c",
+      "binarySha256": "d2b6fd55bbf3aa4d695569046d9af7f635e17ce0f811541cd8b02a2a43355f53",
+      "learnerSourceSha256": "66ce9db9c35f8a332d1fe00ca5735260033ff181eca00a4cccb192936a7fd53e",
+      "mediaPath": "assets/demos/09-energy-timer.gif",
+      "mediaSha256": "cb3541b3ae4fb39d7837dc43d983a30fd41d311e9836ccccf46ffddfd670e593",
+      "capture": {
+        "startMs": 6000,
+        "endMs": 13500,
+        "intervalMs": 50,
+        "frameCount": 150,
+        "heldFrames": 31,
+        "observedSampleTimesMs": [
+          6052,
+          6115,
+          6178,
+          6241,
+          6305,
+          6368,
+          6431,
+          6494,
+          6554,
+          6618,
+          6681,
+          6745,
+          6808,
+          6870,
+          6933,
+          6997,
+          7058,
+          7121,
+          7185,
+          7249,
+          7311,
+          7374,
+          7437,
+          7501,
+          7564,
+          7628,
+          7692,
+          7755,
+          7817,
+          7881,
+          7944,
+          8006,
+          8069,
+          8132,
+          8195,
+          8257,
+          8320,
+          8383,
+          8446,
+          8509,
+          8573,
+          8636,
+          8697,
+          8758,
+          8821,
+          8884,
+          8947,
+          9010,
+          9073,
+          9136,
+          9199,
+          9262,
+          9325,
+          9389,
+          9452,
+          9515,
+          9577,
+          9641,
+          9704,
+          9767,
+          9831,
+          9892,
+          9956,
+          10018,
+          10082,
+          10144,
+          10207,
+          10269,
+          10332,
+          10394,
+          10457,
+          10520,
+          10582,
+          10645,
+          10708,
+          10770,
+          10831,
+          10895,
+          10957,
+          11020,
+          11083,
+          11147,
+          11211,
+          11274,
+          11337,
+          11401,
+          11464,
+          11526,
+          11590,
+          11653,
+          11715,
+          11778,
+          11841,
+          11904,
+          11964,
+          12026,
+          12089,
+          12150,
+          12213,
+          12276,
+          12337,
+          12400,
+          12462,
+          12525,
+          12588,
+          12650,
+          12713,
+          12774,
+          12836,
+          12898,
+          12962,
+          13026,
+          13089,
+          13153,
+          13214,
+          13276,
+          13337,
+          13400,
+          13464
+        ],
+        "playbackDurationMs": 7500,
+        "timing": "Real elapsed time; delayed samples hold the preceding observed frame",
+        "width": 320,
+        "height": 240
+      },
+      "schedule": {
+        "events": [],
+        "exitAt": 13600
+      },
+      "evidencePath": "generated/evidence/name-banner-copy-v1-demos-r2-energy-timer/energy-timer",
+      "passed": true
+    },
+    {
+      "id": "second-arrival",
+      "learnerState": "second-arrival",
+      "through": 10,
+      "sourceIdentity": "8f653e6d864f251cc11c74a2b8e3abfe47e0f61a80da6653b2a5a4c53fa3484c",
+      "binarySha256": "5d277413f904e0e93a2bd5e6b10a440a2d436409a504a34bc85be152086705a6",
+      "learnerSourceSha256": "5982b015cf2a283ac7337ddb4a54cd20d70998d1dcb008df58563d7a6688a42b",
+      "mediaPath": "assets/demos/10-second-arrival.gif",
+      "mediaSha256": "b90d4dea654ca4a1970ab021a4ef1648fabc3ea99f67caf5b687877a2823dde0",
+      "capture": {
+        "startMs": 2900,
+        "endMs": 4500,
+        "intervalMs": 50,
+        "frameCount": 32,
+        "heldFrames": 6,
+        "observedSampleTimesMs": [
+          2921,
+          2983,
+          3046,
+          3109,
+          3173,
+          3238,
+          3300,
+          3363,
+          3426,
+          3488,
+          3550,
+          3613,
+          3676,
+          3739,
+          3802,
+          3865,
+          3927,
+          3991,
+          4054,
+          4115,
+          4179,
+          4243,
+          4306,
+          4369,
+          4431,
+          4495
+        ],
+        "playbackDurationMs": 1600,
+        "timing": "Real elapsed time; delayed samples hold the preceding observed frame",
+        "width": 320,
+        "height": 240
+      },
+      "schedule": {
+        "events": [],
+        "exitAt": 4600
+      },
+      "evidencePath": "generated/evidence/name-banner-copy-v1-demos-r2-second-arrival/second-arrival",
+      "passed": true
+    },
+    {
+      "id": "second-name-love",
+      "learnerState": "second-name-love",
+      "through": 11,
+      "sourceIdentity": "8f653e6d864f251cc11c74a2b8e3abfe47e0f61a80da6653b2a5a4c53fa3484c",
+      "binarySha256": "a031bc3d21fbccfd5e7b2cccd9ae984b4d307b48c1fd9a586d6af23ed32df85e",
+      "learnerSourceSha256": "dd5df5bafc1bc47de71e2600d155cd68a36e8cc210a10bd1bb4b2455282878ba",
+      "mediaPath": "assets/demos/11-second-name-love.gif",
+      "mediaSha256": "892669da6d714eec940d7eeddc22bdb6ade9f086f20f828746215bef47021709",
+      "capture": {
+        "startMs": 2900,
+        "endMs": 8300,
+        "intervalMs": 50,
+        "frameCount": 108,
+        "heldFrames": 22,
+        "observedSampleTimesMs": [
+          2950,
+          3015,
+          3076,
+          3138,
+          3202,
+          3266,
+          3329,
+          3393,
+          3456,
+          3506,
+          3566,
+          3630,
+          3692,
+          3755,
+          3818,
+          3881,
+          3943,
+          4006,
+          4069,
+          4132,
+          4196,
+          4260,
+          4322,
+          4385,
+          4446,
+          4506,
+          4569,
+          4633,
+          4696,
+          4759,
+          4821,
+          4884,
+          4948,
+          5010,
+          5073,
+          5138,
+          5200,
+          5263,
+          5326,
+          5390,
+          5453,
+          5516,
+          5579,
+          5641,
+          5704,
+          5767,
+          5831,
+          5893,
+          5955,
+          6017,
+          6081,
+          6143,
+          6205,
+          6269,
+          6331,
+          6394,
+          6456,
+          6519,
+          6580,
+          6643,
+          6705,
+          6769,
+          6832,
+          6896,
+          6960,
+          7023,
+          7086,
+          7150,
+          7212,
+          7275,
+          7339,
+          7401,
+          7464,
+          7526,
+          7589,
+          7650,
+          7713,
+          7775,
+          7836,
+          7899,
+          7962,
+          8024,
+          8086,
+          8149,
+          8211,
+          8274
+        ],
+        "playbackDurationMs": 5400,
+        "timing": "Real elapsed time; delayed samples hold the preceding observed frame",
+        "width": 320,
+        "height": 240
+      },
+      "schedule": {
+        "events": [
+          {
+            "at": 3000,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 3190,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 3290,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 3735,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 4435,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 4495,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 5795,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 5855,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 6255,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 6700,
+            "type": "up",
+            "id": 4
+          }
+        ],
+        "exitAt": 8400
+      },
+      "evidencePath": "generated/evidence/name-banner-copy-v1-demos-r2-second-name-love/second-name-love",
+      "passed": true
+    },
+    {
+      "id": "berries",
+      "learnerState": "berries",
+      "through": 12,
+      "sourceIdentity": "8f653e6d864f251cc11c74a2b8e3abfe47e0f61a80da6653b2a5a4c53fa3484c",
+      "binarySha256": "8311cc6bb798f0eb99983d682b4d8a10a830256fb469ee456f122460b6fac95d",
+      "learnerSourceSha256": "21b41f5e949f39e270e14699341349b4eed96badc56b5dae0f30d19bf22bc02e",
+      "mediaPath": "assets/demos/12-berries.gif",
+      "mediaSha256": "34c62eb1adc66a6445a5ed2fb48348bb930e8a33459f24cf2ae4f500d0c65578",
+      "capture": {
+        "startMs": 2900,
+        "endMs": 19770,
+        "intervalMs": 50,
+        "frameCount": 338,
+        "heldFrames": 70,
+        "observedSampleTimesMs": [
+          2935,
+          2998,
+          3061,
+          3123,
+          3186,
+          3250,
+          3314,
+          3378,
+          3441,
+          3504,
+          3567,
+          3629,
+          3693,
+          3756,
+          3819,
+          3881,
+          3944,
+          4006,
+          4067,
+          4129,
+          4193,
+          4253,
+          4316,
+          4379,
+          4440,
+          4503,
+          4565,
+          4629,
+          4690,
+          4753,
+          4815,
+          4877,
+          4940,
+          5002,
+          5064,
+          5129,
+          5193,
+          5256,
+          5318,
+          5379,
+          5440,
+          5490,
+          5554,
+          5616,
+          5678,
+          5739,
+          5803,
+          5867,
+          5929,
+          5992,
+          6056,
+          6120,
+          6183,
+          6246,
+          6307,
+          6370,
+          6431,
+          6495,
+          6559,
+          6623,
+          6686,
+          6748,
+          6811,
+          6875,
+          6938,
+          7000,
+          7064,
+          7127,
+          7191,
+          7255,
+          7318,
+          7381,
+          7443,
+          7507,
+          7571,
+          7635,
+          7697,
+          7762,
+          7826,
+          7889,
+          7952,
+          8016,
+          8077,
+          8139,
+          8200,
+          8263,
+          8326,
+          8389,
+          8451,
+          8512,
+          8576,
+          8638,
+          8701,
+          8763,
+          8825,
+          8888,
+          8950,
+          9012,
+          9075,
+          9137,
+          9199,
+          9263,
+          9327,
+          9390,
+          9454,
+          9516,
+          9579,
+          9641,
+          9702,
+          9765,
+          9827,
+          9891,
+          9953,
+          10014,
+          10079,
+          10140,
+          10203,
+          10266,
+          10330,
+          10393,
+          10456,
+          10520,
+          10583,
+          10647,
+          10711,
+          10775,
+          10839,
+          10902,
+          10965,
+          11028,
+          11091,
+          11152,
+          11215,
+          11279,
+          11342,
+          11405,
+          11468,
+          11532,
+          11595,
+          11659,
+          11723,
+          11786,
+          11848,
+          11911,
+          11974,
+          12038,
+          12102,
+          12166,
+          12230,
+          12292,
+          12355,
+          12416,
+          12479,
+          12542,
+          12608,
+          12670,
+          12733,
+          12795,
+          12858,
+          12920,
+          12980,
+          13043,
+          13106,
+          13169,
+          13232,
+          13294,
+          13358,
+          13421,
+          13483,
+          13546,
+          13611,
+          13671,
+          13731,
+          13795,
+          13860,
+          13922,
+          13986,
+          14050,
+          14113,
+          14176,
+          14239,
+          14302,
+          14367,
+          14429,
+          14491,
+          14554,
+          14616,
+          14680,
+          14741,
+          14804,
+          14867,
+          14931,
+          14994,
+          15057,
+          15118,
+          15182,
+          15244,
+          15305,
+          15367,
+          15430,
+          15494,
+          15557,
+          15621,
+          15683,
+          15745,
+          15807,
+          15870,
+          15933,
+          15996,
+          16059,
+          16122,
+          16186,
+          16248,
+          16312,
+          16374,
+          16436,
+          16499,
+          16563,
+          16623,
+          16687,
+          16751,
+          16815,
+          16879,
+          16942,
+          17006,
+          17070,
+          17133,
+          17196,
+          17258,
+          17322,
+          17385,
+          17448,
+          17511,
+          17574,
+          17638,
+          17701,
+          17764,
+          17825,
+          17887,
+          17951,
+          18013,
+          18076,
+          18139,
+          18202,
+          18266,
+          18330,
+          18394,
+          18458,
+          18520,
+          18583,
+          18646,
+          18709,
+          18773,
+          18835,
+          18898,
+          18961,
+          19022,
+          19086,
+          19150,
+          19214,
+          19275,
+          19338,
+          19401,
+          19464,
+          19527,
+          19588,
+          19650,
+          19712
+        ],
+        "playbackDurationMs": 16900,
+        "timing": "Real elapsed time; delayed samples hold the preceding observed frame",
+        "width": 320,
+        "height": 240
+      },
+      "schedule": {
+        "events": [
+          {
+            "at": 3000,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 3860,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 3960,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 4375,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 4875,
+            "type": "down",
+            "id": 5
+          },
+          {
+            "at": 5725,
+            "type": "up",
+            "id": 5
+          },
+          {
+            "at": 6075,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 6210,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 6490,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 6760,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 7120,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 7190,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 7290,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 7390,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 7630,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 7835,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 8155,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 8225,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 8325,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 8325,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 8605,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 9070,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 9170,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 9530,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 10030,
+            "type": "down",
+            "id": 5
+          },
+          {
+            "at": 10130,
+            "type": "up",
+            "id": 5
+          },
+          {
+            "at": 10480,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 10615,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 10895,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 11165,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 11525,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 11595,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 11695,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 11800,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 12040,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 12245,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 12565,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 12635,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 12735,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 12735,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 13015,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 14400,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 14500,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 15055,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 15755,
+            "type": "down",
+            "id": 6
+          },
+          {
+            "at": 15855,
+            "type": "up",
+            "id": 6
+          },
+          {
+            "at": 17555,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 18170,
+            "type": "up",
+            "id": 4
+          }
+        ],
+        "exitAt": 19870
+      },
+      "evidencePath": "generated/evidence/name-banner-copy-v1-demos-r2-berries/berries",
+      "passed": true
+    },
+    {
+      "id": "second-water",
+      "learnerState": "second-water",
+      "through": 13,
+      "sourceIdentity": "8f653e6d864f251cc11c74a2b8e3abfe47e0f61a80da6653b2a5a4c53fa3484c",
+      "binarySha256": "2df0abf4383927b5d51ded00e4886066af6c164c47a074297da4979bf124ba15",
+      "learnerSourceSha256": "23b1b1ef56f32f57da0efdeb1ec37d34be2386baae004acbbe39c302a9b76fa3",
+      "mediaPath": "assets/demos/13-second-water.gif",
+      "mediaSha256": "337a0b2c53cd526c1e2f03778277e98702a6e89b8160c134503c5b893c2d650c",
+      "capture": {
+        "startMs": 2900,
+        "endMs": 17585,
+        "intervalMs": 50,
+        "frameCount": 294,
+        "heldFrames": 60,
+        "observedSampleTimesMs": [
+          2902,
+          2964,
+          3026,
+          3087,
+          3150,
+          3214,
+          3276,
+          3338,
+          3400,
+          3463,
+          3526,
+          3588,
+          3651,
+          3712,
+          3774,
+          3837,
+          3900,
+          3963,
+          4024,
+          4087,
+          4151,
+          4215,
+          4279,
+          4340,
+          4403,
+          4466,
+          4528,
+          4589,
+          4653,
+          4716,
+          4779,
+          4839,
+          4903,
+          4966,
+          5028,
+          5090,
+          5154,
+          5218,
+          5281,
+          5344,
+          5408,
+          5472,
+          5536,
+          5599,
+          5663,
+          5726,
+          5777,
+          5838,
+          5902,
+          5962,
+          6024,
+          6087,
+          6151,
+          6215,
+          6277,
+          6340,
+          6404,
+          6467,
+          6531,
+          6596,
+          6658,
+          6721,
+          6784,
+          6847,
+          6910,
+          6974,
+          7037,
+          7100,
+          7163,
+          7227,
+          7288,
+          7351,
+          7415,
+          7479,
+          7542,
+          7606,
+          7667,
+          7729,
+          7792,
+          7853,
+          7916,
+          7978,
+          8041,
+          8102,
+          8166,
+          8230,
+          8293,
+          8355,
+          8418,
+          8482,
+          8542,
+          8604,
+          8668,
+          8732,
+          8794,
+          8858,
+          8922,
+          8972,
+          9034,
+          9096,
+          9159,
+          9223,
+          9285,
+          9347,
+          9410,
+          9472,
+          9536,
+          9597,
+          9660,
+          9723,
+          9787,
+          9851,
+          9913,
+          9974,
+          10038,
+          10100,
+          10161,
+          10223,
+          10286,
+          10350,
+          10413,
+          10477,
+          10539,
+          10601,
+          10664,
+          10726,
+          10789,
+          10852,
+          10915,
+          10978,
+          11042,
+          11106,
+          11168,
+          11230,
+          11292,
+          11355,
+          11419,
+          11480,
+          11544,
+          11607,
+          11671,
+          11735,
+          11798,
+          11862,
+          11926,
+          11989,
+          12052,
+          12114,
+          12178,
+          12241,
+          12304,
+          12367,
+          12430,
+          12494,
+          12557,
+          12620,
+          12682,
+          12743,
+          12807,
+          12869,
+          12932,
+          12995,
+          13058,
+          13122,
+          13186,
+          13250,
+          13314,
+          13376,
+          13439,
+          13502,
+          13565,
+          13629,
+          13691,
+          13754,
+          13817,
+          13878,
+          13942,
+          14006,
+          14070,
+          14132,
+          14194,
+          14257,
+          14320,
+          14383,
+          14444,
+          14507,
+          14568,
+          14631,
+          14695,
+          14758,
+          14820,
+          14884,
+          14947,
+          15010,
+          15074,
+          15137,
+          15200,
+          15263,
+          15327,
+          15392,
+          15454,
+          15515,
+          15578,
+          15638,
+          15701,
+          15763,
+          15827,
+          15890,
+          15952,
+          16016,
+          16080,
+          16143,
+          16207,
+          16270,
+          16333,
+          16394,
+          16457,
+          16521,
+          16583,
+          16647,
+          16709,
+          16772,
+          16834,
+          16896,
+          16960,
+          17023,
+          17086,
+          17149,
+          17213,
+          17276,
+          17337,
+          17400,
+          17463,
+          17527
+        ],
+        "playbackDurationMs": 14700,
+        "timing": "Real elapsed time; delayed samples hold the preceding observed frame",
+        "width": 320,
+        "height": 240
+      },
+      "schedule": {
+        "events": [
+          {
+            "at": 3000,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 3090,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 3190,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 3605,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 4105,
+            "type": "down",
+            "id": 5
+          },
+          {
+            "at": 4205,
+            "type": "up",
+            "id": 5
+          },
+          {
+            "at": 4655,
+            "type": "down",
+            "id": 5
+          },
+          {
+            "at": 4755,
+            "type": "up",
+            "id": 5
+          },
+          {
+            "at": 5205,
+            "type": "down",
+            "id": 5
+          },
+          {
+            "at": 5305,
+            "type": "up",
+            "id": 5
+          },
+          {
+            "at": 5655,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 5790,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 6070,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 6340,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 6700,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 6770,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 6870,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 6970,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 7210,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 7415,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 7735,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 7805,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 7905,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 7905,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 8185,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 8230,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 8330,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 8375,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 8475,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 9095,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 9195,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 9300,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 9400,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 9670,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 9770,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 9875,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 10475,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 10985,
+            "type": "up",
+            "id": 4
+          }
+        ],
+        "exitAt": 17685
+      },
+      "evidencePath": "generated/evidence/name-banner-copy-v1-demos-r2-second-water/second-water",
+      "passed": true
+    },
+    {
+      "id": "second-creature",
+      "learnerState": "second-creature",
+      "through": 14,
+      "sourceIdentity": "8f653e6d864f251cc11c74a2b8e3abfe47e0f61a80da6653b2a5a4c53fa3484c",
+      "binarySha256": "46b0e2eaa81d52da8be2a6858b8306cd3b61c9b0df69a4f56e4400395e44696a",
+      "learnerSourceSha256": "355154da53b0e4e28ac124b64099b6e74c8c62411cbc5a4ac2593fe3a33d2d07",
+      "mediaPath": "assets/demos/14-second-creature.gif",
+      "mediaSha256": "2f4639b4743c3290cf1d22eb03ea92b0bcc541b8b623563f8db5da71a1b941df",
+      "capture": {
+        "startMs": 2900,
+        "endMs": 7635,
+        "intervalMs": 50,
+        "frameCount": 95,
+        "heldFrames": 19,
+        "observedSampleTimesMs": [
+          2927,
+          2989,
+          3053,
+          3114,
+          3178,
+          3242,
+          3306,
+          3367,
+          3430,
+          3494,
+          3554,
+          3616,
+          3680,
+          3743,
+          3805,
+          3867,
+          3930,
+          3992,
+          4055,
+          4118,
+          4181,
+          4245,
+          4308,
+          4372,
+          4435,
+          4499,
+          4551,
+          4612,
+          4675,
+          4737,
+          4800,
+          4863,
+          4927,
+          4990,
+          5051,
+          5114,
+          5178,
+          5242,
+          5304,
+          5367,
+          5431,
+          5494,
+          5559,
+          5622,
+          5684,
+          5748,
+          5811,
+          5873,
+          5937,
+          6001,
+          6064,
+          6128,
+          6191,
+          6253,
+          6315,
+          6378,
+          6442,
+          6506,
+          6569,
+          6632,
+          6694,
+          6756,
+          6818,
+          6879,
+          6942,
+          7005,
+          7067,
+          7130,
+          7193,
+          7257,
+          7321,
+          7382,
+          7446,
+          7508,
+          7569,
+          7631
+        ],
+        "playbackDurationMs": 4750,
+        "timing": "Real elapsed time; delayed samples hold the preceding observed frame",
+        "width": 320,
+        "height": 240
+      },
+      "schedule": {
+        "events": [
+          {
+            "at": 3000,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 4080,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 4180,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 4225,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 4325,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 4670,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 5270,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 5295,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 5645,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 6035,
+            "type": "up",
+            "id": 2
+          }
+        ],
+        "exitAt": 7735
+      },
+      "evidencePath": "generated/evidence/name-banner-copy-v1-demos-r2-second-creature/second-creature",
+      "passed": true
+    },
+    {
+      "id": "third-arrival",
+      "learnerState": "third-arrival",
+      "through": 15,
+      "sourceIdentity": "8f653e6d864f251cc11c74a2b8e3abfe47e0f61a80da6653b2a5a4c53fa3484c",
+      "binarySha256": "bc56b4f8aaabc9dadeea5a41ba7551d28392ec7ce255e8968bd5b58606941be5",
+      "learnerSourceSha256": "fbcd85ba9b80ce2f84f8d1481ca4c0e8da81684dbf6863151285b082f704fb81",
+      "mediaPath": "assets/demos/15-third-arrival.gif",
+      "mediaSha256": "bbd979a20647f6a58fbed412e5686ebda617f30e760e2210b2176e1bed516ce5",
+      "capture": {
+        "startMs": 2900,
+        "endMs": 4500,
+        "intervalMs": 50,
+        "frameCount": 32,
+        "heldFrames": 7,
+        "observedSampleTimesMs": [
+          2951,
+          3012,
+          3075,
+          3139,
+          3203,
+          3266,
+          3329,
+          3392,
+          3454,
+          3516,
+          3578,
+          3641,
+          3703,
+          3767,
+          3828,
+          3890,
+          3954,
+          4015,
+          4078,
+          4142,
+          4206,
+          4269,
+          4332,
+          4396,
+          4459
+        ],
+        "playbackDurationMs": 1600,
+        "timing": "Real elapsed time; delayed samples hold the preceding observed frame",
+        "width": 320,
+        "height": 240
+      },
+      "schedule": {
+        "events": [],
+        "exitAt": 4600
+      },
+      "evidencePath": "generated/evidence/name-banner-copy-v1-demos-r2-third-arrival/third-arrival",
+      "passed": true
+    },
+    {
+      "id": "third-name-love",
+      "learnerState": "third-name-love",
+      "through": 16,
+      "sourceIdentity": "8f653e6d864f251cc11c74a2b8e3abfe47e0f61a80da6653b2a5a4c53fa3484c",
+      "binarySha256": "0e1366b4370db3858d21bc8a69fc74cf25336754166e2ffb069289c3198748c0",
+      "learnerSourceSha256": "7822bf95455b098865309f91d21686df2bcc5867cbb2efcd4cbab1f0d20403c5",
+      "mediaPath": "assets/demos/16-third-name-love.gif",
+      "mediaSha256": "52bc89acf91c37fa51b4a653c86cd8a39b360eed27fb8a641013dbf420bc83a2",
+      "capture": {
+        "startMs": 2900,
+        "endMs": 8970,
+        "intervalMs": 50,
+        "frameCount": 122,
+        "heldFrames": 26,
+        "observedSampleTimesMs": [
+          2960,
+          3023,
+          3087,
+          3150,
+          3213,
+          3276,
+          3340,
+          3403,
+          3465,
+          3528,
+          3590,
+          3654,
+          3714,
+          3777,
+          3841,
+          3905,
+          3968,
+          4030,
+          4092,
+          4156,
+          4218,
+          4279,
+          4341,
+          4404,
+          4468,
+          4531,
+          4594,
+          4657,
+          4719,
+          4781,
+          4843,
+          4907,
+          4970,
+          5033,
+          5095,
+          5159,
+          5222,
+          5285,
+          5347,
+          5410,
+          5473,
+          5537,
+          5597,
+          5661,
+          5725,
+          5788,
+          5852,
+          5915,
+          5979,
+          6043,
+          6107,
+          6169,
+          6232,
+          6295,
+          6358,
+          6422,
+          6484,
+          6547,
+          6611,
+          6675,
+          6738,
+          6799,
+          6861,
+          6924,
+          6987,
+          7050,
+          7113,
+          7176,
+          7240,
+          7304,
+          7368,
+          7432,
+          7494,
+          7557,
+          7619,
+          7682,
+          7746,
+          7809,
+          7872,
+          7934,
+          7995,
+          8059,
+          8123,
+          8188,
+          8248,
+          8312,
+          8375,
+          8438,
+          8501,
+          8562,
+          8624,
+          8686,
+          8749,
+          8813,
+          8875,
+          8938
+        ],
+        "playbackDurationMs": 6100,
+        "timing": "Real elapsed time; delayed samples hold the preceding observed frame",
+        "width": 320,
+        "height": 240
+      },
+      "schedule": {
+        "events": [
+          {
+            "at": 3000,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 3860,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 3960,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 4405,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 5105,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 5165,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 6465,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 6525,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 6925,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 7370,
+            "type": "up",
+            "id": 4
+          }
+        ],
+        "exitAt": 9070
+      },
+      "evidencePath": "generated/evidence/name-banner-copy-v1-demos-r2-third-name-love/third-name-love",
+      "passed": true
+    },
+    {
+      "id": "greens",
+      "learnerState": "greens",
+      "through": 17,
+      "sourceIdentity": "8f653e6d864f251cc11c74a2b8e3abfe47e0f61a80da6653b2a5a4c53fa3484c",
+      "binarySha256": "25662f76be490bc72addf6dd5ef99caadc542990c5a8320d66795e8802883578",
+      "learnerSourceSha256": "c4a26889bb995df8a1b37e4b7ac086f0c2fe7e7a4cd351ce9ffb96aa9f013ea6",
+      "mediaPath": "assets/demos/17-greens.gif",
+      "mediaSha256": "03ae9dfc212f09a0cac0d9160a2607257157577a2a0c996c86b063805a7978a6",
+      "capture": {
+        "startMs": 2900,
+        "endMs": 25275,
+        "intervalMs": 50,
+        "frameCount": 448,
+        "heldFrames": 93,
+        "observedSampleTimesMs": [
+          2939,
+          3002,
+          3064,
+          3128,
+          3191,
+          3254,
+          3317,
+          3380,
+          3444,
+          3507,
+          3570,
+          3631,
+          3693,
+          3757,
+          3819,
+          3882,
+          3945,
+          4008,
+          4072,
+          4136,
+          4200,
+          4264,
+          4326,
+          4389,
+          4452,
+          4515,
+          4579,
+          4641,
+          4704,
+          4767,
+          4828,
+          4892,
+          4956,
+          5020,
+          5080,
+          5144,
+          5207,
+          5270,
+          5333,
+          5394,
+          5456,
+          5518,
+          5581,
+          5645,
+          5707,
+          5770,
+          5834,
+          5897,
+          5960,
+          6024,
+          6087,
+          6150,
+          6213,
+          6277,
+          6341,
+          6404,
+          6465,
+          6528,
+          6590,
+          6652,
+          6713,
+          6777,
+          6840,
+          6902,
+          6966,
+          7030,
+          7093,
+          7157,
+          7220,
+          7283,
+          7344,
+          7407,
+          7471,
+          7533,
+          7597,
+          7659,
+          7722,
+          7784,
+          7846,
+          7910,
+          7973,
+          8036,
+          8099,
+          8162,
+          8226,
+          8287,
+          8350,
+          8413,
+          8477,
+          8540,
+          8603,
+          8665,
+          8727,
+          8790,
+          8854,
+          8916,
+          8980,
+          9043,
+          9107,
+          9171,
+          9233,
+          9295,
+          9358,
+          9421,
+          9484,
+          9547,
+          9611,
+          9673,
+          9735,
+          9798,
+          9862,
+          9925,
+          9988,
+          10052,
+          10114,
+          10178,
+          10241,
+          10304,
+          10368,
+          10431,
+          10494,
+          10556,
+          10619,
+          10682,
+          10744,
+          10807,
+          10869,
+          10932,
+          10995,
+          11060,
+          11123,
+          11184,
+          11247,
+          11310,
+          11374,
+          11438,
+          11501,
+          11563,
+          11625,
+          11688,
+          11750,
+          11814,
+          11877,
+          11939,
+          12002,
+          12065,
+          12128,
+          12190,
+          12252,
+          12315,
+          12377,
+          12442,
+          12505,
+          12568,
+          12631,
+          12694,
+          12758,
+          12822,
+          12886,
+          12949,
+          13012,
+          13073,
+          13135,
+          13196,
+          13258,
+          13320,
+          13384,
+          13446,
+          13510,
+          13573,
+          13636,
+          13700,
+          13764,
+          13826,
+          13889,
+          13952,
+          14014,
+          14077,
+          14140,
+          14204,
+          14268,
+          14332,
+          14395,
+          14458,
+          14519,
+          14582,
+          14646,
+          14709,
+          14772,
+          14822,
+          14883,
+          14946,
+          15010,
+          15073,
+          15135,
+          15198,
+          15261,
+          15323,
+          15386,
+          15450,
+          15513,
+          15575,
+          15638,
+          15702,
+          15766,
+          15830,
+          15894,
+          15957,
+          16021,
+          16085,
+          16148,
+          16212,
+          16276,
+          16337,
+          16400,
+          16463,
+          16525,
+          16589,
+          16652,
+          16715,
+          16778,
+          16842,
+          16905,
+          16969,
+          17031,
+          17094,
+          17157,
+          17221,
+          17285,
+          17349,
+          17413,
+          17477,
+          17539,
+          17602,
+          17666,
+          17730,
+          17793,
+          17856,
+          17919,
+          17983,
+          18046,
+          18108,
+          18172,
+          18236,
+          18300,
+          18363,
+          18426,
+          18490,
+          18553,
+          18616,
+          18680,
+          18742,
+          18805,
+          18869,
+          18933,
+          18996,
+          19059,
+          19121,
+          19185,
+          19247,
+          19311,
+          19374,
+          19437,
+          19500,
+          19564,
+          19627,
+          19690,
+          19753,
+          19817,
+          19881,
+          19944,
+          20007,
+          20071,
+          20135,
+          20197,
+          20260,
+          20323,
+          20387,
+          20450,
+          20512,
+          20575,
+          20638,
+          20702,
+          20766,
+          20828,
+          20892,
+          20955,
+          21018,
+          21082,
+          21144,
+          21208,
+          21271,
+          21334,
+          21397,
+          21460,
+          21523,
+          21585,
+          21648,
+          21709,
+          21773,
+          21837,
+          21901,
+          21965,
+          22028,
+          22092,
+          22156,
+          22220,
+          22284,
+          22346,
+          22410,
+          22473,
+          22535,
+          22599,
+          22662,
+          22725,
+          22788,
+          22850,
+          22912,
+          22976,
+          23038,
+          23102,
+          23165,
+          23228,
+          23292,
+          23356,
+          23419,
+          23482,
+          23545,
+          23609,
+          23672,
+          23734,
+          23797,
+          23861,
+          23924,
+          23988,
+          24050,
+          24112,
+          24175,
+          24238,
+          24301,
+          24363,
+          24426,
+          24489,
+          24552,
+          24613,
+          24677,
+          24739,
+          24803,
+          24866,
+          24929,
+          24993,
+          25056,
+          25117,
+          25181,
+          25245
+        ],
+        "playbackDurationMs": 22400,
+        "timing": "Real elapsed time; delayed samples hold the preceding observed frame",
+        "width": 320,
+        "height": 240
+      },
+      "schedule": {
+        "events": [
+          {
+            "at": 3000,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 3335,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 3435,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 3850,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 4350,
+            "type": "down",
+            "id": 5
+          },
+          {
+            "at": 4450,
+            "type": "up",
+            "id": 5
+          },
+          {
+            "at": 4550,
+            "type": "down",
+            "id": 5
+          },
+          {
+            "at": 4650,
+            "type": "up",
+            "id": 5
+          },
+          {
+            "at": 4750,
+            "type": "down",
+            "id": 5
+          },
+          {
+            "at": 4850,
+            "type": "up",
+            "id": 5
+          },
+          {
+            "at": 5200,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 5335,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 5615,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 5885,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 6245,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 6315,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 6415,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 6515,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 6755,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 6960,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 7280,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 7350,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 7450,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 7450,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 7730,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 8190,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 8290,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 8650,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 9150,
+            "type": "down",
+            "id": 5
+          },
+          {
+            "at": 10000,
+            "type": "up",
+            "id": 5
+          },
+          {
+            "at": 10350,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 10485,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 10765,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 11035,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 11395,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 11465,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 11565,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 11670,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 11910,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 12115,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 12435,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 12505,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 12605,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 12605,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 12885,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 13350,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 13450,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 13810,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 14310,
+            "type": "down",
+            "id": 5
+          },
+          {
+            "at": 14410,
+            "type": "up",
+            "id": 5
+          },
+          {
+            "at": 14760,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 14895,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 15175,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 15445,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 15805,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 15875,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 15975,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 16080,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 16320,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 16525,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 16845,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 16915,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 17015,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 17015,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 17295,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 19900,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 20000,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 20560,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 21260,
+            "type": "down",
+            "id": 6
+          },
+          {
+            "at": 21360,
+            "type": "up",
+            "id": 6
+          },
+          {
+            "at": 23060,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 23675,
+            "type": "up",
+            "id": 4
+          }
+        ],
+        "exitAt": 25375
+      },
+      "evidencePath": "generated/evidence/name-banner-copy-v1-demos-r2-greens/greens",
+      "passed": true
+    },
+    {
+      "id": "third-water",
+      "learnerState": "third-water",
+      "through": 18,
+      "sourceIdentity": "8f653e6d864f251cc11c74a2b8e3abfe47e0f61a80da6653b2a5a4c53fa3484c",
+      "binarySha256": "19f2d7f9a4b876060f9a327d00b7d0d8f68ddce095af25858d6e6b311e407dd4",
+      "learnerSourceSha256": "8c25c45c07482dc8acdba85d02e565a959c7ba651caff5b31456f53231dc6f62",
+      "mediaPath": "assets/demos/18-third-water.gif",
+      "mediaSha256": "6fc0a0ce79b59b1d7416e1a292d813678484ceee3afa16ddc06606d81acbad67",
+      "capture": {
+        "startMs": 2900,
+        "endMs": 18780,
+        "intervalMs": 50,
+        "frameCount": 318,
+        "heldFrames": 66,
+        "observedSampleTimesMs": [
+          2935,
+          2998,
+          3061,
+          3123,
+          3185,
+          3248,
+          3311,
+          3374,
+          3437,
+          3501,
+          3565,
+          3627,
+          3690,
+          3753,
+          3816,
+          3879,
+          3941,
+          4005,
+          4068,
+          4131,
+          4195,
+          4258,
+          4321,
+          4384,
+          4447,
+          4509,
+          4572,
+          4634,
+          4696,
+          4760,
+          4823,
+          4887,
+          4949,
+          5011,
+          5075,
+          5138,
+          5202,
+          5265,
+          5327,
+          5390,
+          5453,
+          5515,
+          5578,
+          5641,
+          5704,
+          5767,
+          5830,
+          5892,
+          5954,
+          6017,
+          6079,
+          6142,
+          6205,
+          6268,
+          6332,
+          6395,
+          6459,
+          6522,
+          6586,
+          6649,
+          6713,
+          6777,
+          6839,
+          6900,
+          6962,
+          7025,
+          7087,
+          7149,
+          7211,
+          7273,
+          7337,
+          7400,
+          7463,
+          7528,
+          7591,
+          7654,
+          7716,
+          7779,
+          7841,
+          7905,
+          7968,
+          8032,
+          8096,
+          8159,
+          8222,
+          8285,
+          8346,
+          8410,
+          8473,
+          8537,
+          8600,
+          8663,
+          8726,
+          8790,
+          8853,
+          8915,
+          8979,
+          9041,
+          9103,
+          9167,
+          9229,
+          9293,
+          9357,
+          9419,
+          9482,
+          9545,
+          9609,
+          9673,
+          9736,
+          9800,
+          9864,
+          9928,
+          9992,
+          10056,
+          10119,
+          10180,
+          10243,
+          10305,
+          10368,
+          10432,
+          10495,
+          10558,
+          10622,
+          10685,
+          10748,
+          10811,
+          10874,
+          10937,
+          11001,
+          11065,
+          11129,
+          11192,
+          11256,
+          11319,
+          11381,
+          11445,
+          11509,
+          11573,
+          11635,
+          11699,
+          11762,
+          11827,
+          11889,
+          11951,
+          12015,
+          12079,
+          12142,
+          12206,
+          12270,
+          12333,
+          12396,
+          12459,
+          12523,
+          12585,
+          12648,
+          12712,
+          12776,
+          12839,
+          12902,
+          12964,
+          13028,
+          13090,
+          13154,
+          13218,
+          13280,
+          13344,
+          13407,
+          13471,
+          13533,
+          13597,
+          13661,
+          13723,
+          13786,
+          13850,
+          13914,
+          13979,
+          14040,
+          14102,
+          14166,
+          14230,
+          14293,
+          14354,
+          14418,
+          14482,
+          14545,
+          14608,
+          14672,
+          14735,
+          14798,
+          14862,
+          14924,
+          14987,
+          15051,
+          15114,
+          15177,
+          15240,
+          15303,
+          15365,
+          15428,
+          15489,
+          15552,
+          15616,
+          15680,
+          15744,
+          15808,
+          15871,
+          15935,
+          16000,
+          16063,
+          16126,
+          16189,
+          16253,
+          16315,
+          16378,
+          16442,
+          16505,
+          16567,
+          16630,
+          16692,
+          16755,
+          16818,
+          16881,
+          16944,
+          17007,
+          17071,
+          17135,
+          17200,
+          17262,
+          17324,
+          17389,
+          17452,
+          17514,
+          17577,
+          17640,
+          17704,
+          17767,
+          17831,
+          17892,
+          17955,
+          18018,
+          18081,
+          18143,
+          18207,
+          18269,
+          18332,
+          18394,
+          18457,
+          18520,
+          18583,
+          18646,
+          18709,
+          18772
+        ],
+        "playbackDurationMs": 15900,
+        "timing": "Real elapsed time; delayed samples hold the preceding observed frame",
+        "width": 320,
+        "height": 240
+      },
+      "schedule": {
+        "events": [
+          {
+            "at": 3000,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 3090,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 3190,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 3605,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 4105,
+            "type": "down",
+            "id": 5
+          },
+          {
+            "at": 4205,
+            "type": "up",
+            "id": 5
+          },
+          {
+            "at": 4655,
+            "type": "down",
+            "id": 5
+          },
+          {
+            "at": 4755,
+            "type": "up",
+            "id": 5
+          },
+          {
+            "at": 5205,
+            "type": "down",
+            "id": 5
+          },
+          {
+            "at": 5305,
+            "type": "up",
+            "id": 5
+          },
+          {
+            "at": 5655,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 5790,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 6070,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 6340,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 6700,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 6770,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 6870,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 6970,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 7210,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 7415,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 7735,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 7805,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 7905,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 7905,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 8185,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 9425,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 9525,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 9570,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 9670,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 10290,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 10390,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 10495,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 10595,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 10865,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 10965,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 11070,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 11670,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 12180,
+            "type": "up",
+            "id": 4
+          }
+        ],
+        "exitAt": 18880
+      },
+      "evidencePath": "generated/evidence/name-banner-copy-v1-demos-r2-third-water/third-water",
+      "passed": true
+    },
+    {
+      "id": "complete",
+      "learnerState": "complete",
+      "through": 19,
+      "sourceIdentity": "8f653e6d864f251cc11c74a2b8e3abfe47e0f61a80da6653b2a5a4c53fa3484c",
+      "binarySha256": "993fe91b80ff0facf140b5f604210579577deb5928e956f13d6bdefebec79584",
+      "learnerSourceSha256": "42462bc2e4c9c22dff2cb7a1c7d7a77309b13c9f542e404867bda508783fd607",
+      "mediaPath": "assets/demos/19-complete.gif",
+      "mediaSha256": "de6b436b7e8fb5cf4835abc6dbde9eaf05621f75c5d1b172a5e081d8a255a6c7",
+      "capture": {
+        "startMs": 2900,
+        "endMs": 8020,
+        "intervalMs": 50,
+        "frameCount": 103,
+        "heldFrames": 22,
+        "observedSampleTimesMs": [
+          2952,
+          3017,
+          3078,
+          3140,
+          3203,
+          3265,
+          3329,
+          3392,
+          3455,
+          3517,
+          3581,
+          3644,
+          3708,
+          3771,
+          3833,
+          3897,
+          3960,
+          4023,
+          4087,
+          4150,
+          4213,
+          4276,
+          4338,
+          4401,
+          4464,
+          4526,
+          4590,
+          4651,
+          4715,
+          4779,
+          4842,
+          4903,
+          4966,
+          5030,
+          5093,
+          5143,
+          5205,
+          5266,
+          5330,
+          5392,
+          5454,
+          5517,
+          5581,
+          5643,
+          5705,
+          5769,
+          5832,
+          5894,
+          5956,
+          6019,
+          6082,
+          6145,
+          6208,
+          6272,
+          6335,
+          6398,
+          6462,
+          6525,
+          6589,
+          6652,
+          6715,
+          6778,
+          6839,
+          6901,
+          6962,
+          7025,
+          7087,
+          7150,
+          7213,
+          7276,
+          7339,
+          7403,
+          7467,
+          7530,
+          7593,
+          7655,
+          7717,
+          7781,
+          7844,
+          7907,
+          7971
+        ],
+        "playbackDurationMs": 5150,
+        "timing": "Real elapsed time; delayed samples hold the preceding observed frame",
+        "width": 320,
+        "height": 240
+      },
+      "schedule": {
+        "events": [
+          {
+            "at": 3000,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 4500,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 4600,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 4645,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 4745,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 5090,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 5690,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 5715,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 6065,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 6420,
+            "type": "up",
+            "id": 2
+          }
+        ],
+        "exitAt": 8120
+      },
+      "evidencePath": "generated/evidence/name-banner-copy-v1-demos-r2-complete/complete",
+      "passed": true
+    },
+    {
+      "id": "final-shift",
+      "learnerState": "complete",
+      "through": 19,
+      "sourceIdentity": "8f653e6d864f251cc11c74a2b8e3abfe47e0f61a80da6653b2a5a4c53fa3484c",
+      "binarySha256": "993fe91b80ff0facf140b5f604210579577deb5928e956f13d6bdefebec79584",
+      "learnerSourceSha256": "42462bc2e4c9c22dff2cb7a1c7d7a77309b13c9f542e404867bda508783fd607",
+      "mediaPath": "assets/demos/20-final-shift.gif",
+      "mediaSha256": "f0ace540f5e083715054605fd5e36228f26a0f9ee328056099e91ecf7d8e7cdb",
+      "capture": {
+        "startMs": 106400,
+        "endMs": 115865,
+        "intervalMs": 50,
+        "frameCount": 190,
+        "heldFrames": 40,
+        "observedSampleTimesMs": [
+          106404,
+          106467,
+          106530,
+          106592,
+          106655,
+          106717,
+          106781,
+          106843,
+          106907,
+          106970,
+          107032,
+          107093,
+          107157,
+          107220,
+          107284,
+          107348,
+          107410,
+          107474,
+          107537,
+          107601,
+          107665,
+          107730,
+          107793,
+          107856,
+          107921,
+          107985,
+          108048,
+          108112,
+          108175,
+          108239,
+          108303,
+          108366,
+          108428,
+          108492,
+          108555,
+          108618,
+          108681,
+          108744,
+          108807,
+          108869,
+          108931,
+          108994,
+          109058,
+          109122,
+          109185,
+          109248,
+          109311,
+          109373,
+          109437,
+          109501,
+          109562,
+          109623,
+          109686,
+          109750,
+          109813,
+          109877,
+          109940,
+          110002,
+          110065,
+          110129,
+          110193,
+          110257,
+          110321,
+          110382,
+          110445,
+          110509,
+          110573,
+          110636,
+          110700,
+          110764,
+          110826,
+          110890,
+          110954,
+          111017,
+          111080,
+          111143,
+          111206,
+          111270,
+          111334,
+          111397,
+          111461,
+          111524,
+          111586,
+          111650,
+          111714,
+          111778,
+          111842,
+          111902,
+          111965,
+          112028,
+          112092,
+          112156,
+          112220,
+          112281,
+          112344,
+          112408,
+          112471,
+          112534,
+          112597,
+          112659,
+          112723,
+          112787,
+          112850,
+          112913,
+          112976,
+          113037,
+          113101,
+          113164,
+          113227,
+          113291,
+          113354,
+          113418,
+          113481,
+          113543,
+          113606,
+          113670,
+          113733,
+          113796,
+          113859,
+          113922,
+          113985,
+          114048,
+          114112,
+          114176,
+          114239,
+          114302,
+          114366,
+          114429,
+          114493,
+          114555,
+          114617,
+          114681,
+          114745,
+          114808,
+          114872,
+          114936,
+          114998,
+          115061,
+          115124,
+          115188,
+          115251,
+          115314,
+          115377,
+          115440,
+          115503,
+          115567,
+          115631,
+          115694,
+          115756,
+          115820
+        ],
+        "playbackDurationMs": 9500,
+        "timing": "Real elapsed time; delayed samples hold the preceding observed frame",
+        "width": 320,
+        "height": 240
+      },
+      "schedule": {
+        "events": [
+          {
+            "at": 3000,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 3660,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 3760,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 3805,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 3905,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 4250,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 4850,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 4875,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 5225,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 5640,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 5740,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 7720,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 7820,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 7865,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 7965,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 8395,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 9095,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 9150,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 10450,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 10505,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 10905,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 11335,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 11435,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 12895,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 12995,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 13390,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 13890,
+            "type": "down",
+            "id": 5
+          },
+          {
+            "at": 13990,
+            "type": "up",
+            "id": 5
+          },
+          {
+            "at": 14440,
+            "type": "down",
+            "id": 5
+          },
+          {
+            "at": 14540,
+            "type": "up",
+            "id": 5
+          },
+          {
+            "at": 14990,
+            "type": "down",
+            "id": 5
+          },
+          {
+            "at": 15090,
+            "type": "up",
+            "id": 5
+          },
+          {
+            "at": 15440,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 15570,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 15850,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 16110,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 16470,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 16535,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 16635,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 16735,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 16975,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 17170,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 17490,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 17555,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 17655,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 17655,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 17935,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 18905,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 19005,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 19050,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 19150,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 19745,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 19845,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 19945,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 20045,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 20305,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 20405,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 20505,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 21105,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 21590,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 26690,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 27670,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 27770,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 27980,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 28080,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 29585,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 29685,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 29980,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 30480,
+            "type": "down",
+            "id": 5
+          },
+          {
+            "at": 30580,
+            "type": "up",
+            "id": 5
+          },
+          {
+            "at": 30930,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 31065,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 31345,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 31610,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 31970,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 32040,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 32140,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 32240,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 32480,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 32680,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 33000,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 33070,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 33170,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 33170,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 33450,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 33640,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 33740,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 34280,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 34980,
+            "type": "down",
+            "id": 6
+          },
+          {
+            "at": 35080,
+            "type": "up",
+            "id": 6
+          },
+          {
+            "at": 36780,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 37375,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 37475,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 38335,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 38435,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 38480,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 38580,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 39020,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 39720,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 39775,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 41075,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 41135,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 41535,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 41980,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 42080,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 42425,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 42525,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 42940,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 43440,
+            "type": "down",
+            "id": 5
+          },
+          {
+            "at": 43540,
+            "type": "up",
+            "id": 5
+          },
+          {
+            "at": 43990,
+            "type": "down",
+            "id": 5
+          },
+          {
+            "at": 44090,
+            "type": "up",
+            "id": 5
+          },
+          {
+            "at": 44540,
+            "type": "down",
+            "id": 5
+          },
+          {
+            "at": 44640,
+            "type": "up",
+            "id": 5
+          },
+          {
+            "at": 44990,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 45125,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 45405,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 45675,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 46035,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 46105,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 46205,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 46305,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 46545,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 46750,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 47070,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 47140,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 47240,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 47240,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 47520,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 47565,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 47665,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 47710,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 47810,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 48430,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 48530,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 48635,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 48735,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 49005,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 49105,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 49210,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 49810,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 50320,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 55420,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 55465,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 55565,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 55780,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 55880,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 56915,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 57015,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 57325,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 57825,
+            "type": "down",
+            "id": 5
+          },
+          {
+            "at": 58675,
+            "type": "up",
+            "id": 5
+          },
+          {
+            "at": 59025,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 59165,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 59445,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 59720,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 60080,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 60150,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 60250,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 60355,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 60595,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 60800,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 61120,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 61190,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 61290,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 61290,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 61570,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 62040,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 62140,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 62505,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 63005,
+            "type": "down",
+            "id": 5
+          },
+          {
+            "at": 63105,
+            "type": "up",
+            "id": 5
+          },
+          {
+            "at": 63455,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 63595,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 63875,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 64150,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 64510,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 64580,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 64680,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 64785,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 65025,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 65235,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 65555,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 65625,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 65725,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 65725,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 66005,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 67420,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 67520,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 68085,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 68785,
+            "type": "down",
+            "id": 6
+          },
+          {
+            "at": 68885,
+            "type": "up",
+            "id": 6
+          },
+          {
+            "at": 70585,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 71210,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 71310,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 72210,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 72310,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 72360,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 72460,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 72930,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 73630,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 73690,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 74990,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 75050,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 75450,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 75920,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 76020,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 76755,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 76855,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 77290,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 77790,
+            "type": "down",
+            "id": 5
+          },
+          {
+            "at": 77890,
+            "type": "up",
+            "id": 5
+          },
+          {
+            "at": 78340,
+            "type": "down",
+            "id": 5
+          },
+          {
+            "at": 78440,
+            "type": "up",
+            "id": 5
+          },
+          {
+            "at": 78890,
+            "type": "down",
+            "id": 5
+          },
+          {
+            "at": 78990,
+            "type": "up",
+            "id": 5
+          },
+          {
+            "at": 79340,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 79480,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 79760,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 80040,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 80400,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 80475,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 80575,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 80685,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 80925,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 81140,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 81460,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 81535,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 81635,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 81635,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 81915,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 83210,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 83310,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 83360,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 83460,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 84110,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 84210,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 84320,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 84420,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 84705,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 84805,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 84915,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 85515,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 86045,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 91145,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 92455,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 92555,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 92785,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 92885,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 93410,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 93510,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 93835,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 94335,
+            "type": "down",
+            "id": 5
+          },
+          {
+            "at": 94435,
+            "type": "up",
+            "id": 5
+          },
+          {
+            "at": 94535,
+            "type": "down",
+            "id": 5
+          },
+          {
+            "at": 94635,
+            "type": "up",
+            "id": 5
+          },
+          {
+            "at": 94735,
+            "type": "down",
+            "id": 5
+          },
+          {
+            "at": 94835,
+            "type": "up",
+            "id": 5
+          },
+          {
+            "at": 95185,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 95330,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 95610,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 95900,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 96260,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 96335,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 96435,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 96545,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 96785,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 97005,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 97325,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 97400,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 97500,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 97500,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 97780,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 98275,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 98375,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 98765,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 99265,
+            "type": "down",
+            "id": 5
+          },
+          {
+            "at": 100115,
+            "type": "up",
+            "id": 5
+          },
+          {
+            "at": 100465,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 100610,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 100890,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 101180,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 101540,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 101615,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 101715,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 101825,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 102065,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 102285,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 102605,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 102680,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 102780,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 102780,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 103060,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 103555,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 103655,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 104045,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 104545,
+            "type": "down",
+            "id": 5
+          },
+          {
+            "at": 104645,
+            "type": "up",
+            "id": 5
+          },
+          {
+            "at": 104995,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 105145,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 105425,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 105720,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 106080,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 106155,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 106255,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 106365,
+            "type": "up",
+            "id": 4
+          },
+          {
+            "at": 106605,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 106825,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 107145,
+            "type": "down",
+            "id": 1
+          },
+          {
+            "at": 107220,
+            "type": "up",
+            "id": 1
+          },
+          {
+            "at": 107320,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 107320,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 107600,
+            "type": "down",
+            "id": 3
+          },
+          {
+            "at": 110395,
+            "type": "up",
+            "id": 3
+          },
+          {
+            "at": 110495,
+            "type": "down",
+            "id": 2
+          },
+          {
+            "at": 111095,
+            "type": "up",
+            "id": 2
+          },
+          {
+            "at": 111795,
+            "type": "down",
+            "id": 6
+          },
+          {
+            "at": 111895,
+            "type": "up",
+            "id": 6
+          },
+          {
+            "at": 113595,
+            "type": "down",
+            "id": 4
+          },
+          {
+            "at": 114265,
+            "type": "up",
+            "id": 4
+          }
+        ],
+        "exitAt": 115965
+      },
+      "evidencePath": "generated/evidence/name-banner-copy-v1-demos-r2-final-shift/final-shift",
+      "passed": true
+    }
+  ],
+  "claimBoundary": "Compiled reference-state gameplay with ordinary controller input, not an independent learner journey."
+}
