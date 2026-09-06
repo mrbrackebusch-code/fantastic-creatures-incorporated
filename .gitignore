@@ -1,0 +1,36 @@
+# Local credentials and secret-bearing files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.npmrc
+
+# Rebuildable dependencies and MakeCode caches
+/node_modules/
+/pxt_modules/
+/built/
+/.pxt/
+/.cache/
+/.npm/
+
+# Test, coverage, and transient output
+/coverage/
+/playwright-report/
+/test-results/
+/tmp/
+/temp/
+/.tmp/
+*.log
+*.uf2
+*.hex
+
+# Editor and operating-system files
+/.vscode/
+/.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*~
