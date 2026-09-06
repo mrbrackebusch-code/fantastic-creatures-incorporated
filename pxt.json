@@ -1,6 +1,6 @@
 {
     "name": "fantastic-creatures-incorporated",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "description": "A MakeCode Arcade variables tutorial featuring a dragon, unicorn, and phoenix.",
     "dependencies": {
         "device": "*"
