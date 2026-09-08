@@ -8,13 +8,13 @@ Hello ranger! Welcome to your first day on the job at Fantastic Creatures Incorp
 
 Each animal needs food, water, and love.
 
-To keep track of all the different things each animal needs, we will need **Variables**.
+To keep track of all the different things each animal needs, we will need ``||variables:Variables||``.
 
-**Variables** are simply **containers that we can store values inside**. Variables can hold anything, and today you will store numbers, words, and lists in them as you take care of your animals.
+``||variables:Variables||`` are simply **containers that we can store values inside**. ``||variables:Variables||`` can hold anything, and today you will store numbers, words, and lists in them as you take care of your animals.
 
-Variables can be **set** (where we *erase* what was inside before and *replace* it) or **changed** (where we *add* or *remove* something from the variable but leave the rest alone).
+``||variables:Variables||`` can be ``||variables:set||`` (where we *erase* what was inside before and *replace* it) or ``||variables:changed||`` (where we *add* or *remove* something from the ``||variables:variable||`` but leave the rest alone).
 
-To start let's update the variable for your 1st creature!
+To start let's update the ``||variables:variable||`` for your 1st creature!
 
 ## 1. Bring in Dragon
 
@@ -22,23 +22,37 @@ Your 1st enclosure is ready for Dragon. The game needs somewhere to keep that ch
 
 ### What to do
 
-**Make a variable to remember your 1st creature.**
+**Make a ``||variables:variable||`` to remember your 1st creature.**
 
 ### Add this code
 
-- Open **Variables** and make a new variable named `animal1`.
+- [ ] Open ``||variables:Variables||``.
 
-- From **Loops**, drag an `on start` block into the workspace.
+- [ ] Make a new ``||variables:variable||`` named ``||variables:animal1||``.
 
-- Place `set animal1 to` inside `on start`.
+- [ ] From ``||loops:Loops||``, drag an ``||loops:on start||`` block into the workspace.
 
-- Open **Advanced → Text**. Put the `" "` word block into `set animal1 to`, then type `Dragon` between its quotes.
+- [ ] From ``||variables:Variables||``, place ``||variables:set animal1 to||`` inside ``||loops:on start||``.
 
-- From **Care Displays**, add `show animal1 in the 1st enclosure`.
+- [ ] Open **Advanced** → ``||text:Text||``.
+
+- [ ] Put the ``||text:" "||`` word block into ``||variables:set animal1 to||``.
+
+- [ ] Type ``||text:Dragon||`` between its quotes.
+
+- [ ] From ``||animalCare:Care Displays||``, add ``||animalCare:show value in the 1st enclosure||`` under the set block.
+
+- [ ] Put ``||variables:animal1||`` into that show block.
 
 ### What you should see
 
-Run your game. Your Dragon should appear in the 1st enclosure. Click the game screen, then use the arrow keys to walk around.
+- [ ] Run your game.
+
+- [ ] Click the game screen.
+
+- [ ] Use the arrow keys to walk around.
+
+Your Dragon should appear in the 1st enclosure.
 
 **Keyboard controls:** **Space** is the **A** button. **Enter** is the **B** button.
 
@@ -72,23 +86,33 @@ animalCare.showAnimal1(animal1)
 
 ## 2. Name Dragon
 
-Your Dragon needs a name. Pick one: `Pip`, `Miso`, `Nori`, `Nova`, `Clover`, or `Pebble`.
+Your Dragon needs a name.
 
 ### What to do
 
-**Make a variable to remember your Dragon's name.**
+**Make a ``||variables:variable||`` to remember your Dragon's name.**
 
 ### Add this code
 
-- Make a new variable named `dragonName`.
+- [ ] Make a new ``||variables:variable||`` named ``||variables:dragonName||``.
 
-- In `on start`, under `show animal1 in the 1st enclosure`, set `dragonName` to the name you chose. Use the word block from **Advanced → Text**, just like you did for `Dragon`.
+- [ ] Pick one name: `Pip`, `Miso`, `Nori`, `Nova`, `Clover`, or `Pebble`.
 
-- Under it, add `show dragonName beside Dragon`.
+- [ ] In ``||loops:on start||``, place ``||variables:set dragonName to||`` under the block that shows ``||variables:animal1||`` in the 1st enclosure.
+
+- [ ] Put the ``||text:" "||`` word block from **Advanced** → ``||text:Text||`` into the set block.
+
+- [ ] Type the name you chose between its quotes.
+
+- [ ] From ``||animalCare:Care Displays||``, add ``||animalCare:show value beside Dragon||`` under the set block.
+
+- [ ] Put ``||variables:dragonName||`` into that show block.
 
 ### What you should see
 
-Run your game. A dark name tag should keep showing your chosen word beside Dragon. A message at the top should briefly welcome Dragon by that name.
+- [ ] Run your game.
+
+A dark name tag should keep showing your chosen word beside Dragon. A message at the top should briefly welcome Dragon by that name.
 
 ![first name: expected gameplay](https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/0a57001ffbf7/02-first-name.gif)
 
@@ -122,25 +146,29 @@ animalCare.showDragonName(dragonName)
 
 Your Dragon's heart meter is empty. Walking over to your creature is how you give it love.
 
-In the overlap blocks, the ranger is a sprite of kind `Player`. Your first creature is kind `Dragon`.
+In the overlap blocks, the ranger is a sprite of kind ``||sprites:Player||``. Your first creature is kind ``||sprites:Dragon||``.
 
 ### What to do
 
-**Make a variable to remember how much love your Dragon has.**
+**Make a ``||variables:variable||`` to remember how much love your Dragon has.**
 
 ### Add this code
 
-- Make a new variable named `dragonLove`.
+- [ ] Make a new ``||variables:variable||`` named ``||variables:dragonLove||``.
 
-- Add an overlap event for a sprite of kind `Player` and a sprite of kind `Dragon`.
+- [ ] From ``||sprites:Sprites||``, add an ``||sprites:overlap event||`` for a sprite of kind ``||sprites:Player||`` and a sprite of kind ``||sprites:Dragon||``.
 
-- Inside the event, change `dragonLove` by `1`.
+- [ ] Inside the event, place ``||variables:change dragonLove by 1||`` from ``||variables:Variables||``.
 
-- Show `dragonLove` on Dragon's love meter.
+- [ ] From ``||animalCare:Care Displays||``, show ``||variables:dragonLove||`` on Dragon's love meter inside the same event.
 
 ### What you should see
 
-Run your game and walk over to your Dragon. One heart should fill.
+- [ ] Run your game.
+
+- [ ] Walk over to your Dragon.
+
+One heart should fill.
 
 ![first love: expected gameplay](https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/0a57001ffbf7/03-first-love.gif)
 
@@ -177,27 +205,41 @@ Your Dragon ordered one serving of seeds. The plate needs to keep each ingredien
 
 ### What to do
 
-**Make a variable to remember what's on the plate.**
+**Make a ``||variables:variable||`` to remember what's on the plate.**
 
 ### Add this code
 
-- Make a new variable named `plate`.
+- [ ] Make a new ``||variables:variable||`` named ``||variables:plate||``.
 
-- Inside `on start`, set `plate` to an empty list. Use the `empty array` block in **Advanced → Arrays**.
+- [ ] Inside ``||loops:on start||``, place ``||variables:set plate to||``.
 
-- Show `plate` on the plate.
+- [ ] Put the ``||arrays:empty array||`` block from **Advanced** → ``||arrays:Arrays||`` into the set block.
 
-- Add an overlap event for a sprite of kind `Player` and a sprite of kind `Seeds`.
+- [ ] From ``||animalCare:Care Displays||``, show ``||variables:plate||`` on the plate under the set block.
 
-- From that same drawer, put `list add value to end` inside the overlap event. Choose `plate` for the list and `"seeds"` for the value.
+- [ ] Add an ``||sprites:overlap event||`` for a sprite of kind ``||sprites:Player||`` and a sprite of kind ``||sprites:Seeds||``.
 
-- Show `plate` on the plate.
+- [ ] From **Advanced** → ``||arrays:Arrays||``, put ``||arrays:list add value to end||`` inside the ``||sprites:overlap event||``.
 
-- Destroy the seeds that touched the player: drag `otherSprite` from this overlap event's header into the destroy block.
+- [ ] Choose ``||variables:plate||`` for its list.
+
+- [ ] Put ``||text:"seeds"||`` in its value slot.
+
+- [ ] From ``||animalCare:Care Displays||``, show ``||variables:plate||`` on the plate inside this event.
+
+- [ ] From ``||sprites:Sprites||``, add a ``||sprites:destroy||`` block at the end of this event.
+
+- [ ] Drag ``||sprites:otherSprite||`` from this ``||sprites:overlap event||``'s header into the destroy block.
 
 ### What you should see
 
-Run your game. Press **A** once at the seed bin, then collect the serving that appears. Seeds should appear in the 1st spot on the plate.
+- [ ] Run your game.
+
+- [ ] Press **A** once at the seed bin.
+
+- [ ] Collect the serving that appears.
+
+Seeds should appear in the 1st spot on the plate.
 
 ![plate: expected gameplay](https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/0a57001ffbf7/04-plate.gif)
 
@@ -239,21 +281,27 @@ The seeds are on your plate. Now Dragon needs to eat them, and you need a fresh 
 
 ### What to do
 
-**Offer the plate, then set it back to empty.**
+**Offer the plate.**
 
 ### Add this code
 
-- Add an `on B button pressed` event.
+- [ ] From ``||controller:Controller||``, add an ``||controller:on B button pressed||`` event.
 
-- Inside it, use **Care Displays** to `offer plate to the creature here`.
+- [ ] Inside it, use ``||animalCare:Care Displays||`` to offer ``||variables:plate||`` to the creature here.
 
-- Under that, set `plate` to an empty list.
+- [ ] Under that, set ``||variables:plate||`` to an ``||arrays:empty array||``.
 
-- Show `plate` on the plate.
+- [ ] From ``||animalCare:Care Displays||``, show ``||variables:plate||`` on the plate.
 
 ### What you should see
 
-Collect seeds, walk into Dragon's enclosure, and press **B**. Its thought cloud should thank you, your plate should empty, and then a new order should appear. A repeated ingredient picture means another trip for another portion.
+- [ ] Collect seeds.
+
+- [ ] Walk into Dragon's enclosure.
+
+- [ ] Press **B**.
+
+Its thought cloud should thank you, your plate should empty, and then a new order should appear. A repeated ingredient picture means another trip for another portion.
 
 Wrong order? **B** also empties that plate so you can try again. The creature's thought cloud will keep showing the same order.
 
@@ -293,25 +341,35 @@ The pump can make a full bucket, but the game needs to remember how much water y
 
 ### What to do
 
-**Make a variable to remember how much water is in the bucket.**
+**Make a ``||variables:variable||`` to remember how much water is in the bucket.**
 
 ### Add this code
 
-- Make a new variable named `bucketWater`.
+- [ ] Make a new ``||variables:variable||`` named ``||variables:bucketWater||``.
 
-- Inside `on start`, set it to `0` and show `bucketWater` in the bucket.
+- [ ] Inside ``||loops:on start||``, set ``||variables:bucketWater||`` to `0`.
 
-- Add an overlap event for `Player` and `FullBucket`.
+- [ ] From ``||animalCare:Care Displays||``, show ``||variables:bucketWater||`` in the bucket under the set block.
 
-- Inside the event, change `bucketWater` by `10`.
+- [ ] Add an ``||sprites:overlap event||`` for ``||sprites:Player||`` and ``||sprites:FullBucket||``.
 
-- Show `bucketWater` in the bucket.
+- [ ] Inside the event, change ``||variables:bucketWater||`` by `10`.
 
-- Destroy the full bucket that touched the player: use `otherSprite` from this event's header.
+- [ ] From ``||animalCare:Care Displays||``, show ``||variables:bucketWater||`` in the bucket inside this event.
+
+- [ ] From ``||sprites:Sprites||``, add a ``||sprites:destroy||`` block at the end of this event.
+
+- [ ] Put ``||sprites:otherSprite||`` from this event's header into the destroy block.
 
 ### What you should see
 
-Run your game. At the pump, press **A** three times with a short pause between presses: **A … A … A**. Its outline turns blue when the next beat is ready. Walk up to collect the full bucket. The carried-water meter should change from `0` to `10`.
+- [ ] Run your game.
+
+- [ ] At the pump, press **A** three times with a short pause between presses: **A … A … A**.
+
+- [ ] Walk up to collect the full bucket.
+
+Its outline turns blue when the next beat is ready. The carried-water meter should change from `0` to `10`.
 
 ![bucket: expected gameplay](https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/0a57001ffbf7/06-bucket.gif)
 
@@ -353,33 +411,41 @@ Your Dragon has its own trough. Its water must stay separate from every other cr
 
 ### What to do
 
-**Make a variable to remember your Dragon's water.**
+**Make a ``||variables:variable||`` to remember your Dragon's water.**
 
 ### Add this code
 
-- Make a new variable named `dragonWater`.
+- [ ] Make a new ``||variables:variable||`` named ``||variables:dragonWater||``.
 
-- Inside `on start`, set it to `0` and show `dragonWater` on Dragon's water meter.
+- [ ] Inside ``||loops:on start||``, set ``||variables:dragonWater||`` to `0`.
 
-- Add an overlap event for `Player` and `DragonTrough`.
+- [ ] From ``||animalCare:Care Displays||``, show ``||variables:dragonWater||`` on Dragon's water meter under the set block.
 
-- Inside that event, change `dragonWater` by `bucketWater`.
+- [ ] Add an ``||sprites:overlap event||`` for ``||sprites:Player||`` and ``||sprites:DragonTrough||``.
 
-- Show `dragonWater` on Dragon's water meter.
+- [ ] Inside that event, change ``||variables:dragonWater||`` by ``||variables:bucketWater||``.
 
-- Then set `bucketWater` to `0`.
+- [ ] From ``||animalCare:Care Displays||``, show ``||variables:dragonWater||`` on Dragon's water meter.
 
-- Show `bucketWater` in the bucket.
+- [ ] Then set ``||variables:bucketWater||`` to `0`.
 
-- Add an overlap event for `Dragon` and `DragonTrough`.
+- [ ] From ``||animalCare:Care Displays||``, show ``||variables:bucketWater||`` in the bucket.
 
-- Inside that event, change `dragonWater` by `-7`.
+- [ ] Add an ``||sprites:overlap event||`` for ``||sprites:Dragon||`` and ``||sprites:DragonTrough||``.
 
-- Show `dragonWater` on Dragon's water meter.
+- [ ] Inside that event, change ``||variables:dragonWater||`` by `-7`.
+
+- [ ] From ``||animalCare:Care Displays||``, show ``||variables:dragonWater||`` on Dragon's water meter.
 
 ### What you should see
 
-Run your game. Fill one bucket and carry it to the trough. The bucket should empty, the trough should fill, and one drink should lower only this water meter.
+- [ ] Run your game.
+
+- [ ] Fill one bucket.
+
+- [ ] Carry it to Dragon's trough.
+
+The bucket should empty, the trough should fill, and one drink should lower only this water meter.
 
 ![first water: expected gameplay](https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/0a57001ffbf7/07-first-water.gif)
 
@@ -428,27 +494,33 @@ Taking care of creatures is hard work. The ranger moves faster with more energy.
 
 ### What to do
 
-**Make a variable to remember the ranger's energy.**
+**Make a ``||variables:variable||`` to remember the ranger's energy.**
 
 ### Add this code
 
-- Make a new variable named `playerEnergy`.
+- [ ] Make a new ``||variables:variable||`` named ``||variables:playerEnergy||``.
 
-- Inside `on start`, set it to `20`.
+- [ ] Inside ``||loops:on start||``, set ``||variables:playerEnergy||`` to `20`.
 
-- Use `playerEnergy` for the ranger's energy meter and speed.
+- [ ] Under it, add ``||animalCare:use value for the ranger's energy meter and speed||`` from ``||animalCare:Care Displays||``.
 
-- Add an overlap event for `Player` and `Apple`.
+- [ ] Put ``||variables:playerEnergy||`` into that block.
 
-- Inside the event, change `playerEnergy` by `5`.
+- [ ] Add an ``||sprites:overlap event||`` for ``||sprites:Player||`` and ``||sprites:Apple||``.
 
-- Use `playerEnergy` for the ranger's energy meter and speed.
+- [ ] Inside the event, change ``||variables:playerEnergy||`` by `5`.
 
-- Destroy the apple that touched the player: use `otherSprite` from this event's header.
+- [ ] Use ``||variables:playerEnergy||`` for the ranger's energy meter and speed with the same ``||animalCare:Care Displays||`` block.
+
+- [ ] Destroy the apple that touched the player using this event's ``||sprites:otherSprite||``.
 
 ### What you should see
 
-Run your game and collect an apple. The energy meter should rise by `5`, and the ranger should move faster.
+- [ ] Run your game.
+
+- [ ] Collect an apple.
+
+The energy meter should rise by `5`, and the ranger should move faster.
 
 ![energy: expected gameplay](https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/0a57001ffbf7/08-energy.gif)
 
@@ -494,17 +566,23 @@ The ranger uses energy while the shift is running. The snacks now have a job to 
 
 ### Add this code
 
-- From **Game**, add an `on game update every 500 ms` event.
+- [ ] From ``||game:Game||``, add an ``||game:on game update every 500 ms||`` event.
 
-- Change its interval to `8000` ms. That is eight seconds.
+- [ ] Change its interval to `8000` ms. That is eight seconds.
 
-- Inside the event, change `playerEnergy` by `-1`.
+- [ ] Inside the event, change ``||variables:playerEnergy||`` by `-1`.
 
-- Use `playerEnergy` for the ranger's energy meter and speed.
+- [ ] Use ``||variables:playerEnergy||`` for the ranger's energy meter and speed with ``||animalCare:Care Displays||``.
 
 ### What you should see
 
-Run your game and watch the energy number. The first point is used when the shift starts: `20` becomes `19`. Eight seconds later, it becomes `18`. Collect an apple to add `5` back. You can always keep walking, even when energy is low.
+- [ ] Run your game.
+
+- [ ] Watch the energy number for eight seconds.
+
+- [ ] Collect an apple to add `5` back.
+
+The first point is used when the shift starts: `20` becomes `19`. Eight seconds later, it becomes `18`. You can always keep walking, even when energy is low.
 
 ![energy timer: expected gameplay](https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/0a57001ffbf7/09-energy-timer.gif)
 
@@ -541,19 +619,21 @@ Your 2nd enclosure is ready for Unicorn.
 
 ### What to do
 
-**Make a variable to remember your 2nd creature.**
+**Make a ``||variables:variable||`` to remember your 2nd creature.**
 
 ### Make this happen
 
-- Create `animal2`.
+- [ ] Make a new ``||variables:variable||`` named ``||variables:animal2||``.
 
-- Set it to `"Unicorn"` in `on start`.
+- [ ] Set ``||variables:animal2||`` to ``||text:"Unicorn"||`` in ``||loops:on start||``.
 
-- Show `animal2` in the 2nd enclosure.
+- [ ] Show ``||variables:animal2||`` in the 2nd enclosure with ``||animalCare:Care Displays||``.
 
 ### What you should see
 
-Run your game. Unicorn should enter the 2nd enclosure without replacing Dragon.
+- [ ] Run your game.
+
+Unicorn should enter the 2nd enclosure without replacing Dragon.
 
 ![second arrival: expected gameplay](https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/0a57001ffbf7/10-second-arrival.gif)
 
@@ -589,27 +669,33 @@ Your new arrival needs its own name and its own hearts.
 
 ### What to do
 
-**Make a variable to remember your Unicorn's name.**
+**Make a ``||variables:variable||`` to remember your Unicorn's name.**
 
-**Make a variable to remember how much love your Unicorn has.**
+**Make a ``||variables:variable||`` to remember how much love your Unicorn has.**
 
 ### Make this happen
 
-- Create `unicornName`.
+- [ ] Make a new ``||variables:variable||`` named ``||variables:unicornName||``.
 
-- In `on start`, under `show animal2 in the 2nd enclosure`, set `unicornName` to `Pip`, `Miso`, `Nori`, `Nova`, `Clover`, or `Pebble`.
+- [ ] In ``||loops:on start||``, under the block that shows ``||variables:animal2||`` in the 2nd enclosure, set ``||variables:unicornName||`` to `Pip`, `Miso`, `Nori`, `Nova`, `Clover`, or `Pebble`.
 
-- Show `unicornName` beside Unicorn.
+- [ ] Show ``||variables:unicornName||`` beside Unicorn with ``||animalCare:Care Displays||``.
 
-- Create `unicornLove`.
+- [ ] Make a new ``||variables:variable||`` named ``||variables:unicornLove||``.
 
-- When the player overlaps Unicorn, change it by `1`.
+- [ ] Add an ``||sprites:overlap event||`` for ``||sprites:Player||`` and ``||sprites:Unicorn||``.
 
-- Show `unicornLove` on Unicorn's love meter.
+- [ ] Inside it, change ``||variables:unicornLove||`` by `1`.
+
+- [ ] Show ``||variables:unicornLove||`` on Unicorn's love meter with ``||animalCare:Care Displays||``.
 
 ### What you should see
 
-Run your game. The new name should stay with Unicorn, and one love contact should fill only its heart meter.
+- [ ] Run your game.
+
+- [ ] Walk over to Unicorn.
+
+The new name should stay with Unicorn, and one love contact should fill only its heart meter.
 
 ![second name love: expected gameplay](https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/0a57001ffbf7/11-second-name-love.gif)
 
@@ -655,15 +741,27 @@ Unicorn ordered berries, then seeds.
 
 ### Make this happen
 
-- When the player collects `Berries`, add `"berries"` to the end of `plate`.
+- [ ] Add an ``||sprites:overlap event||`` for ``||sprites:Player||`` and ``||sprites:Berries||``.
 
-- Show `plate` on the plate.
+- [ ] Inside it, add ``||text:"berries"||`` to the end of ``||variables:plate||`` with ``||arrays:Arrays||``.
 
-- Destroy the berries that were collected, using this event's `otherSprite`.
+- [ ] Show ``||variables:plate||`` on the plate with ``||animalCare:Care Displays||``.
+
+- [ ] Destroy the berries that were collected using this event's ``||sprites:otherSprite||``.
 
 ### What you should see
 
-Hold **A** at the berry station until the serving appears. Collect berries, then seeds. The plate should show them in that order. Carry it into Unicorn's enclosure and press **B**. Its thought cloud should thank you, then show another order.
+- [ ] Hold **A** at the berry station until the serving appears.
+
+- [ ] Collect berries.
+
+- [ ] Collect seeds next.
+
+- [ ] Carry the plate into Unicorn's enclosure.
+
+- [ ] Press **B**.
+
+The plate should show berries, then seeds. Its thought cloud should thank you, then show another order.
 
 ![berries: expected gameplay](https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/0a57001ffbf7/12-berries.gif)
 
@@ -701,29 +799,41 @@ Two creatures, two troughs. This pour belongs to Unicorn.
 
 ### What to do
 
-**Make a variable to remember your Unicorn's water.**
+**Make a ``||variables:variable||`` to remember your Unicorn's water.**
 
 ### Make this happen
 
-- Create `unicornWater` and start it at `0` in `on start`.
+- [ ] Make a new ``||variables:variable||`` named ``||variables:unicornWater||``.
 
-- Show its water meter.
+- [ ] Set ``||variables:unicornWater||`` to `0` in ``||loops:on start||``.
 
-- When the player reaches `UnicornTrough`, add `bucketWater` to `unicornWater`.
+- [ ] Show ``||variables:unicornWater||`` on Unicorn's water meter with ``||animalCare:Care Displays||``.
 
-- Show its meter.
+- [ ] Add an ``||sprites:overlap event||`` for ``||sprites:Player||`` and ``||sprites:UnicornTrough||``.
 
-- Set `bucketWater` to `0`.
+- [ ] Inside it, change ``||variables:unicornWater||`` by ``||variables:bucketWater||``.
 
-- Show the empty bucket.
+- [ ] Show ``||variables:unicornWater||`` on Unicorn's water meter with ``||animalCare:Care Displays||``.
 
-- When Unicorn overlaps `UnicornTrough`, change `unicornWater` by `-4`.
+- [ ] Set ``||variables:bucketWater||`` to `0`.
 
-- Show its meter again.
+- [ ] Show ``||variables:bucketWater||`` in the bucket with ``||animalCare:Care Displays||``.
+
+- [ ] Add an ``||sprites:overlap event||`` for ``||sprites:Unicorn||`` and ``||sprites:UnicornTrough||``.
+
+- [ ] Inside it, change ``||variables:unicornWater||`` by `-4`.
+
+- [ ] Show ``||variables:unicornWater||`` on Unicorn's water meter with ``||animalCare:Care Displays||``.
 
 ### What you should see
 
-Run your game. Only Unicorn's water meter should move.
+- [ ] Run your game.
+
+- [ ] Fill one bucket.
+
+- [ ] Carry it to Unicorn's trough.
+
+Only Unicorn's water meter should move.
 
 ![second water: expected gameplay](https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/0a57001ffbf7/13-second-water.gif)
 
@@ -776,15 +886,23 @@ A sandwich gives the ranger more energy than an apple.
 
 ### Make this happen
 
-- When the player collects a `Sandwich`, change `playerEnergy` by `10`.
+- [ ] Add an ``||sprites:overlap event||`` for ``||sprites:Player||`` and ``||sprites:Sandwich||``.
 
-- Use it for the ranger's energy meter and speed.
+- [ ] Inside it, change ``||variables:playerEnergy||`` by `10`.
 
-- Destroy the sandwich, using this event's `otherSprite`.
+- [ ] Use ``||variables:playerEnergy||`` for the ranger's energy meter and speed with ``||animalCare:Care Displays||``.
+
+- [ ] Destroy the sandwich using this event's ``||sprites:otherSprite||``.
 
 ### What you should see
 
-Run your game and compare the meter change with the apple's `5`.
+- [ ] Run your game.
+
+- [ ] Collect a sandwich.
+
+- [ ] Compare the meter change with the apple's `5`.
+
+The sandwich should add `10` energy.
 
 ![second creature: expected gameplay](https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/0a57001ffbf7/14-second-creature.gif)
 
@@ -822,19 +940,21 @@ The last roster card shows Phoenix.
 
 ### What to do
 
-**Make a variable to remember your 3rd creature.**
+**Make a ``||variables:variable||`` to remember your 3rd creature.**
 
 ### Make this happen
 
-- Create `animal3`.
+- [ ] Make a new ``||variables:variable||`` named ``||variables:animal3||``.
 
-- Set `animal3` to the creature word on that card in `on start`.
+- [ ] Set ``||variables:animal3||`` to ``||text:"Phoenix"||`` in ``||loops:on start||``.
 
-- Show it in the 3rd enclosure.
+- [ ] Show ``||variables:animal3||`` in the 3rd enclosure with ``||animalCare:Care Displays||``.
 
 ### What you should see
 
-Run your game. All three creatures should now have their own enclosure.
+- [ ] Run your game.
+
+All three creatures should now have their own enclosure.
 
 ![third arrival: expected gameplay](https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/0a57001ffbf7/15-third-arrival.gif)
 
@@ -870,23 +990,33 @@ Phoenix still needs a name and love of its own.
 
 ### What to do
 
-**Make a variable to remember your Phoenix's name.**
+**Make a ``||variables:variable||`` to remember your Phoenix's name.**
 
-**Make a variable to remember how much love your Phoenix has.**
+**Make a ``||variables:variable||`` to remember how much love your Phoenix has.**
 
 ### Make this happen
 
-- Create `phoenixName` and `phoenixLove`.
+- [ ] Make a new ``||variables:variable||`` named ``||variables:phoenixName||``.
 
-- In `on start`, under `show animal3 in the 3rd enclosure`, set `phoenixName` to one of the same six names and show it beside Phoenix.
+- [ ] In ``||loops:on start||``, under the block that shows ``||variables:animal3||`` in the 3rd enclosure, set ``||variables:phoenixName||`` to `Pip`, `Miso`, `Nori`, `Nova`, `Clover`, or `Pebble`.
 
-- Use the love-overlap pattern you built for the first creatures; one love contact changes `phoenixLove` by `1`.
+- [ ] Show ``||variables:phoenixName||`` beside Phoenix with ``||animalCare:Care Displays||``.
 
-- Show the love value on its meter.
+- [ ] Make a new ``||variables:variable||`` named ``||variables:phoenixLove||``.
+
+- [ ] Add an ``||sprites:overlap event||`` for ``||sprites:Player||`` and ``||sprites:Phoenix||``.
+
+- [ ] Inside it, change ``||variables:phoenixLove||`` by `1`.
+
+- [ ] Show ``||variables:phoenixLove||`` on Phoenix's love meter with ``||animalCare:Care Displays||``.
 
 ### What you should see
 
-Run your game. Check that the name and heart meter belong to Phoenix.
+- [ ] Run your game.
+
+- [ ] Walk over to Phoenix.
+
+The name and heart meter should belong to Phoenix.
 
 ![third name love: expected gameplay](https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/0a57001ffbf7/16-third-name-love.gif)
 
@@ -932,15 +1062,29 @@ Phoenix ordered greens, berries, then seeds.
 
 ### Make this happen
 
-- Add `"greens"` to `plate` when the player collects `Greens`.
+- [ ] Add an ``||sprites:overlap event||`` for ``||sprites:Player||`` and ``||sprites:Greens||``.
 
-- Show `plate` on the plate.
+- [ ] Inside it, add ``||text:"greens"||`` to the end of ``||variables:plate||`` with ``||arrays:Arrays||``.
 
-- Remove the collected serving from the room, using this event's `otherSprite`.
+- [ ] Show ``||variables:plate||`` on the plate with ``||animalCare:Care Displays||``.
+
+- [ ] Destroy the collected serving using this event's ``||sprites:otherSprite||``.
 
 ### What you should see
 
-Tap **A** three times at the greens station. Collect greens, berries, then seeds. Check all three plate spots. Offer the finished plate to Phoenix with **B**.
+- [ ] Tap **A** three times at the greens station.
+
+- [ ] Collect greens.
+
+- [ ] Collect berries next.
+
+- [ ] Collect seeds last.
+
+- [ ] Check all three plate spots.
+
+- [ ] Offer the finished plate to Phoenix with **B**.
+
+The plate should keep greens, berries, then seeds in that order.
 
 ![greens: expected gameplay](https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/0a57001ffbf7/17-greens.gif)
 
@@ -978,29 +1122,41 @@ One last trough. Phoenix takes a different-sized drink.
 
 ### What to do
 
-**Make a variable to remember your Phoenix's water.**
+**Make a ``||variables:variable||`` to remember your Phoenix's water.**
 
 ### Make this happen
 
-- Create `phoenixWater` and start it at `0` in `on start`.
+- [ ] Make a new ``||variables:variable||`` named ``||variables:phoenixWater||``.
 
-- Show its water meter.
+- [ ] Set ``||variables:phoenixWater||`` to `0` in ``||loops:on start||``.
 
-- A pour adds `bucketWater` to it.
+- [ ] Show ``||variables:phoenixWater||`` on Phoenix's water meter with ``||animalCare:Care Displays||``.
 
-- Show Phoenix's water meter.
+- [ ] Add an ``||sprites:overlap event||`` for ``||sprites:Player||`` and ``||sprites:PhoenixTrough||``.
 
-- Leave `bucketWater` at `0`.
+- [ ] Inside it, change ``||variables:phoenixWater||`` by ``||variables:bucketWater||``.
 
-- Show the bucket value.
+- [ ] Show ``||variables:phoenixWater||`` on Phoenix's water meter with ``||animalCare:Care Displays||``.
 
-- One Phoenix drink changes its water by `-3`.
+- [ ] Set ``||variables:bucketWater||`` to `0`.
 
-- Show that value again.
+- [ ] Show ``||variables:bucketWater||`` in the bucket with ``||animalCare:Care Displays||``.
+
+- [ ] Add an ``||sprites:overlap event||`` for ``||sprites:Phoenix||`` and ``||sprites:PhoenixTrough||``.
+
+- [ ] Inside it, change ``||variables:phoenixWater||`` by `-3`.
+
+- [ ] Show ``||variables:phoenixWater||`` on Phoenix's water meter with ``||animalCare:Care Displays||``.
 
 ### What you should see
 
-Run your game. The Phoenix meter should change; the other two water meters should not.
+- [ ] Run your game.
+
+- [ ] Fill one bucket.
+
+- [ ] Carry it to Phoenix's trough.
+
+The Phoenix meter should change; the other two water meters should not.
 
 ![third water: expected gameplay](https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/0a57001ffbf7/18-third-water.gif)
 
@@ -1053,15 +1209,23 @@ Soup gives the ranger `20` energy.
 
 ### Make this happen
 
-- When the player collects `Soup`, change `playerEnergy` by `20`.
+- [ ] Add an ``||sprites:overlap event||`` for ``||sprites:Player||`` and ``||sprites:Soup||``.
 
-- Use it for the ranger's energy meter and speed.
+- [ ] Inside it, change ``||variables:playerEnergy||`` by `20`.
 
-- Remove the soup from the room, using this event's `otherSprite`.
+- [ ] Use ``||variables:playerEnergy||`` for the ranger's energy meter and speed with ``||animalCare:Care Displays||``.
+
+- [ ] Destroy the soup using this event's ``||sprites:otherSprite||``.
 
 ### What you should see
 
-Run your game. Compare the three energy changes: apple `5`, sandwich `10`, and soup `20`.
+- [ ] Run your game.
+
+- [ ] Collect soup.
+
+- [ ] Compare the three energy changes: apple `5`, sandwich `10`, and soup `20`.
+
+Soup should give the biggest energy boost.
 
 ![complete: expected gameplay](https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/0a57001ffbf7/19-complete.gif)
 
@@ -1095,21 +1259,42 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Soup, function (sprite, otherSpr
 
 ## Final shift
 
-All three enclosures are open. Complete your first shift: serve each creature's ordered plate with **B**, fill each trough and watch a drink, visit every creature, and eat a snack as your energy ticks down.
+All three enclosures are open.
 
-Each thought cloud shows its recipe from left to right. One ingredient picture means one portion and one collection trip, so repeated pictures mean repeated trips. **A** prepares food or water; walk up from the station to collect it. **B** offers your plate in an enclosure and clears it for the next order.
+### What to do
 
-Watch the creature names, plate spots, water meters, heart meters, and energy meter while you play. Taking care of one creature should not quietly change another creature's values. When all three creatures have eaten, had a drink, and received love, and you have used and restored some energy, **FIRST SHIFT COMPLETE!** should appear.
+**Complete your first shift.**
+
+- [ ] Serve each creature's ordered plate with **B**.
+
+- [ ] Fill each trough.
+
+- [ ] Watch each creature take a drink.
+
+- [ ] Visit every creature to give it love.
+
+- [ ] Eat a snack as your energy ticks down.
+
+### What you should see
+
+Each thought cloud shows its recipe from left to right. One ingredient picture means one portion and one collection trip, so repeated pictures mean repeated trips. **A** prepares food or water. **B** offers your plate in an enclosure and clears it for the next order.
+
+- [ ] Walk up from a station to collect the food or water it prepares.
+
+- [ ] Watch the creature names, plate spots, water meters, heart meters, and energy meter while you play.
+
+Taking care of one creature should not quietly change another creature's values. When all three creatures have eaten, had a drink, and received love, and you have used and restored some energy, **FIRST SHIFT COMPLETE!** should appear.
+
 
 ![The completed first shift](https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/0a57001ffbf7/20-final-shift.gif)
 
 ## What did we learn?
 
-Every time the game needed to remember something new, you made a variable for it.
+Every time the game needed to remember something new, you made a ``||variables:variable||`` for it.
 
-You **set** creature choices and names by replacing what the variable held. You **changed** water, love, and energy by adding or removing an amount. You added each ingredient to `plate` without removing the ingredients already there.
+You ``||variables:set||`` creature choices and names by replacing what the ``||variables:variable||`` held. You ``||variables:changed||`` water, love, and energy by adding or removing an amount. You added each ingredient to ``||variables:plate||`` without removing the ingredients already there.
 
-Look at your Variables toolbox. How many of those variables did not exist before the game needed them?
+Look at your ``||variables:Variables||`` toolbox. How many of those ``||variables:variables||`` did not exist before the game needed them?
 
 ```template
 namespace SpriteKind {
