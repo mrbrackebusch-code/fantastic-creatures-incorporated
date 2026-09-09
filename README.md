@@ -8,13 +8,13 @@ Hello ranger! Welcome to your first day on the job at Fantastic Creatures Incorp
 
 Each animal needs food, water, and love.
 
-To keep track of all the different things each animal needs, we will need ``||variables:Variables||``.
+To keep track of all the different things each animal needs, we will need ``||variables(noclick):Variables||``.
 
-``||variables:Variables||`` are simply **containers that we can store values inside**. ``||variables:Variables||`` can hold anything, and today you will store numbers, words, and lists in them as you take care of your animals.
+``||variables(noclick):Variables||`` are simply **containers that we can store values inside**. ``||variables(noclick):Variables||`` can hold anything, and today you will store numbers, words, and lists in them as you take care of your animals.
 
-``||variables:Variables||`` can be ``||variables:set||`` (where we *erase* what was inside before and *replace* it) or ``||variables:changed||`` (where we *add* or *remove* something from the ``||variables:variable||`` but leave the rest alone).
+``||variables(noclick):Variables||`` can be ``||variables(noclick):set||`` (where we *erase* what was inside before and *replace* it) or ``||variables(noclick):changed||`` (where we *add* or *remove* something from the ``||variables(noclick):variable||`` but leave the rest alone).
 
-To start let's update the ``||variables:variable||`` for your 1st creature!
+To start let's update the ``||variables(noclick):variable||`` for your 1st creature!
 
 ## 1. Bring in Dragon
 
@@ -22,27 +22,27 @@ Your 1st enclosure is ready for Dragon. The game needs somewhere to keep that ch
 
 ### What to do
 
-**Make a ``||variables:variable||`` to remember your 1st creature.**
+**Make a ``||variables(noclick):variable||`` to remember your 1st creature.**
 
 ### Add this code
 
-- [ ] Open ``||variables:Variables||``.
+- [ ] Open ``||variables(noclick):Variables||``.
 
-- [ ] Make a new ``||variables:variable||`` named ``||variables:animal1||``.
+- [ ] Make a new ``||variables(noclick):variable||`` named ``||variables(noclick):animal1||``.
 
-- [ ] From ``||loops:Loops||``, drag an ``||loops:on start||`` block into the workspace.
+- [ ] From ``||loops(noclick):Loops||``, drag an ``||loops(noclick):on start||`` block into the workspace.
 
-- [ ] From ``||variables:Variables||``, place ``||variables:set animal1 to||`` inside ``||loops:on start||``.
+- [ ] From ``||variables(noclick):Variables||``, place ``||variables(noclick):set animal1 to||`` inside ``||loops(noclick):on start||``.
 
-- [ ] Open **Advanced** → ``||text:Text||``.
+- [ ] Open **Advanced** → ``||text(noclick):Text||``.
 
-- [ ] Put the ``||text:" "||`` word block into ``||variables:set animal1 to||``.
+- [ ] Put the ``||text(noclick):" "||`` word block into ``||variables(noclick):set animal1 to||``.
 
-- [ ] Type ``||text:Dragon||`` between its quotes.
+- [ ] Type ``||text(noclick):Dragon||`` between its quotes.
 
-- [ ] From ``||animalCare:Care Displays||``, add ``||animalCare:show value in the 1st enclosure||`` under the set block.
+- [ ] From ``||animalCare(noclick):Care Displays||``, add ``||animalCare(noclick):show value in the 1st enclosure||`` under the set block.
 
-- [ ] Put ``||variables:animal1||`` into that show block.
+- [ ] Put ``||variables(noclick):animal1||`` into that show block.
 
 ### What you should see
 
@@ -90,23 +90,23 @@ Your Dragon needs a name.
 
 ### What to do
 
-**Make a ``||variables:variable||`` to remember your Dragon's name.**
+**Make a ``||variables(noclick):variable||`` to remember your Dragon's name.**
 
 ### Add this code
 
-- [ ] Make a new ``||variables:variable||`` named ``||variables:dragonName||``.
+- [ ] Make a new ``||variables(noclick):variable||`` named ``||variables(noclick):dragonName||``.
 
 - [ ] Pick one name: `Pip`, `Miso`, `Nori`, `Nova`, `Clover`, or `Pebble`.
 
-- [ ] In ``||loops:on start||``, place ``||variables:set dragonName to||`` under the block that shows ``||variables:animal1||`` in the 1st enclosure.
+- [ ] In ``||loops(noclick):on start||``, place ``||variables(noclick):set dragonName to||`` under the block that shows ``||variables(noclick):animal1||`` in the 1st enclosure.
 
-- [ ] Put the ``||text:" "||`` word block from **Advanced** → ``||text:Text||`` into the set block.
+- [ ] Put the ``||text(noclick):" "||`` word block from **Advanced** → ``||text(noclick):Text||`` into the set block.
 
 - [ ] Type the name you chose between its quotes.
 
-- [ ] From ``||animalCare:Care Displays||``, add ``||animalCare:show value beside Dragon||`` under the set block.
+- [ ] From ``||animalCare(noclick):Care Displays||``, add ``||animalCare(noclick):show value beside Dragon||`` under the set block.
 
-- [ ] Put ``||variables:dragonName||`` into that show block.
+- [ ] Put ``||variables(noclick):dragonName||`` into that show block.
 
 ### What you should see
 
@@ -146,21 +146,21 @@ animalCare.showDragonName(dragonName)
 
 Your Dragon's heart meter is empty. Walking over to your creature is how you give it love.
 
-In the overlap blocks, the ranger is a sprite of kind ``||sprites:Player||``. Your first creature is kind ``||sprites:Dragon||``.
+In the overlap blocks, the ranger is a sprite of kind ``||sprites(noclick):Player||``. Your first creature is kind ``||sprites(noclick):Dragon||``.
 
 ### What to do
 
-**Make a ``||variables:variable||`` to remember how much love your Dragon has.**
+**Make a ``||variables(noclick):variable||`` to remember how much love your Dragon has.**
 
 ### Add this code
 
-- [ ] Make a new ``||variables:variable||`` named ``||variables:dragonLove||``.
+- [ ] Make a new ``||variables(noclick):variable||`` named ``||variables(noclick):dragonLove||``.
 
-- [ ] From ``||sprites:Sprites||``, add an ``||sprites:overlap event||`` for a sprite of kind ``||sprites:Player||`` and a sprite of kind ``||sprites:Dragon||``.
+- [ ] From ``||sprites(noclick):Sprites||``, add an ``||sprites(noclick):overlap event||`` for a sprite of kind ``||sprites(noclick):Player||`` and a sprite of kind ``||sprites(noclick):Dragon||``.
 
-- [ ] Inside the event, place ``||variables:change dragonLove by 1||`` from ``||variables:Variables||``.
+- [ ] Inside the event, place ``||variables(noclick):change dragonLove by 1||`` from ``||variables(noclick):Variables||``.
 
-- [ ] From ``||animalCare:Care Displays||``, show ``||variables:dragonLove||`` on Dragon's love meter inside the same event.
+- [ ] From ``||animalCare(noclick):Care Displays||``, show ``||variables(noclick):dragonLove||`` on Dragon's love meter inside the same event.
 
 ### What you should see
 
@@ -205,31 +205,31 @@ Your Dragon ordered one serving of seeds. The plate needs to keep each ingredien
 
 ### What to do
 
-**Make a ``||variables:variable||`` to remember what's on the plate.**
+**Make a ``||variables(noclick):variable||`` to remember what's on the plate.**
 
 ### Add this code
 
-- [ ] Make a new ``||variables:variable||`` named ``||variables:plate||``.
+- [ ] Make a new ``||variables(noclick):variable||`` named ``||variables(noclick):plate||``.
 
-- [ ] Inside ``||loops:on start||``, place ``||variables:set plate to||``.
+- [ ] Inside ``||loops(noclick):on start||``, place ``||variables(noclick):set plate to||``.
 
-- [ ] Put the ``||arrays:empty array||`` block from **Advanced** → ``||arrays:Arrays||`` into the set block.
+- [ ] Put the ``||arrays(noclick):empty array||`` block from **Advanced** → ``||arrays(noclick):Arrays||`` into the set block.
 
-- [ ] From ``||animalCare:Care Displays||``, show ``||variables:plate||`` on the plate under the set block.
+- [ ] From ``||animalCare(noclick):Care Displays||``, show ``||variables(noclick):plate||`` on the plate under the set block.
 
-- [ ] Add an ``||sprites:overlap event||`` for a sprite of kind ``||sprites:Player||`` and a sprite of kind ``||sprites:Seeds||``.
+- [ ] Add an ``||sprites(noclick):overlap event||`` for a sprite of kind ``||sprites(noclick):Player||`` and a sprite of kind ``||sprites(noclick):Seeds||``.
 
-- [ ] From **Advanced** → ``||arrays:Arrays||``, put ``||arrays:list add value to end||`` inside the ``||sprites:overlap event||``.
+- [ ] From **Advanced** → ``||arrays(noclick):Arrays||``, put ``||arrays(noclick):list add value to end||`` inside the ``||sprites(noclick):overlap event||``.
 
-- [ ] Choose ``||variables:plate||`` for its list.
+- [ ] Choose ``||variables(noclick):plate||`` for its list.
 
-- [ ] Put ``||text:"seeds"||`` in its value slot.
+- [ ] Put ``||text(noclick):"seeds"||`` in its value slot.
 
-- [ ] From ``||animalCare:Care Displays||``, show ``||variables:plate||`` on the plate inside this event.
+- [ ] From ``||animalCare(noclick):Care Displays||``, show ``||variables(noclick):plate||`` on the plate inside this event.
 
-- [ ] From ``||sprites:Sprites||``, add a ``||sprites:destroy||`` block at the end of this event.
+- [ ] From ``||sprites(noclick):Sprites||``, add a ``||sprites(noclick):destroy||`` block at the end of this event.
 
-- [ ] Drag ``||sprites:otherSprite||`` from this ``||sprites:overlap event||``'s header into the destroy block.
+- [ ] Drag ``||sprites(noclick):otherSprite||`` from this ``||sprites(noclick):overlap event||``'s header into the destroy block.
 
 ### What you should see
 
@@ -285,13 +285,13 @@ The seeds are on your plate. Now Dragon needs to eat them, and you need a fresh 
 
 ### Add this code
 
-- [ ] From ``||controller:Controller||``, add an ``||controller:on B button pressed||`` event.
+- [ ] From ``||controller(noclick):Controller||``, add an ``||controller(noclick):on B button pressed||`` event.
 
-- [ ] Inside it, use ``||animalCare:Care Displays||`` to offer ``||variables:plate||`` to the creature here.
+- [ ] Inside it, use ``||animalCare(noclick):Care Displays||`` to offer ``||variables(noclick):plate||`` to the creature here.
 
-- [ ] Under that, set ``||variables:plate||`` to an ``||arrays:empty array||``.
+- [ ] Under that, set ``||variables(noclick):plate||`` to an ``||arrays(noclick):empty array||``.
 
-- [ ] From ``||animalCare:Care Displays||``, show ``||variables:plate||`` on the plate.
+- [ ] From ``||animalCare(noclick):Care Displays||``, show ``||variables(noclick):plate||`` on the plate.
 
 ### What you should see
 
@@ -341,25 +341,25 @@ The pump can make a full bucket, but the game needs to remember how much water y
 
 ### What to do
 
-**Make a ``||variables:variable||`` to remember how much water is in the bucket.**
+**Make a ``||variables(noclick):variable||`` to remember how much water is in the bucket.**
 
 ### Add this code
 
-- [ ] Make a new ``||variables:variable||`` named ``||variables:bucketWater||``.
+- [ ] Make a new ``||variables(noclick):variable||`` named ``||variables(noclick):bucketWater||``.
 
-- [ ] Inside ``||loops:on start||``, set ``||variables:bucketWater||`` to `0`.
+- [ ] Inside ``||loops(noclick):on start||``, set ``||variables(noclick):bucketWater||`` to `0`.
 
-- [ ] From ``||animalCare:Care Displays||``, show ``||variables:bucketWater||`` in the bucket under the set block.
+- [ ] From ``||animalCare(noclick):Care Displays||``, show ``||variables(noclick):bucketWater||`` in the bucket under the set block.
 
-- [ ] Add an ``||sprites:overlap event||`` for ``||sprites:Player||`` and ``||sprites:FullBucket||``.
+- [ ] Add an ``||sprites(noclick):overlap event||`` for ``||sprites(noclick):Player||`` and ``||sprites(noclick):FullBucket||``.
 
-- [ ] Inside the event, change ``||variables:bucketWater||`` by `10`.
+- [ ] Inside the event, change ``||variables(noclick):bucketWater||`` by `10`.
 
-- [ ] From ``||animalCare:Care Displays||``, show ``||variables:bucketWater||`` in the bucket inside this event.
+- [ ] From ``||animalCare(noclick):Care Displays||``, show ``||variables(noclick):bucketWater||`` in the bucket inside this event.
 
-- [ ] From ``||sprites:Sprites||``, add a ``||sprites:destroy||`` block at the end of this event.
+- [ ] From ``||sprites(noclick):Sprites||``, add a ``||sprites(noclick):destroy||`` block at the end of this event.
 
-- [ ] Put ``||sprites:otherSprite||`` from this event's header into the destroy block.
+- [ ] Put ``||sprites(noclick):otherSprite||`` from this event's header into the destroy block.
 
 ### What you should see
 
@@ -411,31 +411,31 @@ Your Dragon has its own trough. Its water must stay separate from every other cr
 
 ### What to do
 
-**Make a ``||variables:variable||`` to remember your Dragon's water.**
+**Make a ``||variables(noclick):variable||`` to remember your Dragon's water.**
 
 ### Add this code
 
-- [ ] Make a new ``||variables:variable||`` named ``||variables:dragonWater||``.
+- [ ] Make a new ``||variables(noclick):variable||`` named ``||variables(noclick):dragonWater||``.
 
-- [ ] Inside ``||loops:on start||``, set ``||variables:dragonWater||`` to `0`.
+- [ ] Inside ``||loops(noclick):on start||``, set ``||variables(noclick):dragonWater||`` to `0`.
 
-- [ ] From ``||animalCare:Care Displays||``, show ``||variables:dragonWater||`` on Dragon's water meter under the set block.
+- [ ] From ``||animalCare(noclick):Care Displays||``, show ``||variables(noclick):dragonWater||`` on Dragon's water meter under the set block.
 
-- [ ] Add an ``||sprites:overlap event||`` for ``||sprites:Player||`` and ``||sprites:DragonTrough||``.
+- [ ] Add an ``||sprites(noclick):overlap event||`` for ``||sprites(noclick):Player||`` and ``||sprites(noclick):DragonTrough||``.
 
-- [ ] Inside that event, change ``||variables:dragonWater||`` by ``||variables:bucketWater||``.
+- [ ] Inside that event, change ``||variables(noclick):dragonWater||`` by ``||variables(noclick):bucketWater||``.
 
-- [ ] From ``||animalCare:Care Displays||``, show ``||variables:dragonWater||`` on Dragon's water meter.
+- [ ] From ``||animalCare(noclick):Care Displays||``, show ``||variables(noclick):dragonWater||`` on Dragon's water meter.
 
-- [ ] Then set ``||variables:bucketWater||`` to `0`.
+- [ ] Then set ``||variables(noclick):bucketWater||`` to `0`.
 
-- [ ] From ``||animalCare:Care Displays||``, show ``||variables:bucketWater||`` in the bucket.
+- [ ] From ``||animalCare(noclick):Care Displays||``, show ``||variables(noclick):bucketWater||`` in the bucket.
 
-- [ ] Add an ``||sprites:overlap event||`` for ``||sprites:Dragon||`` and ``||sprites:DragonTrough||``.
+- [ ] Add an ``||sprites(noclick):overlap event||`` for ``||sprites(noclick):Dragon||`` and ``||sprites(noclick):DragonTrough||``.
 
-- [ ] Inside that event, change ``||variables:dragonWater||`` by `-7`.
+- [ ] Inside that event, change ``||variables(noclick):dragonWater||`` by `-7`.
 
-- [ ] From ``||animalCare:Care Displays||``, show ``||variables:dragonWater||`` on Dragon's water meter.
+- [ ] From ``||animalCare(noclick):Care Displays||``, show ``||variables(noclick):dragonWater||`` on Dragon's water meter.
 
 ### What you should see
 
@@ -494,25 +494,25 @@ Taking care of creatures is hard work. The ranger moves faster with more energy.
 
 ### What to do
 
-**Make a ``||variables:variable||`` to remember the ranger's energy.**
+**Make a ``||variables(noclick):variable||`` to remember the ranger's energy.**
 
 ### Add this code
 
-- [ ] Make a new ``||variables:variable||`` named ``||variables:playerEnergy||``.
+- [ ] Make a new ``||variables(noclick):variable||`` named ``||variables(noclick):playerEnergy||``.
 
-- [ ] Inside ``||loops:on start||``, set ``||variables:playerEnergy||`` to `20`.
+- [ ] Inside ``||loops(noclick):on start||``, set ``||variables(noclick):playerEnergy||`` to `20`.
 
-- [ ] Under it, add ``||animalCare:use value for the ranger's energy meter and speed||`` from ``||animalCare:Care Displays||``.
+- [ ] Under it, add ``||animalCare(noclick):use value for the ranger's energy meter and speed||`` from ``||animalCare(noclick):Care Displays||``.
 
-- [ ] Put ``||variables:playerEnergy||`` into that block.
+- [ ] Put ``||variables(noclick):playerEnergy||`` into that block.
 
-- [ ] Add an ``||sprites:overlap event||`` for ``||sprites:Player||`` and ``||sprites:Apple||``.
+- [ ] Add an ``||sprites(noclick):overlap event||`` for ``||sprites(noclick):Player||`` and ``||sprites(noclick):Apple||``.
 
-- [ ] Inside the event, change ``||variables:playerEnergy||`` by `5`.
+- [ ] Inside the event, change ``||variables(noclick):playerEnergy||`` by `5`.
 
-- [ ] Use ``||variables:playerEnergy||`` for the ranger's energy meter and speed with the same ``||animalCare:Care Displays||`` block.
+- [ ] Use ``||variables(noclick):playerEnergy||`` for the ranger's energy meter and speed with the same ``||animalCare(noclick):Care Displays||`` block.
 
-- [ ] Destroy the apple that touched the player using this event's ``||sprites:otherSprite||``.
+- [ ] Destroy the apple that touched the player using this event's ``||sprites(noclick):otherSprite||``.
 
 ### What you should see
 
@@ -566,13 +566,13 @@ The ranger uses energy while the shift is running. The snacks now have a job to 
 
 ### Add this code
 
-- [ ] From ``||game:Game||``, add an ``||game:on game update every 500 ms||`` event.
+- [ ] From ``||game(noclick):Game||``, add an ``||game(noclick):on game update every 500 ms||`` event.
 
 - [ ] Change its interval to `8000` ms. That is eight seconds.
 
-- [ ] Inside the event, change ``||variables:playerEnergy||`` by `-1`.
+- [ ] Inside the event, change ``||variables(noclick):playerEnergy||`` by `-1`.
 
-- [ ] Use ``||variables:playerEnergy||`` for the ranger's energy meter and speed with ``||animalCare:Care Displays||``.
+- [ ] Use ``||variables(noclick):playerEnergy||`` for the ranger's energy meter and speed with ``||animalCare(noclick):Care Displays||``.
 
 ### What you should see
 
@@ -619,15 +619,15 @@ Your 2nd enclosure is ready for Unicorn.
 
 ### What to do
 
-**Make a ``||variables:variable||`` to remember your 2nd creature.**
+**Make a ``||variables(noclick):variable||`` to remember your 2nd creature.**
 
 ### Make this happen
 
-- [ ] Make a new ``||variables:variable||`` named ``||variables:animal2||``.
+- [ ] Make a new ``||variables(noclick):variable||`` named ``||variables(noclick):animal2||``.
 
-- [ ] Set ``||variables:animal2||`` to ``||text:"Unicorn"||`` in ``||loops:on start||``.
+- [ ] Set ``||variables(noclick):animal2||`` to ``||text(noclick):"Unicorn"||`` in ``||loops(noclick):on start||``.
 
-- [ ] Show ``||variables:animal2||`` in the 2nd enclosure with ``||animalCare:Care Displays||``.
+- [ ] Show ``||variables(noclick):animal2||`` in the 2nd enclosure with ``||animalCare(noclick):Care Displays||``.
 
 ### What you should see
 
@@ -669,25 +669,25 @@ Your new arrival needs its own name and its own hearts.
 
 ### What to do
 
-**Make a ``||variables:variable||`` to remember your Unicorn's name.**
+**Make a ``||variables(noclick):variable||`` to remember your Unicorn's name.**
 
-**Make a ``||variables:variable||`` to remember how much love your Unicorn has.**
+**Make a ``||variables(noclick):variable||`` to remember how much love your Unicorn has.**
 
 ### Make this happen
 
-- [ ] Make a new ``||variables:variable||`` named ``||variables:unicornName||``.
+- [ ] Make a new ``||variables(noclick):variable||`` named ``||variables(noclick):unicornName||``.
 
-- [ ] In ``||loops:on start||``, under the block that shows ``||variables:animal2||`` in the 2nd enclosure, set ``||variables:unicornName||`` to `Pip`, `Miso`, `Nori`, `Nova`, `Clover`, or `Pebble`.
+- [ ] In ``||loops(noclick):on start||``, under the block that shows ``||variables(noclick):animal2||`` in the 2nd enclosure, set ``||variables(noclick):unicornName||`` to `Pip`, `Miso`, `Nori`, `Nova`, `Clover`, or `Pebble`.
 
-- [ ] Show ``||variables:unicornName||`` beside Unicorn with ``||animalCare:Care Displays||``.
+- [ ] Show ``||variables(noclick):unicornName||`` beside Unicorn with ``||animalCare(noclick):Care Displays||``.
 
-- [ ] Make a new ``||variables:variable||`` named ``||variables:unicornLove||``.
+- [ ] Make a new ``||variables(noclick):variable||`` named ``||variables(noclick):unicornLove||``.
 
-- [ ] Add an ``||sprites:overlap event||`` for ``||sprites:Player||`` and ``||sprites:Unicorn||``.
+- [ ] Add an ``||sprites(noclick):overlap event||`` for ``||sprites(noclick):Player||`` and ``||sprites(noclick):Unicorn||``.
 
-- [ ] Inside it, change ``||variables:unicornLove||`` by `1`.
+- [ ] Inside it, change ``||variables(noclick):unicornLove||`` by `1`.
 
-- [ ] Show ``||variables:unicornLove||`` on Unicorn's love meter with ``||animalCare:Care Displays||``.
+- [ ] Show ``||variables(noclick):unicornLove||`` on Unicorn's love meter with ``||animalCare(noclick):Care Displays||``.
 
 ### What you should see
 
@@ -741,13 +741,13 @@ Unicorn ordered berries, then seeds.
 
 ### Make this happen
 
-- [ ] Add an ``||sprites:overlap event||`` for ``||sprites:Player||`` and ``||sprites:Berries||``.
+- [ ] Add an ``||sprites(noclick):overlap event||`` for ``||sprites(noclick):Player||`` and ``||sprites(noclick):Berries||``.
 
-- [ ] Inside it, add ``||text:"berries"||`` to the end of ``||variables:plate||`` with ``||arrays:Arrays||``.
+- [ ] Inside it, add ``||text(noclick):"berries"||`` to the end of ``||variables(noclick):plate||`` with ``||arrays(noclick):Arrays||``.
 
-- [ ] Show ``||variables:plate||`` on the plate with ``||animalCare:Care Displays||``.
+- [ ] Show ``||variables(noclick):plate||`` on the plate with ``||animalCare(noclick):Care Displays||``.
 
-- [ ] Destroy the berries that were collected using this event's ``||sprites:otherSprite||``.
+- [ ] Destroy the berries that were collected using this event's ``||sprites(noclick):otherSprite||``.
 
 ### What you should see
 
@@ -799,31 +799,31 @@ Two creatures, two troughs. This pour belongs to Unicorn.
 
 ### What to do
 
-**Make a ``||variables:variable||`` to remember your Unicorn's water.**
+**Make a ``||variables(noclick):variable||`` to remember your Unicorn's water.**
 
 ### Make this happen
 
-- [ ] Make a new ``||variables:variable||`` named ``||variables:unicornWater||``.
+- [ ] Make a new ``||variables(noclick):variable||`` named ``||variables(noclick):unicornWater||``.
 
-- [ ] Set ``||variables:unicornWater||`` to `0` in ``||loops:on start||``.
+- [ ] Set ``||variables(noclick):unicornWater||`` to `0` in ``||loops(noclick):on start||``.
 
-- [ ] Show ``||variables:unicornWater||`` on Unicorn's water meter with ``||animalCare:Care Displays||``.
+- [ ] Show ``||variables(noclick):unicornWater||`` on Unicorn's water meter with ``||animalCare(noclick):Care Displays||``.
 
-- [ ] Add an ``||sprites:overlap event||`` for ``||sprites:Player||`` and ``||sprites:UnicornTrough||``.
+- [ ] Add an ``||sprites(noclick):overlap event||`` for ``||sprites(noclick):Player||`` and ``||sprites(noclick):UnicornTrough||``.
 
-- [ ] Inside it, change ``||variables:unicornWater||`` by ``||variables:bucketWater||``.
+- [ ] Inside it, change ``||variables(noclick):unicornWater||`` by ``||variables(noclick):bucketWater||``.
 
-- [ ] Show ``||variables:unicornWater||`` on Unicorn's water meter with ``||animalCare:Care Displays||``.
+- [ ] Show ``||variables(noclick):unicornWater||`` on Unicorn's water meter with ``||animalCare(noclick):Care Displays||``.
 
-- [ ] Set ``||variables:bucketWater||`` to `0`.
+- [ ] Set ``||variables(noclick):bucketWater||`` to `0`.
 
-- [ ] Show ``||variables:bucketWater||`` in the bucket with ``||animalCare:Care Displays||``.
+- [ ] Show ``||variables(noclick):bucketWater||`` in the bucket with ``||animalCare(noclick):Care Displays||``.
 
-- [ ] Add an ``||sprites:overlap event||`` for ``||sprites:Unicorn||`` and ``||sprites:UnicornTrough||``.
+- [ ] Add an ``||sprites(noclick):overlap event||`` for ``||sprites(noclick):Unicorn||`` and ``||sprites(noclick):UnicornTrough||``.
 
-- [ ] Inside it, change ``||variables:unicornWater||`` by `-4`.
+- [ ] Inside it, change ``||variables(noclick):unicornWater||`` by `-4`.
 
-- [ ] Show ``||variables:unicornWater||`` on Unicorn's water meter with ``||animalCare:Care Displays||``.
+- [ ] Show ``||variables(noclick):unicornWater||`` on Unicorn's water meter with ``||animalCare(noclick):Care Displays||``.
 
 ### What you should see
 
@@ -886,13 +886,13 @@ A sandwich gives the ranger more energy than an apple.
 
 ### Make this happen
 
-- [ ] Add an ``||sprites:overlap event||`` for ``||sprites:Player||`` and ``||sprites:Sandwich||``.
+- [ ] Add an ``||sprites(noclick):overlap event||`` for ``||sprites(noclick):Player||`` and ``||sprites(noclick):Sandwich||``.
 
-- [ ] Inside it, change ``||variables:playerEnergy||`` by `10`.
+- [ ] Inside it, change ``||variables(noclick):playerEnergy||`` by `10`.
 
-- [ ] Use ``||variables:playerEnergy||`` for the ranger's energy meter and speed with ``||animalCare:Care Displays||``.
+- [ ] Use ``||variables(noclick):playerEnergy||`` for the ranger's energy meter and speed with ``||animalCare(noclick):Care Displays||``.
 
-- [ ] Destroy the sandwich using this event's ``||sprites:otherSprite||``.
+- [ ] Destroy the sandwich using this event's ``||sprites(noclick):otherSprite||``.
 
 ### What you should see
 
@@ -940,15 +940,15 @@ The last roster card shows Phoenix.
 
 ### What to do
 
-**Make a ``||variables:variable||`` to remember your 3rd creature.**
+**Make a ``||variables(noclick):variable||`` to remember your 3rd creature.**
 
 ### Make this happen
 
-- [ ] Make a new ``||variables:variable||`` named ``||variables:animal3||``.
+- [ ] Make a new ``||variables(noclick):variable||`` named ``||variables(noclick):animal3||``.
 
-- [ ] Set ``||variables:animal3||`` to ``||text:"Phoenix"||`` in ``||loops:on start||``.
+- [ ] Set ``||variables(noclick):animal3||`` to ``||text(noclick):"Phoenix"||`` in ``||loops(noclick):on start||``.
 
-- [ ] Show ``||variables:animal3||`` in the 3rd enclosure with ``||animalCare:Care Displays||``.
+- [ ] Show ``||variables(noclick):animal3||`` in the 3rd enclosure with ``||animalCare(noclick):Care Displays||``.
 
 ### What you should see
 
@@ -990,25 +990,25 @@ Phoenix still needs a name and love of its own.
 
 ### What to do
 
-**Make a ``||variables:variable||`` to remember your Phoenix's name.**
+**Make a ``||variables(noclick):variable||`` to remember your Phoenix's name.**
 
-**Make a ``||variables:variable||`` to remember how much love your Phoenix has.**
+**Make a ``||variables(noclick):variable||`` to remember how much love your Phoenix has.**
 
 ### Make this happen
 
-- [ ] Make a new ``||variables:variable||`` named ``||variables:phoenixName||``.
+- [ ] Make a new ``||variables(noclick):variable||`` named ``||variables(noclick):phoenixName||``.
 
-- [ ] In ``||loops:on start||``, under the block that shows ``||variables:animal3||`` in the 3rd enclosure, set ``||variables:phoenixName||`` to `Pip`, `Miso`, `Nori`, `Nova`, `Clover`, or `Pebble`.
+- [ ] In ``||loops(noclick):on start||``, under the block that shows ``||variables(noclick):animal3||`` in the 3rd enclosure, set ``||variables(noclick):phoenixName||`` to `Pip`, `Miso`, `Nori`, `Nova`, `Clover`, or `Pebble`.
 
-- [ ] Show ``||variables:phoenixName||`` beside Phoenix with ``||animalCare:Care Displays||``.
+- [ ] Show ``||variables(noclick):phoenixName||`` beside Phoenix with ``||animalCare(noclick):Care Displays||``.
 
-- [ ] Make a new ``||variables:variable||`` named ``||variables:phoenixLove||``.
+- [ ] Make a new ``||variables(noclick):variable||`` named ``||variables(noclick):phoenixLove||``.
 
-- [ ] Add an ``||sprites:overlap event||`` for ``||sprites:Player||`` and ``||sprites:Phoenix||``.
+- [ ] Add an ``||sprites(noclick):overlap event||`` for ``||sprites(noclick):Player||`` and ``||sprites(noclick):Phoenix||``.
 
-- [ ] Inside it, change ``||variables:phoenixLove||`` by `1`.
+- [ ] Inside it, change ``||variables(noclick):phoenixLove||`` by `1`.
 
-- [ ] Show ``||variables:phoenixLove||`` on Phoenix's love meter with ``||animalCare:Care Displays||``.
+- [ ] Show ``||variables(noclick):phoenixLove||`` on Phoenix's love meter with ``||animalCare(noclick):Care Displays||``.
 
 ### What you should see
 
@@ -1062,13 +1062,13 @@ Phoenix ordered greens, berries, then seeds.
 
 ### Make this happen
 
-- [ ] Add an ``||sprites:overlap event||`` for ``||sprites:Player||`` and ``||sprites:Greens||``.
+- [ ] Add an ``||sprites(noclick):overlap event||`` for ``||sprites(noclick):Player||`` and ``||sprites(noclick):Greens||``.
 
-- [ ] Inside it, add ``||text:"greens"||`` to the end of ``||variables:plate||`` with ``||arrays:Arrays||``.
+- [ ] Inside it, add ``||text(noclick):"greens"||`` to the end of ``||variables(noclick):plate||`` with ``||arrays(noclick):Arrays||``.
 
-- [ ] Show ``||variables:plate||`` on the plate with ``||animalCare:Care Displays||``.
+- [ ] Show ``||variables(noclick):plate||`` on the plate with ``||animalCare(noclick):Care Displays||``.
 
-- [ ] Destroy the collected serving using this event's ``||sprites:otherSprite||``.
+- [ ] Destroy the collected serving using this event's ``||sprites(noclick):otherSprite||``.
 
 ### What you should see
 
@@ -1122,31 +1122,31 @@ One last trough. Phoenix takes a different-sized drink.
 
 ### What to do
 
-**Make a ``||variables:variable||`` to remember your Phoenix's water.**
+**Make a ``||variables(noclick):variable||`` to remember your Phoenix's water.**
 
 ### Make this happen
 
-- [ ] Make a new ``||variables:variable||`` named ``||variables:phoenixWater||``.
+- [ ] Make a new ``||variables(noclick):variable||`` named ``||variables(noclick):phoenixWater||``.
 
-- [ ] Set ``||variables:phoenixWater||`` to `0` in ``||loops:on start||``.
+- [ ] Set ``||variables(noclick):phoenixWater||`` to `0` in ``||loops(noclick):on start||``.
 
-- [ ] Show ``||variables:phoenixWater||`` on Phoenix's water meter with ``||animalCare:Care Displays||``.
+- [ ] Show ``||variables(noclick):phoenixWater||`` on Phoenix's water meter with ``||animalCare(noclick):Care Displays||``.
 
-- [ ] Add an ``||sprites:overlap event||`` for ``||sprites:Player||`` and ``||sprites:PhoenixTrough||``.
+- [ ] Add an ``||sprites(noclick):overlap event||`` for ``||sprites(noclick):Player||`` and ``||sprites(noclick):PhoenixTrough||``.
 
-- [ ] Inside it, change ``||variables:phoenixWater||`` by ``||variables:bucketWater||``.
+- [ ] Inside it, change ``||variables(noclick):phoenixWater||`` by ``||variables(noclick):bucketWater||``.
 
-- [ ] Show ``||variables:phoenixWater||`` on Phoenix's water meter with ``||animalCare:Care Displays||``.
+- [ ] Show ``||variables(noclick):phoenixWater||`` on Phoenix's water meter with ``||animalCare(noclick):Care Displays||``.
 
-- [ ] Set ``||variables:bucketWater||`` to `0`.
+- [ ] Set ``||variables(noclick):bucketWater||`` to `0`.
 
-- [ ] Show ``||variables:bucketWater||`` in the bucket with ``||animalCare:Care Displays||``.
+- [ ] Show ``||variables(noclick):bucketWater||`` in the bucket with ``||animalCare(noclick):Care Displays||``.
 
-- [ ] Add an ``||sprites:overlap event||`` for ``||sprites:Phoenix||`` and ``||sprites:PhoenixTrough||``.
+- [ ] Add an ``||sprites(noclick):overlap event||`` for ``||sprites(noclick):Phoenix||`` and ``||sprites(noclick):PhoenixTrough||``.
 
-- [ ] Inside it, change ``||variables:phoenixWater||`` by `-3`.
+- [ ] Inside it, change ``||variables(noclick):phoenixWater||`` by `-3`.
 
-- [ ] Show ``||variables:phoenixWater||`` on Phoenix's water meter with ``||animalCare:Care Displays||``.
+- [ ] Show ``||variables(noclick):phoenixWater||`` on Phoenix's water meter with ``||animalCare(noclick):Care Displays||``.
 
 ### What you should see
 
@@ -1209,13 +1209,13 @@ Soup gives the ranger `20` energy.
 
 ### Make this happen
 
-- [ ] Add an ``||sprites:overlap event||`` for ``||sprites:Player||`` and ``||sprites:Soup||``.
+- [ ] Add an ``||sprites(noclick):overlap event||`` for ``||sprites(noclick):Player||`` and ``||sprites(noclick):Soup||``.
 
-- [ ] Inside it, change ``||variables:playerEnergy||`` by `20`.
+- [ ] Inside it, change ``||variables(noclick):playerEnergy||`` by `20`.
 
-- [ ] Use ``||variables:playerEnergy||`` for the ranger's energy meter and speed with ``||animalCare:Care Displays||``.
+- [ ] Use ``||variables(noclick):playerEnergy||`` for the ranger's energy meter and speed with ``||animalCare(noclick):Care Displays||``.
 
-- [ ] Destroy the soup using this event's ``||sprites:otherSprite||``.
+- [ ] Destroy the soup using this event's ``||sprites(noclick):otherSprite||``.
 
 ### What you should see
 
@@ -1290,11 +1290,11 @@ Taking care of one creature should not quietly change another creature's values.
 
 ## What did we learn?
 
-Every time the game needed to remember something new, you made a ``||variables:variable||`` for it.
+Every time the game needed to remember something new, you made a ``||variables(noclick):variable||`` for it.
 
-You ``||variables:set||`` creature choices and names by replacing what the ``||variables:variable||`` held. You ``||variables:changed||`` water, love, and energy by adding or removing an amount. You added each ingredient to ``||variables:plate||`` without removing the ingredients already there.
+You ``||variables(noclick):set||`` creature choices and names by replacing what the ``||variables(noclick):variable||`` held. You ``||variables(noclick):changed||`` water, love, and energy by adding or removing an amount. You added each ingredient to ``||variables(noclick):plate||`` without removing the ingredients already there.
 
-Look at your ``||variables:Variables||`` toolbox. How many of those ``||variables:variables||`` did not exist before the game needed them?
+Look at your ``||variables(noclick):Variables||`` toolbox. How many of those ``||variables(noclick):variables||`` did not exist before the game needed them?
 
 ```template
 namespace SpriteKind {
