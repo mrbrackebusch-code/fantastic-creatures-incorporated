@@ -9,52 +9,116 @@
   "stable_student_url_identity": "https://arcade.makecode.com/#tutorial:https://github.com/mrbrackebusch-code/fantastic-creatures-incorporated/README",
   "publication_state": "LOCAL_LEARNER_GATE_PENDING",
   "canonical_source_hashes": {
-    "assets/demos/manifest.json": "4070bf2025d36b507a5af50370964b76066d4805ef04f4de01e12c14f1200829",
+    "lineage/reporter-guidance-v1.json": "4bcb940f017fe2a0f2e91a4d10508e3282fa1360c25ce344c00855ead29f2a7f",
+    "lineage/energy-socket-guidance-v1.json": "acc49158c7964e1bd2b3d7759879041e607d30e3a4d001712cf25e04d0cf0d00",
+    "tools/rebind-demo-copy.mjs": "90698a338037b727a6331559e4aaa1eac8750d7ed10749251b4f76404f0267a6",
+    "generated/evidence/current-demos-03/media-manifest.json": "4ff56f4829609b70d93f882cd68f97a91e7c5b20066a689f97ee09ebfee5b684",
+    "generated/evidence/reporter-guidance-v1-copy-binding/media-manifest.json": "bccf48887c9c9f1995a47ca7cb8f2a1c53d36c2c83d429ef134dd3b35c62799f",
+    "generated/evidence/energy-socket-guidance-v1-copy-binding/media-manifest.json": "e0e3de1f644609f8cbc505b29e533a59101817f56ec30728df2e6fa777b51e6e",
+    "implementation/retained-public-media.json": "d5dd86ca3bc3e713768b2412e156143ebafbeedfffd87d9e0f873ddd16e1bdba",
+    "tools/retained-public-media.mjs": "2719fc4dcdde3eb806b94704bbd5e86bf707f35fbc67423adb84fa616fc266fb",
+    "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/01-first-arrival.gif": "c8d7eb9828c60c73bbfdf918864f67ad93adef419fcbfa9037f9db0f56625248",
+    "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/02-first-name.gif": "879954f4490f501ab6192507ebff555f1b201a702fa010b63c52e06fa69a9735",
+    "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/03-first-love.gif": "828c90f830595deaf8b8da67e2cffde715fde2abfa7322126714175a7ad39f85",
+    "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/04-plate.gif": "097e151395ac443bf7686c496367a374ca25dea53722d1685b5841bca220e3a3",
+    "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/05-serve.gif": "b7cde843b71177c027efb7e4e988bdc9886742a69a76eed2e168687395773eed",
+    "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/06-bucket.gif": "146e1ece87b0d7227782a41ac162e30eb8372726d614cb9a2dbf457bf65826af",
+    "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/07-first-water.gif": "59a10929b4bc87b02a9eac009ed85cab354f699a73136603405a4b6dd9489f5c",
+    "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/08-energy.gif": "73ab5c4cc77bc820b165d02c89fc9fbdc3cf837695a4629ab06462ff88f8010a",
+    "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/09-energy-timer.gif": "cb3541b3ae4fb39d7837dc43d983a30fd41d311e9836ccccf46ffddfd670e593",
+    "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/10-second-arrival.gif": "b90d4dea654ca4a1970ab021a4ef1648fabc3ea99f67caf5b687877a2823dde0",
+    "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/11-second-name-love.gif": "892669da6d714eec940d7eeddc22bdb6ade9f086f20f828746215bef47021709",
+    "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/12-berries.gif": "34c62eb1adc66a6445a5ed2fb48348bb930e8a33459f24cf2ae4f500d0c65578",
+    "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/13-second-water.gif": "337a0b2c53cd526c1e2f03778277e98702a6e89b8160c134503c5b893c2d650c",
+    "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/14-second-creature.gif": "2f4639b4743c3290cf1d22eb03ea92b0bcc541b8b623563f8db5da71a1b941df",
+    "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/15-third-arrival.gif": "bbd979a20647f6a58fbed412e5686ebda617f30e760e2210b2176e1bed516ce5",
+    "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/16-third-name-love.gif": "52bc89acf91c37fa51b4a653c86cd8a39b360eed27fb8a641013dbf420bc83a2",
+    "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/17-greens.gif": "03ae9dfc212f09a0cac0d9160a2607257157577a2a0c996c86b063805a7978a6",
+    "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/18-third-water.gif": "6fc0a0ce79b59b1d7416e1a292d813678484ceee3afa16ddc06606d81acbad67",
+    "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/19-complete.gif": "de6b436b7e8fb5cf4835abc6dbde9eaf05621f75c5d1b172a5e081d8a255a6c7",
+    "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/20-final-shift.gif": "f0ace540f5e083715054605fd5e36228f26a0f9ee328056099e91ecf7d8e7cdb",
+    "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/manifest.json": "4070bf2025d36b507a5af50370964b76066d4805ef04f4de01e12c14f1200829",
+    "assets/demos/manifest.json": "e0e3de1f644609f8cbc505b29e533a59101817f56ec30728df2e6fa777b51e6e",
     "lineage/complete-care-adaptations-v2.json": "d649fed32fe6600a2d0d0185c5739a3965607c74ed49180a7da7f9c1ab962c32",
     "lineage/keyboard-controls-v1.json": "33fa2e85f5a43fd1e8c5455fd0428f315fec51a89b8e56891fcff1c7b86fbf06",
     "lineage/name-banner-accuracy-v1.json": "578ff2b72169a3a4f91d3347ae71714275cbb96053e3a2b6a00f506ad93398f3",
+    "lineage/fence-name-accuracy-v1.json": "0a87966fc6500f743b70d7be2393965a16152325e9381daa992a5801c9eaa923",
+    "lineage/deliberate-care-adaptations-v1.json": "7163e3ea63038bde6975357318a972b29e7b21b11fb29366a956a6c256f9b985",
+    "lineage/current-demo-caption-accuracy-v1.json": "32b2dbb17c4abf2a5d595d065fc4fc1a4bfe218116aaf56c572959ab4cc35ed3",
     "implementation/publication.json": "0ab1225e8f6e77c30609f0c70f2ca2cf94d874713c82948b96ee943fcfe46810",
     "implementation/roster.json": "d001be9224a3da1642f3a5137a6ba34665d3c24cdd8dd603b4d09c99ae8f13ca",
-    "implementation/manifest.json": "c509af4fac14197406366958d5557ef2236f627de293595e8ec7687d09a54bd9",
-    "implementation/learner-states/catalog.json": "988920bb53eb99f64d90cc60b64beec50ab3e4c96df5d887fa163fb57b9dcd1d",
-    "copy/tutorial-template.md": "d87305ae2a8fcc2728e5bb5c39a2799695f844cf38c80a0a8f57ea587c690a3d",
-    "design/presentation-contract-v1.json": "801610e0003983a2311c885208546efddace7016398b42b97330f4ed3d5e65fa",
+    "implementation/manifest.json": "dffca3fdd37f6bdcb9409dc5beaa43e89ac3d54b1a88b2313d435e9475e2aa1c",
+    "implementation/learner-states/catalog.json": "bdc92062836dd701b4f2c2eb1f705a2f92cc60282930eb446064aa94d66b7e3f",
+    "copy/tutorial-template.md": "2829080cf47821126ab35b7db00ac5d80e484d518ddc3a9245986e254afc31d0",
+    "design/presentation-contract-v1.json": "2b587c7b5830096e606603b1f42af2f6b88e28dd310d7ce792c28e6fcaaf53a0",
     "lineage/presentation-adaptations-v1.json": "1356f8b5ad3740a48b51670bd83aa4cb9816a0883527c231ebafebecdab50b50",
-    "tools/build-variant.mjs": "24f921cd20de59a53d52d0f6ac1501e05123959742e15d1eea86ad592a634663",
-    "tools/build-publication-project.mjs": "5f5a2c0e80d060c2f2631e56f4d26a40540270b72c81307ff57c683205393bd6",
+    "tools/build-variant.mjs": "f95fe639ad26857467ceea380359fa2001d5ea69e76afb1d68034ba81751439b",
+    "tools/build-publication-project.mjs": "559041ec5a8b975434fe13fac96efd38aa86ebde436bc04619c5f8107865cee1",
     "tools/publication-media.mjs": "ca7671f84b59e452c5466474b2372bf77383515d1b1c105ec69656b1e7978ad5",
-    "tools/check-presentation.mjs": "d57e266739a2c6d40baf0bd49ffa94d8a8a1d48c7acf471849257ce34d6a9a69",
-    "implementation/template/main.template.ts": "de0041a067a7983d57c985463f34eefecc210395070bf7f327808da356cd4bfc",
-    "implementation/supplied-world/game-engine.template.ts": "3d6319e0b03b873a25846ba3a7aaf1b37461c125556b1d7068297e43948818bc",
+    "tools/check-presentation.mjs": "b642184bbd04fcb75557e4d0eb4d80996250de863d94054442f083476cd53ad1",
+    "implementation/template/main.template.ts": "c8f16e61953b2bc1f25909be1ede719f0206b33b8d99a68c411fd85e7dd45e17",
+    "implementation/supplied-world/game-engine.template.ts": "efaf416a15b7b0593df99b0918ed86a2f4c5983f6e785e39e197fa8ab50ca4da",
     "implementation/publication-project/.gitignore": "0474d6a96b9b13911e7ae033b62d4d2eb9745a1cfb9b96d80ad6dfeb2798a7b0",
     "implementation/publication-project/.gitattributes": "cfa501c9312e3069557669c8fe3f1ab54c1403d87b555d2c26c5639358467b0f",
     "implementation/publication-project/MAINTAINING.template.md": "9cdf3eda50c9f78d9d2fca4dce994ce8ced2b4d9f67f5c4360ebeab966460242",
-    "implementation/publication-project/THIRD_PARTY_NOTICES.md": "16d55d877eeb437dc09f1fb5289de3b576c8d43e04bab1080979c780db82c317",
+    "implementation/publication-project/THIRD_PARTY_NOTICES.md": "730e68c7483750e5dd7c0a46fded1befd019e4be2e72410e3ebb5bf306d11a21",
     "implementation/publication-project/LICENSES/MIT.txt": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c",
     "implementation/publication-project/main.ts": "f40c71ed25d17690438af0ec1e0c7b1c92bf9f0177de74107934653ea4515fa7"
   },
   "canonical_source_sha256": {
-    "games/animal-care/assets/demos/manifest.json": "4070bf2025d36b507a5af50370964b76066d4805ef04f4de01e12c14f1200829",
+    "games/animal-care/lineage/reporter-guidance-v1.json": "4bcb940f017fe2a0f2e91a4d10508e3282fa1360c25ce344c00855ead29f2a7f",
+    "games/animal-care/lineage/energy-socket-guidance-v1.json": "acc49158c7964e1bd2b3d7759879041e607d30e3a4d001712cf25e04d0cf0d00",
+    "games/animal-care/tools/rebind-demo-copy.mjs": "90698a338037b727a6331559e4aaa1eac8750d7ed10749251b4f76404f0267a6",
+    "games/animal-care/generated/evidence/current-demos-03/media-manifest.json": "4ff56f4829609b70d93f882cd68f97a91e7c5b20066a689f97ee09ebfee5b684",
+    "games/animal-care/generated/evidence/reporter-guidance-v1-copy-binding/media-manifest.json": "bccf48887c9c9f1995a47ca7cb8f2a1c53d36c2c83d429ef134dd3b35c62799f",
+    "games/animal-care/generated/evidence/energy-socket-guidance-v1-copy-binding/media-manifest.json": "e0e3de1f644609f8cbc505b29e533a59101817f56ec30728df2e6fa777b51e6e",
+    "games/animal-care/implementation/retained-public-media.json": "d5dd86ca3bc3e713768b2412e156143ebafbeedfffd87d9e0f873ddd16e1bdba",
+    "games/animal-care/tools/retained-public-media.mjs": "2719fc4dcdde3eb806b94704bbd5e86bf707f35fbc67423adb84fa616fc266fb",
+    "games/animal-care/generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/01-first-arrival.gif": "c8d7eb9828c60c73bbfdf918864f67ad93adef419fcbfa9037f9db0f56625248",
+    "games/animal-care/generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/02-first-name.gif": "879954f4490f501ab6192507ebff555f1b201a702fa010b63c52e06fa69a9735",
+    "games/animal-care/generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/03-first-love.gif": "828c90f830595deaf8b8da67e2cffde715fde2abfa7322126714175a7ad39f85",
+    "games/animal-care/generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/04-plate.gif": "097e151395ac443bf7686c496367a374ca25dea53722d1685b5841bca220e3a3",
+    "games/animal-care/generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/05-serve.gif": "b7cde843b71177c027efb7e4e988bdc9886742a69a76eed2e168687395773eed",
+    "games/animal-care/generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/06-bucket.gif": "146e1ece87b0d7227782a41ac162e30eb8372726d614cb9a2dbf457bf65826af",
+    "games/animal-care/generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/07-first-water.gif": "59a10929b4bc87b02a9eac009ed85cab354f699a73136603405a4b6dd9489f5c",
+    "games/animal-care/generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/08-energy.gif": "73ab5c4cc77bc820b165d02c89fc9fbdc3cf837695a4629ab06462ff88f8010a",
+    "games/animal-care/generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/09-energy-timer.gif": "cb3541b3ae4fb39d7837dc43d983a30fd41d311e9836ccccf46ffddfd670e593",
+    "games/animal-care/generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/10-second-arrival.gif": "b90d4dea654ca4a1970ab021a4ef1648fabc3ea99f67caf5b687877a2823dde0",
+    "games/animal-care/generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/11-second-name-love.gif": "892669da6d714eec940d7eeddc22bdb6ade9f086f20f828746215bef47021709",
+    "games/animal-care/generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/12-berries.gif": "34c62eb1adc66a6445a5ed2fb48348bb930e8a33459f24cf2ae4f500d0c65578",
+    "games/animal-care/generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/13-second-water.gif": "337a0b2c53cd526c1e2f03778277e98702a6e89b8160c134503c5b893c2d650c",
+    "games/animal-care/generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/14-second-creature.gif": "2f4639b4743c3290cf1d22eb03ea92b0bcc541b8b623563f8db5da71a1b941df",
+    "games/animal-care/generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/15-third-arrival.gif": "bbd979a20647f6a58fbed412e5686ebda617f30e760e2210b2176e1bed516ce5",
+    "games/animal-care/generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/16-third-name-love.gif": "52bc89acf91c37fa51b4a653c86cd8a39b360eed27fb8a641013dbf420bc83a2",
+    "games/animal-care/generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/17-greens.gif": "03ae9dfc212f09a0cac0d9160a2607257157577a2a0c996c86b063805a7978a6",
+    "games/animal-care/generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/18-third-water.gif": "6fc0a0ce79b59b1d7416e1a292d813678484ceee3afa16ddc06606d81acbad67",
+    "games/animal-care/generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/19-complete.gif": "de6b436b7e8fb5cf4835abc6dbde9eaf05621f75c5d1b172a5e081d8a255a6c7",
+    "games/animal-care/generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/20-final-shift.gif": "f0ace540f5e083715054605fd5e36228f26a0f9ee328056099e91ecf7d8e7cdb",
+    "games/animal-care/generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/manifest.json": "4070bf2025d36b507a5af50370964b76066d4805ef04f4de01e12c14f1200829",
+    "games/animal-care/assets/demos/manifest.json": "e0e3de1f644609f8cbc505b29e533a59101817f56ec30728df2e6fa777b51e6e",
     "games/animal-care/lineage/complete-care-adaptations-v2.json": "d649fed32fe6600a2d0d0185c5739a3965607c74ed49180a7da7f9c1ab962c32",
     "games/animal-care/lineage/keyboard-controls-v1.json": "33fa2e85f5a43fd1e8c5455fd0428f315fec51a89b8e56891fcff1c7b86fbf06",
     "games/animal-care/lineage/name-banner-accuracy-v1.json": "578ff2b72169a3a4f91d3347ae71714275cbb96053e3a2b6a00f506ad93398f3",
+    "games/animal-care/lineage/fence-name-accuracy-v1.json": "0a87966fc6500f743b70d7be2393965a16152325e9381daa992a5801c9eaa923",
+    "games/animal-care/lineage/deliberate-care-adaptations-v1.json": "7163e3ea63038bde6975357318a972b29e7b21b11fb29366a956a6c256f9b985",
+    "games/animal-care/lineage/current-demo-caption-accuracy-v1.json": "32b2dbb17c4abf2a5d595d065fc4fc1a4bfe218116aaf56c572959ab4cc35ed3",
     "games/animal-care/implementation/publication.json": "0ab1225e8f6e77c30609f0c70f2ca2cf94d874713c82948b96ee943fcfe46810",
     "games/animal-care/implementation/roster.json": "d001be9224a3da1642f3a5137a6ba34665d3c24cdd8dd603b4d09c99ae8f13ca",
-    "games/animal-care/implementation/manifest.json": "c509af4fac14197406366958d5557ef2236f627de293595e8ec7687d09a54bd9",
-    "games/animal-care/implementation/learner-states/catalog.json": "988920bb53eb99f64d90cc60b64beec50ab3e4c96df5d887fa163fb57b9dcd1d",
-    "games/animal-care/copy/tutorial-template.md": "d87305ae2a8fcc2728e5bb5c39a2799695f844cf38c80a0a8f57ea587c690a3d",
-    "games/animal-care/design/presentation-contract-v1.json": "801610e0003983a2311c885208546efddace7016398b42b97330f4ed3d5e65fa",
+    "games/animal-care/implementation/manifest.json": "dffca3fdd37f6bdcb9409dc5beaa43e89ac3d54b1a88b2313d435e9475e2aa1c",
+    "games/animal-care/implementation/learner-states/catalog.json": "bdc92062836dd701b4f2c2eb1f705a2f92cc60282930eb446064aa94d66b7e3f",
+    "games/animal-care/copy/tutorial-template.md": "2829080cf47821126ab35b7db00ac5d80e484d518ddc3a9245986e254afc31d0",
+    "games/animal-care/design/presentation-contract-v1.json": "2b587c7b5830096e606603b1f42af2f6b88e28dd310d7ce792c28e6fcaaf53a0",
     "games/animal-care/lineage/presentation-adaptations-v1.json": "1356f8b5ad3740a48b51670bd83aa4cb9816a0883527c231ebafebecdab50b50",
-    "games/animal-care/tools/build-variant.mjs": "24f921cd20de59a53d52d0f6ac1501e05123959742e15d1eea86ad592a634663",
-    "games/animal-care/tools/build-publication-project.mjs": "5f5a2c0e80d060c2f2631e56f4d26a40540270b72c81307ff57c683205393bd6",
+    "games/animal-care/tools/build-variant.mjs": "f95fe639ad26857467ceea380359fa2001d5ea69e76afb1d68034ba81751439b",
+    "games/animal-care/tools/build-publication-project.mjs": "559041ec5a8b975434fe13fac96efd38aa86ebde436bc04619c5f8107865cee1",
     "games/animal-care/tools/publication-media.mjs": "ca7671f84b59e452c5466474b2372bf77383515d1b1c105ec69656b1e7978ad5",
-    "games/animal-care/tools/check-presentation.mjs": "d57e266739a2c6d40baf0bd49ffa94d8a8a1d48c7acf471849257ce34d6a9a69",
-    "games/animal-care/implementation/template/main.template.ts": "de0041a067a7983d57c985463f34eefecc210395070bf7f327808da356cd4bfc",
-    "games/animal-care/implementation/supplied-world/game-engine.template.ts": "3d6319e0b03b873a25846ba3a7aaf1b37461c125556b1d7068297e43948818bc",
+    "games/animal-care/tools/check-presentation.mjs": "b642184bbd04fcb75557e4d0eb4d80996250de863d94054442f083476cd53ad1",
+    "games/animal-care/implementation/template/main.template.ts": "c8f16e61953b2bc1f25909be1ede719f0206b33b8d99a68c411fd85e7dd45e17",
+    "games/animal-care/implementation/supplied-world/game-engine.template.ts": "efaf416a15b7b0593df99b0918ed86a2f4c5983f6e785e39e197fa8ab50ca4da",
     "games/animal-care/implementation/publication-project/.gitignore": "0474d6a96b9b13911e7ae033b62d4d2eb9745a1cfb9b96d80ad6dfeb2798a7b0",
     "games/animal-care/implementation/publication-project/.gitattributes": "cfa501c9312e3069557669c8fe3f1ab54c1403d87b555d2c26c5639358467b0f",
     "games/animal-care/implementation/publication-project/MAINTAINING.template.md": "9cdf3eda50c9f78d9d2fca4dce994ce8ced2b4d9f67f5c4360ebeab966460242",
-    "games/animal-care/implementation/publication-project/THIRD_PARTY_NOTICES.md": "16d55d877eeb437dc09f1fb5289de3b576c8d43e04bab1080979c780db82c317",
+    "games/animal-care/implementation/publication-project/THIRD_PARTY_NOTICES.md": "730e68c7483750e5dd7c0a46fded1befd019e4be2e72410e3ebb5bf306d11a21",
     "games/animal-care/implementation/publication-project/LICENSES/MIT.txt": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c",
     "games/animal-care/implementation/publication-project/main.ts": "f40c71ed25d17690438af0ec1e0c7b1c92bf9f0177de74107934653ea4515fa7"
   },
@@ -67,134 +131,241 @@
   ],
   "variant": "dragon-unicorn-phoenix",
   "tutorial_path": "README.md",
-  "tutorial_sha256": "83cecbc3cf042cf40e1631773b8cd92a6aae784d055fa076e5202cb75201c336",
-  "canonical_tutorial_sha256": "ab48c0732ce6ed3da2f89e460e87b3166bedeb67329dca9bec3c352265a3cfc1",
-  "local_tutorial_sha256": "ab48c0732ce6ed3da2f89e460e87b3166bedeb67329dca9bec3c352265a3cfc1",
-  "media_revision": "0a57001ffbf7",
+  "tutorial_sha256": "d202bc258c7c5e8d134ed9dd67c3fc6e274b960451864663816264f3ffc249f1",
+  "canonical_tutorial_sha256": "340c7a0eeb6d45c37b7f43b78814e9ac8c425525ee783faa18204ec8fd031269",
+  "local_tutorial_sha256": "340c7a0eeb6d45c37b7f43b78814e9ac8c425525ee783faa18204ec8fd031269",
+  "media_revision": "28872848a75c",
   "media_host_mapping": {
     "local": "assets/demos",
-    "publication": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/0a57001ffbf7"
+    "publication": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/28872848a75c"
   },
   "media_mappings": [
     {
       "canonical_path": "assets/demos/01-first-arrival.gif",
-      "publication_path": "assets/demos/0a57001ffbf7/01-first-arrival.gif",
-      "url": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/0a57001ffbf7/01-first-arrival.gif",
-      "sha256": "c8d7eb9828c60c73bbfdf918864f67ad93adef419fcbfa9037f9db0f56625248"
+      "publication_path": "assets/demos/28872848a75c/01-first-arrival.gif",
+      "url": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/28872848a75c/01-first-arrival.gif",
+      "sha256": "30ee917f97a3fe9e025939974943aa803113fa506f920b8ab7c83cfb08d2cbbe"
     },
     {
       "canonical_path": "assets/demos/02-first-name.gif",
-      "publication_path": "assets/demos/0a57001ffbf7/02-first-name.gif",
-      "url": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/0a57001ffbf7/02-first-name.gif",
-      "sha256": "879954f4490f501ab6192507ebff555f1b201a702fa010b63c52e06fa69a9735"
+      "publication_path": "assets/demos/28872848a75c/02-first-name.gif",
+      "url": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/28872848a75c/02-first-name.gif",
+      "sha256": "6204ab48495e512df604e7b549bc47f78dc6583c1b6334c7dc545b68ea4e128a"
     },
     {
       "canonical_path": "assets/demos/03-first-love.gif",
-      "publication_path": "assets/demos/0a57001ffbf7/03-first-love.gif",
-      "url": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/0a57001ffbf7/03-first-love.gif",
-      "sha256": "828c90f830595deaf8b8da67e2cffde715fde2abfa7322126714175a7ad39f85"
+      "publication_path": "assets/demos/28872848a75c/03-first-love.gif",
+      "url": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/28872848a75c/03-first-love.gif",
+      "sha256": "3b64c8e03ef7611397ddb037f947931c880c2a228593f3cf02104c79b938170f"
     },
     {
       "canonical_path": "assets/demos/04-plate.gif",
-      "publication_path": "assets/demos/0a57001ffbf7/04-plate.gif",
-      "url": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/0a57001ffbf7/04-plate.gif",
-      "sha256": "097e151395ac443bf7686c496367a374ca25dea53722d1685b5841bca220e3a3"
+      "publication_path": "assets/demos/28872848a75c/04-plate.gif",
+      "url": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/28872848a75c/04-plate.gif",
+      "sha256": "475c88211b0dad78da7812a3c695c0b5d2b4b448e21b565f28419b57b0e29705"
     },
     {
       "canonical_path": "assets/demos/05-serve.gif",
-      "publication_path": "assets/demos/0a57001ffbf7/05-serve.gif",
-      "url": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/0a57001ffbf7/05-serve.gif",
-      "sha256": "b7cde843b71177c027efb7e4e988bdc9886742a69a76eed2e168687395773eed"
+      "publication_path": "assets/demos/28872848a75c/05-serve.gif",
+      "url": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/28872848a75c/05-serve.gif",
+      "sha256": "367b8ad06f07b1f5ba68ba8f6e842a25828a9a651a1b3309c1e5c06b5aa148f3"
     },
     {
       "canonical_path": "assets/demos/06-bucket.gif",
-      "publication_path": "assets/demos/0a57001ffbf7/06-bucket.gif",
-      "url": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/0a57001ffbf7/06-bucket.gif",
-      "sha256": "146e1ece87b0d7227782a41ac162e30eb8372726d614cb9a2dbf457bf65826af"
+      "publication_path": "assets/demos/28872848a75c/06-bucket.gif",
+      "url": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/28872848a75c/06-bucket.gif",
+      "sha256": "d20c4faa27962937797c556eac064fff5d06d29e2ce6f2878849d50b6414e1a7"
     },
     {
       "canonical_path": "assets/demos/07-first-water.gif",
-      "publication_path": "assets/demos/0a57001ffbf7/07-first-water.gif",
-      "url": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/0a57001ffbf7/07-first-water.gif",
-      "sha256": "59a10929b4bc87b02a9eac009ed85cab354f699a73136603405a4b6dd9489f5c"
+      "publication_path": "assets/demos/28872848a75c/07-first-water.gif",
+      "url": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/28872848a75c/07-first-water.gif",
+      "sha256": "42fdd0723c0ea3ce6f7992581feb629441ad3bd9b242f750219e23c4b9292bc6"
     },
     {
       "canonical_path": "assets/demos/08-energy.gif",
-      "publication_path": "assets/demos/0a57001ffbf7/08-energy.gif",
-      "url": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/0a57001ffbf7/08-energy.gif",
-      "sha256": "73ab5c4cc77bc820b165d02c89fc9fbdc3cf837695a4629ab06462ff88f8010a"
+      "publication_path": "assets/demos/28872848a75c/08-energy.gif",
+      "url": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/28872848a75c/08-energy.gif",
+      "sha256": "367cf58dd611d64b8208132299224ccb38527f672098b7c49383001835d3fdae"
     },
     {
       "canonical_path": "assets/demos/09-energy-timer.gif",
-      "publication_path": "assets/demos/0a57001ffbf7/09-energy-timer.gif",
-      "url": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/0a57001ffbf7/09-energy-timer.gif",
-      "sha256": "cb3541b3ae4fb39d7837dc43d983a30fd41d311e9836ccccf46ffddfd670e593"
+      "publication_path": "assets/demos/28872848a75c/09-energy-timer.gif",
+      "url": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/28872848a75c/09-energy-timer.gif",
+      "sha256": "89ee80601cb9d88df2df48d71351188ca5c25313357b96ab258843f416f57c5f"
     },
     {
       "canonical_path": "assets/demos/10-second-arrival.gif",
-      "publication_path": "assets/demos/0a57001ffbf7/10-second-arrival.gif",
-      "url": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/0a57001ffbf7/10-second-arrival.gif",
-      "sha256": "b90d4dea654ca4a1970ab021a4ef1648fabc3ea99f67caf5b687877a2823dde0"
+      "publication_path": "assets/demos/28872848a75c/10-second-arrival.gif",
+      "url": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/28872848a75c/10-second-arrival.gif",
+      "sha256": "c736647036995cdab6c508c57ef961594eb3d9bcc0c6bbadbb1d89939fadfec6"
     },
     {
       "canonical_path": "assets/demos/11-second-name-love.gif",
-      "publication_path": "assets/demos/0a57001ffbf7/11-second-name-love.gif",
-      "url": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/0a57001ffbf7/11-second-name-love.gif",
-      "sha256": "892669da6d714eec940d7eeddc22bdb6ade9f086f20f828746215bef47021709"
+      "publication_path": "assets/demos/28872848a75c/11-second-name-love.gif",
+      "url": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/28872848a75c/11-second-name-love.gif",
+      "sha256": "a2189cf0ea602b601a68336487d351070232c0e8b9bde80d57b574d6e7ff0514"
     },
     {
       "canonical_path": "assets/demos/12-berries.gif",
-      "publication_path": "assets/demos/0a57001ffbf7/12-berries.gif",
-      "url": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/0a57001ffbf7/12-berries.gif",
-      "sha256": "34c62eb1adc66a6445a5ed2fb48348bb930e8a33459f24cf2ae4f500d0c65578"
+      "publication_path": "assets/demos/28872848a75c/12-berries.gif",
+      "url": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/28872848a75c/12-berries.gif",
+      "sha256": "485c1cc2b8cf2c0ea74bcb7af04439f83ccf293337e6c9fa36ae4e0dfd76f129"
     },
     {
       "canonical_path": "assets/demos/13-second-water.gif",
-      "publication_path": "assets/demos/0a57001ffbf7/13-second-water.gif",
-      "url": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/0a57001ffbf7/13-second-water.gif",
-      "sha256": "337a0b2c53cd526c1e2f03778277e98702a6e89b8160c134503c5b893c2d650c"
+      "publication_path": "assets/demos/28872848a75c/13-second-water.gif",
+      "url": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/28872848a75c/13-second-water.gif",
+      "sha256": "524639b074a4583fa64ee2e891d6df6494d465c5adb650ee4f55ae4d01c8bf3f"
     },
     {
       "canonical_path": "assets/demos/14-second-creature.gif",
-      "publication_path": "assets/demos/0a57001ffbf7/14-second-creature.gif",
-      "url": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/0a57001ffbf7/14-second-creature.gif",
-      "sha256": "2f4639b4743c3290cf1d22eb03ea92b0bcc541b8b623563f8db5da71a1b941df"
+      "publication_path": "assets/demos/28872848a75c/14-second-creature.gif",
+      "url": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/28872848a75c/14-second-creature.gif",
+      "sha256": "4400bae36348beb745cf379391696e7b607c608aaf69210d107b75dd59c67fb5"
     },
     {
       "canonical_path": "assets/demos/15-third-arrival.gif",
-      "publication_path": "assets/demos/0a57001ffbf7/15-third-arrival.gif",
-      "url": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/0a57001ffbf7/15-third-arrival.gif",
-      "sha256": "bbd979a20647f6a58fbed412e5686ebda617f30e760e2210b2176e1bed516ce5"
+      "publication_path": "assets/demos/28872848a75c/15-third-arrival.gif",
+      "url": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/28872848a75c/15-third-arrival.gif",
+      "sha256": "9cc866a2c005149495d9d2e521b0c06b5f7fc4a2b6d1cff2ae11cc99a10ca843"
     },
     {
       "canonical_path": "assets/demos/16-third-name-love.gif",
-      "publication_path": "assets/demos/0a57001ffbf7/16-third-name-love.gif",
-      "url": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/0a57001ffbf7/16-third-name-love.gif",
-      "sha256": "52bc89acf91c37fa51b4a653c86cd8a39b360eed27fb8a641013dbf420bc83a2"
+      "publication_path": "assets/demos/28872848a75c/16-third-name-love.gif",
+      "url": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/28872848a75c/16-third-name-love.gif",
+      "sha256": "571a7b4811b9b871fde08a719b369d5c6c88bfbf37778de4eb2950a8a3425bf8"
     },
     {
       "canonical_path": "assets/demos/17-greens.gif",
-      "publication_path": "assets/demos/0a57001ffbf7/17-greens.gif",
-      "url": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/0a57001ffbf7/17-greens.gif",
-      "sha256": "03ae9dfc212f09a0cac0d9160a2607257157577a2a0c996c86b063805a7978a6"
+      "publication_path": "assets/demos/28872848a75c/17-greens.gif",
+      "url": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/28872848a75c/17-greens.gif",
+      "sha256": "17663edab6c6834161498d9dad9ed15d7d7092cbaca967d9d2271cea19c7b0d8"
     },
     {
       "canonical_path": "assets/demos/18-third-water.gif",
-      "publication_path": "assets/demos/0a57001ffbf7/18-third-water.gif",
-      "url": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/0a57001ffbf7/18-third-water.gif",
-      "sha256": "6fc0a0ce79b59b1d7416e1a292d813678484ceee3afa16ddc06606d81acbad67"
+      "publication_path": "assets/demos/28872848a75c/18-third-water.gif",
+      "url": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/28872848a75c/18-third-water.gif",
+      "sha256": "5722f4301bbd5dcf4a052536b775810aac2f187f78555d540c4700971bcf07db"
     },
     {
       "canonical_path": "assets/demos/19-complete.gif",
-      "publication_path": "assets/demos/0a57001ffbf7/19-complete.gif",
-      "url": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/0a57001ffbf7/19-complete.gif",
-      "sha256": "de6b436b7e8fb5cf4835abc6dbde9eaf05621f75c5d1b172a5e081d8a255a6c7"
+      "publication_path": "assets/demos/28872848a75c/19-complete.gif",
+      "url": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/28872848a75c/19-complete.gif",
+      "sha256": "990a07c329de5080d91cf388e3368e0a6cb9d99e65782ac7bf2bacf8e24f9eae"
     },
     {
       "canonical_path": "assets/demos/20-final-shift.gif",
+      "publication_path": "assets/demos/28872848a75c/20-final-shift.gif",
+      "url": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/28872848a75c/20-final-shift.gif",
+      "sha256": "e17f3c71a352621baa3592ec8ab0a75afed30746779cdaf0db0e22584d8ed3e8"
+    }
+  ],
+  "retained_public_media": [
+    {
+      "publication_path": "assets/demos/0a57001ffbf7/01-first-arrival.gif",
+      "source_path": "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/01-first-arrival.gif",
+      "sha256": "c8d7eb9828c60c73bbfdf918864f67ad93adef419fcbfa9037f9db0f56625248"
+    },
+    {
+      "publication_path": "assets/demos/0a57001ffbf7/02-first-name.gif",
+      "source_path": "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/02-first-name.gif",
+      "sha256": "879954f4490f501ab6192507ebff555f1b201a702fa010b63c52e06fa69a9735"
+    },
+    {
+      "publication_path": "assets/demos/0a57001ffbf7/03-first-love.gif",
+      "source_path": "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/03-first-love.gif",
+      "sha256": "828c90f830595deaf8b8da67e2cffde715fde2abfa7322126714175a7ad39f85"
+    },
+    {
+      "publication_path": "assets/demos/0a57001ffbf7/04-plate.gif",
+      "source_path": "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/04-plate.gif",
+      "sha256": "097e151395ac443bf7686c496367a374ca25dea53722d1685b5841bca220e3a3"
+    },
+    {
+      "publication_path": "assets/demos/0a57001ffbf7/05-serve.gif",
+      "source_path": "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/05-serve.gif",
+      "sha256": "b7cde843b71177c027efb7e4e988bdc9886742a69a76eed2e168687395773eed"
+    },
+    {
+      "publication_path": "assets/demos/0a57001ffbf7/06-bucket.gif",
+      "source_path": "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/06-bucket.gif",
+      "sha256": "146e1ece87b0d7227782a41ac162e30eb8372726d614cb9a2dbf457bf65826af"
+    },
+    {
+      "publication_path": "assets/demos/0a57001ffbf7/07-first-water.gif",
+      "source_path": "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/07-first-water.gif",
+      "sha256": "59a10929b4bc87b02a9eac009ed85cab354f699a73136603405a4b6dd9489f5c"
+    },
+    {
+      "publication_path": "assets/demos/0a57001ffbf7/08-energy.gif",
+      "source_path": "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/08-energy.gif",
+      "sha256": "73ab5c4cc77bc820b165d02c89fc9fbdc3cf837695a4629ab06462ff88f8010a"
+    },
+    {
+      "publication_path": "assets/demos/0a57001ffbf7/09-energy-timer.gif",
+      "source_path": "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/09-energy-timer.gif",
+      "sha256": "cb3541b3ae4fb39d7837dc43d983a30fd41d311e9836ccccf46ffddfd670e593"
+    },
+    {
+      "publication_path": "assets/demos/0a57001ffbf7/10-second-arrival.gif",
+      "source_path": "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/10-second-arrival.gif",
+      "sha256": "b90d4dea654ca4a1970ab021a4ef1648fabc3ea99f67caf5b687877a2823dde0"
+    },
+    {
+      "publication_path": "assets/demos/0a57001ffbf7/11-second-name-love.gif",
+      "source_path": "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/11-second-name-love.gif",
+      "sha256": "892669da6d714eec940d7eeddc22bdb6ade9f086f20f828746215bef47021709"
+    },
+    {
+      "publication_path": "assets/demos/0a57001ffbf7/12-berries.gif",
+      "source_path": "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/12-berries.gif",
+      "sha256": "34c62eb1adc66a6445a5ed2fb48348bb930e8a33459f24cf2ae4f500d0c65578"
+    },
+    {
+      "publication_path": "assets/demos/0a57001ffbf7/13-second-water.gif",
+      "source_path": "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/13-second-water.gif",
+      "sha256": "337a0b2c53cd526c1e2f03778277e98702a6e89b8160c134503c5b893c2d650c"
+    },
+    {
+      "publication_path": "assets/demos/0a57001ffbf7/14-second-creature.gif",
+      "source_path": "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/14-second-creature.gif",
+      "sha256": "2f4639b4743c3290cf1d22eb03ea92b0bcc541b8b623563f8db5da71a1b941df"
+    },
+    {
+      "publication_path": "assets/demos/0a57001ffbf7/15-third-arrival.gif",
+      "source_path": "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/15-third-arrival.gif",
+      "sha256": "bbd979a20647f6a58fbed412e5686ebda617f30e760e2210b2176e1bed516ce5"
+    },
+    {
+      "publication_path": "assets/demos/0a57001ffbf7/16-third-name-love.gif",
+      "source_path": "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/16-third-name-love.gif",
+      "sha256": "52bc89acf91c37fa51b4a653c86cd8a39b360eed27fb8a641013dbf420bc83a2"
+    },
+    {
+      "publication_path": "assets/demos/0a57001ffbf7/17-greens.gif",
+      "source_path": "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/17-greens.gif",
+      "sha256": "03ae9dfc212f09a0cac0d9160a2607257157577a2a0c996c86b063805a7978a6"
+    },
+    {
+      "publication_path": "assets/demos/0a57001ffbf7/18-third-water.gif",
+      "source_path": "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/18-third-water.gif",
+      "sha256": "6fc0a0ce79b59b1d7416e1a292d813678484ceee3afa16ddc06606d81acbad67"
+    },
+    {
+      "publication_path": "assets/demos/0a57001ffbf7/19-complete.gif",
+      "source_path": "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/19-complete.gif",
+      "sha256": "de6b436b7e8fb5cf4835abc6dbde9eaf05621f75c5d1b172a5e081d8a255a6c7"
+    },
+    {
       "publication_path": "assets/demos/0a57001ffbf7/20-final-shift.gif",
-      "url": "https://raw.githubusercontent.com/mrbrackebusch-code/fantastic-creatures-incorporated/main/assets/demos/0a57001ffbf7/20-final-shift.gif",
+      "source_path": "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/20-final-shift.gif",
       "sha256": "f0ace540f5e083715054605fd5e36228f26a0f9ee328056099e91ecf7d8e7cdb"
+    },
+    {
+      "publication_path": "assets/demos/0a57001ffbf7/manifest.json",
+      "source_path": "generated/publication/name-banner-copy-v1/assets/demos/0a57001ffbf7/manifest.json",
+      "sha256": "4070bf2025d36b507a5af50370964b76066d4805ef04f4de01e12c14f1200829"
     }
   ],
   "tutorial_url_template": "https://arcade.makecode.com/#tutorial:{repository_url}/README",
@@ -203,7 +374,7 @@
   "student_distribution_ready": false,
   "presentation": {
     "content_only_passed": true,
-    "full_presentation_passed": false,
+    "full_presentation_passed": true,
     "missing_demonstration_count": 0
   },
   "remaining_release_gates": [
@@ -214,12 +385,33 @@
   "top_level_output_hashes": {
     ".gitignore": "0474d6a96b9b13911e7ae033b62d4d2eb9745a1cfb9b96d80ad6dfeb2798a7b0",
     ".gitattributes": "cfa501c9312e3069557669c8fe3f1ab54c1403d87b555d2c26c5639358467b0f",
-    "README.md": "83cecbc3cf042cf40e1631773b8cd92a6aae784d055fa076e5202cb75201c336",
+    "README.md": "d202bc258c7c5e8d134ed9dd67c3fc6e274b960451864663816264f3ffc249f1",
     "MAINTAINING.md": "9cdf3eda50c9f78d9d2fca4dce994ce8ced2b4d9f67f5c4360ebeab966460242",
-    "THIRD_PARTY_NOTICES.md": "16d55d877eeb437dc09f1fb5289de3b576c8d43e04bab1080979c780db82c317",
+    "THIRD_PARTY_NOTICES.md": "730e68c7483750e5dd7c0a46fded1befd019e4be2e72410e3ebb5bf306d11a21",
     "LICENSES/MIT.txt": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c",
     "main.ts": "f40c71ed25d17690438af0ec1e0c7b1c92bf9f0177de74107934653ea4515fa7",
     "pxt.json": "cc548eca985707594b7d6e7020ce36807efd8b44fa62929708658ce2635d9e69",
+    "assets/demos/28872848a75c/01-first-arrival.gif": "30ee917f97a3fe9e025939974943aa803113fa506f920b8ab7c83cfb08d2cbbe",
+    "assets/demos/28872848a75c/02-first-name.gif": "6204ab48495e512df604e7b549bc47f78dc6583c1b6334c7dc545b68ea4e128a",
+    "assets/demos/28872848a75c/03-first-love.gif": "3b64c8e03ef7611397ddb037f947931c880c2a228593f3cf02104c79b938170f",
+    "assets/demos/28872848a75c/04-plate.gif": "475c88211b0dad78da7812a3c695c0b5d2b4b448e21b565f28419b57b0e29705",
+    "assets/demos/28872848a75c/05-serve.gif": "367b8ad06f07b1f5ba68ba8f6e842a25828a9a651a1b3309c1e5c06b5aa148f3",
+    "assets/demos/28872848a75c/06-bucket.gif": "d20c4faa27962937797c556eac064fff5d06d29e2ce6f2878849d50b6414e1a7",
+    "assets/demos/28872848a75c/07-first-water.gif": "42fdd0723c0ea3ce6f7992581feb629441ad3bd9b242f750219e23c4b9292bc6",
+    "assets/demos/28872848a75c/08-energy.gif": "367cf58dd611d64b8208132299224ccb38527f672098b7c49383001835d3fdae",
+    "assets/demos/28872848a75c/09-energy-timer.gif": "89ee80601cb9d88df2df48d71351188ca5c25313357b96ab258843f416f57c5f",
+    "assets/demos/28872848a75c/10-second-arrival.gif": "c736647036995cdab6c508c57ef961594eb3d9bcc0c6bbadbb1d89939fadfec6",
+    "assets/demos/28872848a75c/11-second-name-love.gif": "a2189cf0ea602b601a68336487d351070232c0e8b9bde80d57b574d6e7ff0514",
+    "assets/demos/28872848a75c/12-berries.gif": "485c1cc2b8cf2c0ea74bcb7af04439f83ccf293337e6c9fa36ae4e0dfd76f129",
+    "assets/demos/28872848a75c/13-second-water.gif": "524639b074a4583fa64ee2e891d6df6494d465c5adb650ee4f55ae4d01c8bf3f",
+    "assets/demos/28872848a75c/14-second-creature.gif": "4400bae36348beb745cf379391696e7b607c608aaf69210d107b75dd59c67fb5",
+    "assets/demos/28872848a75c/15-third-arrival.gif": "9cc866a2c005149495d9d2e521b0c06b5f7fc4a2b6d1cff2ae11cc99a10ca843",
+    "assets/demos/28872848a75c/16-third-name-love.gif": "571a7b4811b9b871fde08a719b369d5c6c88bfbf37778de4eb2950a8a3425bf8",
+    "assets/demos/28872848a75c/17-greens.gif": "17663edab6c6834161498d9dad9ed15d7d7092cbaca967d9d2271cea19c7b0d8",
+    "assets/demos/28872848a75c/18-third-water.gif": "5722f4301bbd5dcf4a052536b775810aac2f187f78555d540c4700971bcf07db",
+    "assets/demos/28872848a75c/19-complete.gif": "990a07c329de5080d91cf388e3368e0a6cb9d99e65782ac7bf2bacf8e24f9eae",
+    "assets/demos/28872848a75c/20-final-shift.gif": "e17f3c71a352621baa3592ec8ab0a75afed30746779cdaf0db0e22584d8ed3e8",
+    "assets/demos/28872848a75c/manifest.json": "e0e3de1f644609f8cbc505b29e533a59101817f56ec30728df2e6fa777b51e6e",
     "assets/demos/0a57001ffbf7/01-first-arrival.gif": "c8d7eb9828c60c73bbfdf918864f67ad93adef419fcbfa9037f9db0f56625248",
     "assets/demos/0a57001ffbf7/02-first-name.gif": "879954f4490f501ab6192507ebff555f1b201a702fa010b63c52e06fa69a9735",
     "assets/demos/0a57001ffbf7/03-first-love.gif": "828c90f830595deaf8b8da67e2cffde715fde2abfa7322126714175a7ad39f85",
@@ -245,12 +437,33 @@
   "output_sha256": {
     ".gitignore": "0474d6a96b9b13911e7ae033b62d4d2eb9745a1cfb9b96d80ad6dfeb2798a7b0",
     ".gitattributes": "cfa501c9312e3069557669c8fe3f1ab54c1403d87b555d2c26c5639358467b0f",
-    "README.md": "83cecbc3cf042cf40e1631773b8cd92a6aae784d055fa076e5202cb75201c336",
+    "README.md": "d202bc258c7c5e8d134ed9dd67c3fc6e274b960451864663816264f3ffc249f1",
     "MAINTAINING.md": "9cdf3eda50c9f78d9d2fca4dce994ce8ced2b4d9f67f5c4360ebeab966460242",
-    "THIRD_PARTY_NOTICES.md": "16d55d877eeb437dc09f1fb5289de3b576c8d43e04bab1080979c780db82c317",
+    "THIRD_PARTY_NOTICES.md": "730e68c7483750e5dd7c0a46fded1befd019e4be2e72410e3ebb5bf306d11a21",
     "LICENSES/MIT.txt": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c",
     "main.ts": "f40c71ed25d17690438af0ec1e0c7b1c92bf9f0177de74107934653ea4515fa7",
     "pxt.json": "cc548eca985707594b7d6e7020ce36807efd8b44fa62929708658ce2635d9e69",
+    "assets/demos/28872848a75c/01-first-arrival.gif": "30ee917f97a3fe9e025939974943aa803113fa506f920b8ab7c83cfb08d2cbbe",
+    "assets/demos/28872848a75c/02-first-name.gif": "6204ab48495e512df604e7b549bc47f78dc6583c1b6334c7dc545b68ea4e128a",
+    "assets/demos/28872848a75c/03-first-love.gif": "3b64c8e03ef7611397ddb037f947931c880c2a228593f3cf02104c79b938170f",
+    "assets/demos/28872848a75c/04-plate.gif": "475c88211b0dad78da7812a3c695c0b5d2b4b448e21b565f28419b57b0e29705",
+    "assets/demos/28872848a75c/05-serve.gif": "367b8ad06f07b1f5ba68ba8f6e842a25828a9a651a1b3309c1e5c06b5aa148f3",
+    "assets/demos/28872848a75c/06-bucket.gif": "d20c4faa27962937797c556eac064fff5d06d29e2ce6f2878849d50b6414e1a7",
+    "assets/demos/28872848a75c/07-first-water.gif": "42fdd0723c0ea3ce6f7992581feb629441ad3bd9b242f750219e23c4b9292bc6",
+    "assets/demos/28872848a75c/08-energy.gif": "367cf58dd611d64b8208132299224ccb38527f672098b7c49383001835d3fdae",
+    "assets/demos/28872848a75c/09-energy-timer.gif": "89ee80601cb9d88df2df48d71351188ca5c25313357b96ab258843f416f57c5f",
+    "assets/demos/28872848a75c/10-second-arrival.gif": "c736647036995cdab6c508c57ef961594eb3d9bcc0c6bbadbb1d89939fadfec6",
+    "assets/demos/28872848a75c/11-second-name-love.gif": "a2189cf0ea602b601a68336487d351070232c0e8b9bde80d57b574d6e7ff0514",
+    "assets/demos/28872848a75c/12-berries.gif": "485c1cc2b8cf2c0ea74bcb7af04439f83ccf293337e6c9fa36ae4e0dfd76f129",
+    "assets/demos/28872848a75c/13-second-water.gif": "524639b074a4583fa64ee2e891d6df6494d465c5adb650ee4f55ae4d01c8bf3f",
+    "assets/demos/28872848a75c/14-second-creature.gif": "4400bae36348beb745cf379391696e7b607c608aaf69210d107b75dd59c67fb5",
+    "assets/demos/28872848a75c/15-third-arrival.gif": "9cc866a2c005149495d9d2e521b0c06b5f7fc4a2b6d1cff2ae11cc99a10ca843",
+    "assets/demos/28872848a75c/16-third-name-love.gif": "571a7b4811b9b871fde08a719b369d5c6c88bfbf37778de4eb2950a8a3425bf8",
+    "assets/demos/28872848a75c/17-greens.gif": "17663edab6c6834161498d9dad9ed15d7d7092cbaca967d9d2271cea19c7b0d8",
+    "assets/demos/28872848a75c/18-third-water.gif": "5722f4301bbd5dcf4a052536b775810aac2f187f78555d540c4700971bcf07db",
+    "assets/demos/28872848a75c/19-complete.gif": "990a07c329de5080d91cf388e3368e0a6cb9d99e65782ac7bf2bacf8e24f9eae",
+    "assets/demos/28872848a75c/20-final-shift.gif": "e17f3c71a352621baa3592ec8ab0a75afed30746779cdaf0db0e22584d8ed3e8",
+    "assets/demos/28872848a75c/manifest.json": "e0e3de1f644609f8cbc505b29e533a59101817f56ec30728df2e6fa777b51e6e",
     "assets/demos/0a57001ffbf7/01-first-arrival.gif": "c8d7eb9828c60c73bbfdf918864f67ad93adef419fcbfa9037f9db0f56625248",
     "assets/demos/0a57001ffbf7/02-first-name.gif": "879954f4490f501ab6192507ebff555f1b201a702fa010b63c52e06fa69a9735",
     "assets/demos/0a57001ffbf7/03-first-love.gif": "828c90f830595deaf8b8da67e2cffde715fde2abfa7322126714175a7ad39f85",

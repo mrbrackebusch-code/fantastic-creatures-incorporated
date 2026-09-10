@@ -4,6 +4,13 @@ This tutorial's owner-authored game, explanation, and learner voice use programm
 
 Source: <https://github.com/microsoft/pxt-arcade>
 
+The current energy floor and cap also adapt CS Intro 2's **Logic Intro**
+one-branch `if` explanation and greater-than comparison examples, from
+`docs/courses/csintro2/logic/intro.md` at source snapshot
+`b7db7084126cbd4ada30a231f721854f225d3acc`. The care-game values, outcomes and
+limited use of these guards are local adaptations; the surrounding Boolean
+course sequence is not reproduced.
+
 The retained source material is available under the MIT License. The required MIT notice is reproduced in `LICENSES/MIT.txt`. Game-local nouns, identifiers, values, event kinds, and visible outcomes were adapted for Fantastic Creatures Incorporated. No endorsement by Microsoft is stated or implied.
 
 The tutorial's **Make a variable to...** repetition and support fading were informed by Raspberry Pi Foundation pedagogy research retained as design evidence in the authoring repository. That researcher-facing source language is not reproduced in the learner tutorial.
